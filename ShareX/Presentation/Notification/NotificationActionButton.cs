@@ -57,7 +57,7 @@ public sealed class NotificationActionButton
         new(ToastClickAction.CopyImageToClipboard),
         new(ToastClickAction.AnnotateImage),
         new(ToastClickAction.PinToScreen),
-        new(ToastClickAction.Upload)
+        new(ToastClickAction.OpenFolder)
     ];
 
     public static List<NotificationActionButton> CloneButtons(IEnumerable<NotificationActionButton>? buttons) =>
@@ -69,11 +69,8 @@ public sealed class NotificationActionButton
         ToastClickAction.CopyImageToClipboard => LucideIcons.copy,
         ToastClickAction.CopyFile => LucideIcons.files,
         ToastClickAction.CopyFilePath => LucideIcons.clipboard,
-        ToastClickAction.CopyUrl => LucideIcons.link,
         ToastClickAction.OpenFile => LucideIcons.external_link,
         ToastClickAction.OpenFolder => LucideIcons.folder_open,
-        ToastClickAction.OpenUrl => LucideIcons.external_link,
-        ToastClickAction.Upload => LucideIcons.upload,
         ToastClickAction.PinToScreen => LucideIcons.pin,
         ToastClickAction.DeleteFile => LucideIcons.trash_2,
         _ => LucideIcons.x

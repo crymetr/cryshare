@@ -37,16 +37,7 @@ namespace ShareX
     {
         Debug,
         Release,
-        Steam,
-        MicrosoftStore,
         Unknown
-    }
-
-    public enum UpdateChannel // Localized
-    {
-        Release,
-        PreRelease,
-        Dev
     }
 
     public enum SupportedLanguage
@@ -115,13 +106,8 @@ namespace ShareX
     public enum TaskJob
     {
         Job,
-        DataUpload,
-        FileUpload,
-        TextUpload,
-        ShortenURL,
-        ShareURL,
-        Download,
-        DownloadUpload
+        FileTask,
+        TextTask
     }
 
     public enum TaskStatus
@@ -156,24 +142,9 @@ namespace ShareX
         CopyFilePathToClipboard = 1 << 13,
         CopyFolderPathToClipboard = 1 << 14,
         ShowInExplorer = 1 << 15,
-        AnalyzeImage = 1 << 16,
         ScanQRCode = 1 << 17,
         DoOCR = 1 << 18,
-        ShowBeforeUploadWindow = 1 << 19,
-        UploadImageToHost = 1 << 20,
         DeleteFile = 1 << 21
-    }
-
-    [Flags]
-    public enum AfterUploadTasks // Localized
-    {
-        None = 0,
-        ShowAfterUploadWindow = 1,
-        UseURLShortener = 1 << 1,
-        ShareURL = 1 << 2,
-        CopyURLToClipboard = 1 << 3,
-        OpenURL = 1 << 4,
-        ShowQRCode = 1 << 5
     }
 
     public enum CaptureType
@@ -199,25 +170,6 @@ namespace ShareX
     public enum HotkeyType // Localized
     {
         None,
-        // Upload
-        [Category(EnumExtensions.HotkeyType_Category_Upload)]
-        FileUpload,
-        [Category(EnumExtensions.HotkeyType_Category_Upload)]
-        FolderUpload,
-        [Category(EnumExtensions.HotkeyType_Category_Upload)]
-        ClipboardUpload,
-        [Category(EnumExtensions.HotkeyType_Category_Upload)]
-        ClipboardUploadWithContentViewer,
-        [Category(EnumExtensions.HotkeyType_Category_Upload)]
-        UploadText,
-        [Category(EnumExtensions.HotkeyType_Category_Upload)]
-        UploadURL,
-        [Category(EnumExtensions.HotkeyType_Category_Upload)]
-        DragDropUpload,
-        [Category(EnumExtensions.HotkeyType_Category_Upload)]
-        ShortenURL,
-        [Category(EnumExtensions.HotkeyType_Category_Upload)]
-        StopUploads,
         // Screen capture
         [Category(EnumExtensions.HotkeyType_Category_ScreenCapture)]
         PrintScreen,
@@ -306,8 +258,6 @@ namespace ShareX
         [Category(EnumExtensions.HotkeyType_Category_Tools)]
         VideoThumbnailer,
         [Category(EnumExtensions.HotkeyType_Category_Tools)]
-        AnalyzeImage,
-        [Category(EnumExtensions.HotkeyType_Category_Tools)]
         OCR,
         [Category(EnumExtensions.HotkeyType_Category_Tools)]
         QRCode,
@@ -361,11 +311,8 @@ namespace ShareX
         CopyImageToClipboard,
         CopyFile,
         CopyFilePath,
-        CopyUrl,
         OpenFile,
         OpenFolder,
-        OpenUrl,
-        Upload,
         PinToScreen,
         DeleteFile
     }
@@ -377,7 +324,6 @@ namespace ShareX
         OpenImageViewer,
         OpenFile,
         OpenFolder,
-        OpenURL,
         EditImage
     }
 
@@ -419,16 +365,6 @@ namespace ShareX
         EnabledByPolicy = StartupTaskState.EnabledByPolicy
     }
 #endif
-
-    public enum NativeMessagingAction
-    {
-        None,
-        UploadImage,
-        UploadVideo,
-        UploadAudio,
-        UploadText,
-        ShortenURL
-    }
 
     public enum NotificationSound
     {

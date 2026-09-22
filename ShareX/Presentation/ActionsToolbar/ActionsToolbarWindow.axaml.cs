@@ -349,7 +349,7 @@ public partial class ActionsToolbarWindow : Window
             dataObject.SetText(text);
         }
 
-        UploadManager.DragDropUpload(dataObject);
+        LocalTaskManager.HandleDroppedData(dataObject);
         e.DragEffects = DragDropEffects.Copy;
         e.Handled = true;
     }

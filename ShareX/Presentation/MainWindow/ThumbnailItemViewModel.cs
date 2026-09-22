@@ -84,7 +84,6 @@ internal sealed class ThumbnailItemViewModel : INotifyPropertyChanged, IDisposab
                     File.Exists(filePath) && FileHelpers.IsImageFile(filePath),
                 ThumbnailViewClickAction.OpenFile => !string.IsNullOrEmpty(filePath) && File.Exists(filePath),
                 ThumbnailViewClickAction.OpenFolder => !string.IsNullOrEmpty(filePath),
-                ThumbnailViewClickAction.OpenURL => !string.IsNullOrWhiteSpace(info?.Result?.ToString()),
                 ThumbnailViewClickAction.EditImage => !string.IsNullOrEmpty(filePath) &&
                     File.Exists(filePath) && FileHelpers.IsImageFile(filePath),
                 _ => false
@@ -185,8 +184,8 @@ internal sealed class ThumbnailItemViewModel : INotifyPropertyChanged, IDisposab
         Title = !string.IsNullOrEmpty(info?.FileName) ? info.FileName : Path.GetFileName(info?.FilePath) ?? Strings.ThumbnailItemViewModel_UntitledTask;
         Status = !string.IsNullOrEmpty(info?.Status) ? info.Status : Task.Status.ToString();
         Details = info?.ToString() ?? string.Empty;
-        Progress = info?.Progress?.Percentage ?? 0;
-        IsProgressVisible = Task.IsWorking && info?.Progress != null;
+        Progress = 0;
+        IsProgressVisible = false;
         IsFailed = Task.Status == TaskStatus.Failed;
         PlaceholderIcon = GetPlaceholderIcon(info?.FilePath ?? info?.FileName);
         OnPropertyChanged(nameof(IsVideo));

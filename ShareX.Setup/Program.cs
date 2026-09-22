@@ -93,8 +93,6 @@ namespace ShareX.Setup
         private static string MakeAppxPath => Path.Combine(WindowsKitsDir, "x64", "makeappx.exe");
 
         private const string InnoSetupCompilerPath = @"C:\Program Files (x86)\Inno Setup 6\ISCC.exe";
-        private const string FFmpegVersion = "8.1";
-        private static string FFmpegDownloadURL => $"https://github.com/ShareX/FFmpeg/releases/download/v{FFmpegVersion}/ffmpeg-{FFmpegVersion}-win-{Platform}.zip";
 
         private static void Main(string[] args)
         {
@@ -427,16 +425,10 @@ namespace ShareX.Setup
 
         private static void DownloadFFmpeg()
         {
+            // CrySnap: no network access in the toolchain. CI (or you) must place ffmpeg.exe in the output dir beforehand.
             if (!File.Exists(FFmpegPath))
             {
-                string fileName = Path.GetFileName(FFmpegDownloadURL);
-                string filePath = Path.Combine(OutputDir, fileName);
-
-                Console.WriteLine("Downloading: " + FFmpegDownloadURL);
-                WebHelpers.DownloadFileAsync(FFmpegDownloadURL, filePath).GetAwaiter().GetResult();
-
-                Console.WriteLine("Extracting: " + filePath);
-                ZipManager.Extract(filePath, OutputDir, false, entry => entry.Name.Equals("ffmpeg.exe", StringComparison.OrdinalIgnoreCase));
+                throw new FileNotFoundException("ffmpeg.exe not found in output dir. Place it there before running setup.", FFmpegPath);
             }
         }
 

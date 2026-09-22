@@ -19,7 +19,7 @@ public static class DebugLogWindowIntegration
 {
     private static DebugLogWindow? _window;
 
-    public static void Show(Logger logger, Action<string>? uploadRequested, string uploadWarning)
+    public static void Show(Logger logger)
     {
         Dispatcher.UIThread.Post(() =>
         {
@@ -34,7 +34,7 @@ public static class DebugLogWindowIntegration
                 return;
             }
 
-            _window = new DebugLogWindow(logger, uploadRequested, uploadWarning);
+            _window = new DebugLogWindow(logger);
             _window.Closed += (_, _) => _window = null;
             _window.Show();
         });

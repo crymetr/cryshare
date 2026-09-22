@@ -977,7 +977,6 @@ public partial class ImageHistoryWindow : Window
     private void OnUploadFileClick(object? sender, RoutedEventArgs e) => InvokeFileService(_services.UploadFile, false);
     private void OnEditImageClick(object? sender, RoutedEventArgs e) => InvokeFileService(_services.EditImage, true);
     private void OnPinToScreenClick(object? sender, RoutedEventArgs e) => InvokeFileService(_services.PinToScreen, true);
-    private void OnAnalyzeImageClick(object? sender, RoutedEventArgs e) => InvokeFileService(_services.AnalyzeImage, true);
 
     private void InvokeFileService(Action<string>? action, bool imageOnly)
     {

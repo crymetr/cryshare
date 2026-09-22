@@ -39,7 +39,6 @@ namespace ShareX
         public TaskSettings DefaultTaskSettings = new TaskSettings();
 
         public DateTime FirstTimeRunDate = DateTime.Now;
-        public string FileUploadDefaultDirectory = "";
         public int NameParserAutoIncrementNumber = 0;
         public List<QuickTaskInfo> QuickTaskPresets = QuickTaskInfo.DefaultPresets;
 
@@ -68,12 +67,7 @@ namespace ShareX
 
         public HotkeyType TrayLeftClickAction = HotkeyType.RectangleRegion;
         public HotkeyType TrayLeftDoubleClickAction = HotkeyType.OpenMainWindow;
-        public HotkeyType TrayMiddleClickAction = HotkeyType.ClipboardUploadWithContentViewer;
-
-        public bool AutoCheckUpdate = true;
-        public UpdateChannel UpdateChannel = UpdateChannel.Release;
-        // TEMP: For backward compatibility
-        public bool CheckPreReleaseUpdates = false;
+        public HotkeyType TrayMiddleClickAction = HotkeyType.ImageEditor;
 
         #endregion General
 
@@ -116,18 +110,9 @@ namespace ShareX
 
         #endregion
 
-        #region Upload
-
-        public int UploadLimit = 0;
-        public int BufferSizePower = 5;
-        public int MaxUploadFailRetry = 1;
-
-        #endregion Upload
-
         #region History
 
         public bool HistorySaveTasks = true;
-        public bool HistoryCheckURL = false;
 
         public RecentTask[] RecentTasks = null;
         public bool RecentTasksSave = false;
@@ -217,25 +202,6 @@ namespace ShareX
         [Category("Image"), DefaultValue(false), Description("Strip color space information chunks from PNG image.")]
         public bool PNGStripColorSpaceInformation { get; set; }
 
-        [Category("Upload"), DefaultValue(false), Description("Can be used to disable uploading application wide.")]
-        public bool DisableUpload { get; set; }
-
-        [Category("Upload"), DefaultValue(true), Description("Ignore emojis while URL encoding upload results.")]
-        public bool URLEncodeIgnoreEmoji { get; set; }
-
-        [Category("Upload"), DefaultValue(true), Description("Show more than 10 files upload warning.")]
-        public bool ShowMultiUploadWarning { get; set; }
-
-        [Category("Upload"), DefaultValue(100), Description("Large file size defined in MB. ShareX will warn before uploading large files. 0 disables this feature.")]
-        public int ShowLargeFileSizeWarning { get; set; }
-
-        [Category("Paths"), DefaultValue(false), Description("When enabled ShareX stores Uploaders configuration files per machine, e.g. UploadersConfig-MYPC.json.")]
-        public bool UseMachineSpecificUploadersConfig { get; set; }
-
-        [Category("Paths"), Description("Custom uploaders configuration path. If you have already configured this setting in another device and you are attempting to use the same location, then backup the file before configuring this setting and restore after exiting ShareX.")]
-        [Editor(typeof(DirectoryNameEditor), typeof(UITypeEditor))]
-        public string CustomUploadersConfigPath { get; set; }
-
         [Category("Paths"), Description("Custom hotkeys configuration path. If you have already configured this setting in another device and you are attempting to use the same location, then backup the file before configuring this setting and restore after exiting ShareX.")]
         [Editor(typeof(DirectoryNameEditor), typeof(UITypeEditor))]
         public string CustomHotkeysConfigPath { get; set; }
@@ -243,21 +209,6 @@ namespace ShareX
         [Category("Paths"), Description("Custom screenshot path (secondary location). If custom screenshot path is temporarily unavailable (e.g. network share), ShareX will use this location (recommended to be a local path).")]
         [Editor(typeof(DirectoryNameEditor), typeof(UITypeEditor))]
         public string CustomScreenshotsPath2 { get; set; }
-
-        [Category("Drag and drop window"), DefaultValue(150), Description("Size of drop window.")]
-        public int DropSize { get; set; }
-
-        [Category("Drag and drop window"), DefaultValue(5), Description("Position offset of drop window.")]
-        public int DropOffset { get; set; }
-
-        [Category("Drag and drop window"), DefaultValue(ContentAlignment.BottomRight), Description("Where drop window will open.")]
-        public ContentAlignment DropAlignment { get; set; }
-
-        [Category("Drag and drop window"), DefaultValue(100), Description("Opacity of drop window.")]
-        public int DropOpacity { get; set; }
-
-        [Category("Drag and drop window"), DefaultValue(255), Description("When you drag file to drop window then opacity will change to this.")]
-        public int DropHoverOpacity { get; set; }
 
         #endregion Advanced
 
@@ -268,7 +219,7 @@ namespace ShareX
         public Rectangle AutoCaptureRegion = Rectangle.Empty;
         public decimal AutoCaptureRepeatTime = 60;
         public bool AutoCaptureMinimizeToTray = true;
-        public bool AutoCaptureWaitUpload = true;
+        public bool AutoCaptureWaitTasks = true;
 
         #endregion AutoCapture Form
 
@@ -281,7 +232,7 @@ namespace ShareX
         #region Actions toolbar
 
         public List<HotkeyType> ActionsToolbarList = new List<HotkeyType>() { HotkeyType.RectangleRegion, HotkeyType.PrintScreen, HotkeyType.ScreenRecorder,
-            HotkeyType.None, HotkeyType.FileUpload, HotkeyType.ClipboardUploadWithContentViewer };
+            HotkeyType.None, HotkeyType.ImageEditor, HotkeyType.ScreenColorPicker };
 
         public bool ActionsToolbarRunAtStartup = false;
 

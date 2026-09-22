@@ -67,7 +67,7 @@ public partial class AutoCaptureWindow : Window
         _customRegion = Program.Settings.AutoCaptureRegion;
         RepeatTimeInput.Value = Program.Settings.AutoCaptureRepeatTime;
         AutoMinimizeInput.IsChecked = Program.Settings.AutoCaptureMinimizeToTray;
-        WaitUploadsInput.IsChecked = Program.Settings.AutoCaptureWaitUpload;
+        WaitUploadsInput.IsChecked = Program.Settings.AutoCaptureWaitTasks;
         UpdateRegion();
 
         PropertyChanged += OnWindowPropertyChanged;
@@ -106,7 +106,7 @@ public partial class AutoCaptureWindow : Window
         StatusIcon.Text = LucideIcons.timer;
         _screenshotTimer.Interval = TimeSpan.FromSeconds(1);
         _delay = (int)(Program.Settings.AutoCaptureRepeatTime * 1000);
-        _waitUploads = Program.Settings.AutoCaptureWaitUpload;
+        _waitUploads = Program.Settings.AutoCaptureWaitTasks;
 
         _screenshotTimer.Start();
         _statusTimer.Start();
@@ -167,10 +167,10 @@ public partial class AutoCaptureWindow : Window
         }
 
         TaskSettings.AfterCaptureJob = TaskSettings.AfterCaptureJob.Remove(AfterCaptureTasks.AnnotateImage);
-        TaskSettings.GeneralSettings.PlaySoundAfterUpload = false;
+        TaskSettings.GeneralSettings.PlaySoundAfterTaskCompleted = false;
         TaskSettings.GeneralSettings.PlaySoundAfterAction = false;
         TaskSettings.GeneralSettings.ShowToastNotificationAfterTaskCompleted = false;
-        UploadManager.RunImageTask(bitmap, TaskSettings, true, true);
+        LocalTaskManager.RunImageTask(bitmap, TaskSettings, true, true);
     }
 
     private void UpdateStatus()
@@ -274,7 +274,7 @@ public partial class AutoCaptureWindow : Window
     {
         if (_isLoaded)
         {
-            Program.Settings.AutoCaptureWaitUpload = WaitUploadsInput.IsChecked == true;
+            Program.Settings.AutoCaptureWaitTasks = WaitUploadsInput.IsChecked == true;
         }
     }
 

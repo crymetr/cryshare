@@ -2180,44 +2180,14 @@ namespace ShareX.ImageEditor.Presentation.Views
             }
         }
 
-        private async void OnLoadFromUrlRequested(object? sender, string url)
+        private void OnLoadFromUrlRequested(object? sender, string url)
         {
+            // CrySnap: no network access. Loading images from a URL is intentionally unsupported.
             if (DataContext is not MainViewModel vm) return;
 
             StartScreenDialogViewModel? startScreenDialog = vm.ModalContent as StartScreenDialogViewModel;
-            startScreenDialog?.ClearStatus();
-            startScreenDialog?.SetUrlLoading(true);
-
-            try
-            {
-                using var httpClient = new HttpClient();
-                httpClient.Timeout = TimeSpan.FromSeconds(30);
-                httpClient.DefaultRequestHeaders.Add("User-Agent", "ShareX");
-
-                var response = await httpClient.GetAsync(url);
-                response.EnsureSuccessStatusCode();
-
-                using var stream = await response.Content.ReadAsStreamAsync();
-                using var memStream = new MemoryStream();
-                await stream.CopyToAsync(memStream);
-                memStream.Position = 0;
-
-                var skBitmap = SKBitmap.Decode(memStream);
-                if (skBitmap == null)
-                {
-                    startScreenDialog?.SetUrlLoading(false);
-                    startScreenDialog?.ShowStatus(Strings.EditorView_UrlDoesNotPointToValidImage);
-                    return;
-                }
-
-                vm.CloseModalCommand.Execute(null);
-                LoadBitmapIntoEditor(vm, skBitmap, null);
-            }
-            catch (Exception ex)
-            {
-                startScreenDialog?.SetUrlLoading(false);
-                startScreenDialog?.ShowStatus(string.Format(Strings.EditorView_FailedToDownloadImageFormat, ex.Message));
-            }
+            startScreenDialog?.SetUrlLoading(false);
+            startScreenDialog?.ShowStatus("Loading images from a URL is disabled in CrySnap. Open a local file instead.");
         }
 
         private void OnLoadRecentFileRequested(object? sender, string filePath)

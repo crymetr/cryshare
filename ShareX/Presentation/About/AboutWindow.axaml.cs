@@ -30,8 +30,6 @@ public partial class AboutWindow : Window
 {
     private readonly AvaloniaBitmap _logoBitmap;
     private readonly ShareXClickerControl _clicker;
-    private UpdateChecker? _updateChecker;
-    private bool _updateChecked;
 
     public AboutWindow()
     {
@@ -51,19 +49,6 @@ public partial class AboutWindow : Window
         CopyrightText.Text = Strings.AboutWindow_Copyright;
         SectionsControl.ItemsSource = CreateSections();
 
-#if STEAM
-        BuildText.Text = Strings.AboutWindow_SteamBuild;
-        BuildText.IsVisible = true;
-#elif MicrosoftStore
-        BuildText.Text = Strings.AboutWindow_MicrosoftStoreBuild;
-        BuildText.IsVisible = true;
-#else
-        if (!SystemOptions.DisableUpdateCheck)
-        {
-            UpdatePanel.IsVisible = true;
-            UpdateStatusText.Text = Strings.AboutWindow_CheckingForUpdates;
-        }
-#endif
 
         Opened += OnOpened;
         Closed += (_, _) =>
@@ -73,45 +58,9 @@ public partial class AboutWindow : Window
         };
     }
 
-    private async void OnOpened(object? sender, EventArgs e)
+    private void OnOpened(object? sender, EventArgs e)
     {
         Activate();
-
-        if (!UpdatePanel.IsVisible || _updateChecked)
-        {
-            return;
-        }
-
-        _updateChecked = true;
-        _updateChecker = Program.UpdateManager.CreateUpdateChecker();
-        await _updateChecker.CheckUpdateAsync();
-
-        UpdateProgress.IsVisible = false;
-
-        switch (_updateChecker.Status)
-        {
-            case UpdateStatus.UpdateCheckFailed:
-                UpdateStatusText.Text = Strings.AboutWindow_UpdateCheckFailed;
-                break;
-            case UpdateStatus.UpdateAvailable:
-                UpdateStatusText.IsVisible = false;
-                UpdateAvailableButton.Content = Strings.AboutWindow_NewVersionAvailable;
-                UpdateAvailableButton.IsVisible = true;
-                break;
-            case UpdateStatus.UpToDate:
-                UpdateStatusText.Text = Strings.AboutWindow_UpToDate;
-                break;
-        }
-    }
-
-    private async void OnUpdateAvailableClick(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
-    {
-        if (_updateChecker == null)
-        {
-            return;
-        }
-
-        await UpdateMessageWindow.StartAsync(_updateChecker);
     }
 
     private void OnLinkClick(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
@@ -133,16 +82,9 @@ public partial class AboutWindow : Window
             ]),
             new AboutSection(Strings.AboutWindow_Links,
             [
-                Link(Strings.AboutWindow_Website, Links.Website),
                 Link(Strings.AboutWindow_ProjectPage, Links.GitHub),
-                Link(Strings.AboutWindow_Changelog, Links.Changelog),
-                Link(Strings.AboutWindow_PrivacyPolicy, Links.PrivacyPolicy),
-                Link(Strings.AboutWindow_Donate, Links.Donate),
-                Link("X", Links.X),
-                Link("Discord", Links.Discord),
-                Link("Reddit", Links.Reddit),
-                Link("Steam", Links.Steam),
-                Link("Microsoft Store", Links.MicrosoftStore)
+                Link("ShareX (upstream)", Links.UpstreamGitHub),
+                Link(Strings.AboutWindow_PrivacyPolicy, Links.License)
             ])
         ];
     }

@@ -22,7 +22,6 @@ using ShareX.HelpersLib;
 using ShareX.Localization;
 using ShareX.ScreenCaptureLib;
 using ShareX.Tools;
-using ShareX.UploadersLib;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -44,7 +43,7 @@ internal sealed class TaskSettingsPageBuilder
     private readonly TaskSettingsGeneral _generalSettings;
     private readonly TaskSettingsImage _imageSettings;
     private readonly TaskSettingsCapture _captureSettings;
-    private readonly TaskSettingsUpload _uploadSettings;
+    private readonly TaskSettingsFile _fileSettings;
     private readonly TaskSettingsTools _toolsSettings;
     private readonly TaskSettingsAdvanced _advancedSettings;
     private readonly List<ExternalProgram> _externalPrograms;
@@ -52,7 +51,7 @@ internal sealed class TaskSettingsPageBuilder
     private readonly BoundValue<bool> _generalOverride;
     private readonly BoundValue<bool> _imageOverride;
     private readonly BoundValue<bool> _captureOverride;
-    private readonly BoundValue<bool> _uploadOverride;
+    private readonly BoundValue<bool> _fileOverride;
     private readonly BoundValue<bool> _toolsOverride;
     private readonly BoundValue<bool> _actionsOverride;
     private readonly BoundValue<bool> _advancedOverride;
@@ -67,7 +66,7 @@ internal sealed class TaskSettingsPageBuilder
         _generalSettings = settings.GeneralSettings ?? new TaskSettingsGeneral();
         _imageSettings = settings.ImageSettings ?? new TaskSettingsImage();
         _captureSettings = settings.CaptureSettings ?? new TaskSettingsCapture();
-        _uploadSettings = settings.UploadSettings ?? new TaskSettingsUpload();
+        _fileSettings = settings.FileSettings ?? new TaskSettingsFile();
         _toolsSettings = settings.ToolsSettings ?? new TaskSettingsTools();
         _advancedSettings = settings.AdvancedSettings ?? new TaskSettingsAdvanced();
         _externalPrograms = settings.ExternalPrograms ?? [];
@@ -87,10 +86,10 @@ internal sealed class TaskSettingsPageBuilder
             _settings.UseDefaultCaptureSettings = !value;
             if (value) _settings.CaptureSettings = _captureSettings;
         });
-        _uploadOverride = OverrideValue(() => !_settings.UseDefaultUploadSettings, value =>
+        _fileOverride = OverrideValue(() => !_settings.UseDefaultFileSettings, value =>
         {
-            _settings.UseDefaultUploadSettings = !value;
-            if (value) _settings.UploadSettings = _uploadSettings;
+            _settings.UseDefaultFileSettings = !value;
+            if (value) _settings.FileSettings = _fileSettings;
         });
         _toolsOverride = OverrideValue(() => !_settings.UseDefaultToolsSettings, value =>
         {
@@ -127,10 +126,7 @@ internal sealed class TaskSettingsPageBuilder
         pages.Add("capture-region", BuildRegionCapturePage());
         pages.Add("capture-screen-recorder", BuildScreenRecorderPage());
         pages.Add("capture-ocr", BuildOcrPage());
-        pages.Add("upload", ParentPage("upload", Strings.TaskSettingsWindow_Upload, LucideIcons.upload, _uploadOverride, Strings.TaskSettingsWindow_OverrideUploadSettings));
-        pages.Add("upload-file-naming", BuildFileNamingPage());
-        pages.Add("upload-clipboard", BuildClipboardUploadPage());
-        pages.Add("upload-filters", BuildUploaderFiltersPage());
+        pages.Add("file-naming", BuildFileNamingPage());
         pages.Add("tools", BuildToolsPage());
         pages.Add("actions", BuildActionsPage());
         pages.Add("watch-folders", BuildWatchFoldersPage());
@@ -144,12 +140,6 @@ internal sealed class TaskSettingsPageBuilder
         BoundValue<bool> afterCaptureOverride = OverrideValue(
             () => !_settings.UseDefaultAfterCaptureJob,
             value => _settings.UseDefaultAfterCaptureJob = !value);
-        BoundValue<bool> afterUploadOverride = OverrideValue(
-            () => !_settings.UseDefaultAfterUploadJob,
-            value => _settings.UseDefaultAfterUploadJob = !value);
-        BoundValue<bool> destinationsOverride = OverrideValue(
-            () => !_settings.UseDefaultDestinations,
-            value => _settings.UseDefaultDestinations = !value);
 
         Control afterCapture = TaskFlagsMenu(
             () => _settings.AfterCaptureJob,
@@ -157,42 +147,6 @@ internal sealed class TaskSettingsPageBuilder
             MainMenuBuilder.GetAfterCaptureTaskMenuOptions(),
             LucideIcons.image_up);
         BindEnabled(afterCapture, afterCaptureOverride);
-
-        Control afterUpload = TaskFlagsMenu(
-            () => _settings.AfterUploadJob,
-            value => _settings.AfterUploadJob = value,
-            MainMenuBuilder.GetAfterUploadTaskMenuOptions(),
-            LucideIcons.cloud_upload);
-        BindEnabled(afterUpload, afterUploadOverride);
-
-        Control destinations = DestinationMenu(_settings);
-        BindEnabled(destinations, destinationsOverride);
-
-        List<Control> accountControls = [];
-
-        if (Program.UploadersConfig?.FTPAccountList.Count > 0)
-        {
-            BoundValue<bool> ftpOverride = new(_settings.OverrideFTP, value => _settings.OverrideFTP = value);
-            ComboBox ftp = ObjectCombo(
-                Program.UploadersConfig.FTPAccountList,
-                () => Program.UploadersConfig.FTPAccountList[_settings.FTPIndex.BetweenOrDefault(0, Program.UploadersConfig.FTPAccountList.Count - 1)],
-                value => _settings.FTPIndex = Program.UploadersConfig.FTPAccountList.IndexOf(value));
-            BindEnabled(ftp, ftpOverride);
-            accountControls.Add(Check(Strings.TaskSettingsWindow_OverrideDefaultFTPAccount, ftpOverride));
-            accountControls.Add(Row(Strings.TaskSettingsWindow_FTPAccount, ftp));
-        }
-
-        if (Program.UploadersConfig?.CustomUploadersList.Count > 0)
-        {
-            BoundValue<bool> customOverride = new(_settings.OverrideCustomUploader, value => _settings.OverrideCustomUploader = value);
-            ComboBox custom = ObjectCombo(
-                Program.UploadersConfig.CustomUploadersList,
-                () => Program.UploadersConfig.CustomUploadersList[_settings.CustomUploaderIndex.BetweenOrDefault(0, Program.UploadersConfig.CustomUploadersList.Count - 1)],
-                value => _settings.CustomUploaderIndex = Program.UploadersConfig.CustomUploadersList.IndexOf(value));
-            BindEnabled(custom, customOverride);
-            accountControls.Add(Check(Strings.TaskSettingsWindow_OverrideDefaultCustomUploader, customOverride));
-            accountControls.Add(Row(Strings.TaskSettingsWindow_CustomUploader, custom));
-        }
 
         BoundValue<bool> folderOverride = new(_settings.OverrideScreenshotsFolder, value => _settings.OverrideScreenshotsFolder = value);
         TextBox folderText = Text(() => _settings.ScreenshotsFolder, value => _settings.ScreenshotsFolder = value);
@@ -212,9 +166,6 @@ internal sealed class TaskSettingsPageBuilder
             Card(Strings.TaskSettingsWindow_Task, Row(Strings.TaskSettingsWindow_TaskLabel, TaskMenu(() => _settings.Job, value => _settings.Job = value)),
                 Row(Strings.TaskSettingsWindow_Description, Text(() => _settings.Description, value => _settings.Description = value))),
             Card(Strings.TaskSettingsWindow_AfterCaptureTasks, Check(Strings.TaskSettingsWindow_OverrideAfterCaptureTasks, afterCaptureOverride), afterCapture),
-            Card(Strings.TaskSettingsWindow_AfterUploadTasks, Check(Strings.TaskSettingsWindow_OverrideAfterUploadTasks, afterUploadOverride), afterUpload),
-            Card(Strings.TaskSettingsWindow_Destinations, Check(Strings.TaskSettingsWindow_OverrideDestinations, destinationsOverride), destinations),
-            Card(Strings.TaskSettingsWindow_UploaderAccounts, accountControls.ToArray()),
             Card(Strings.TaskSettingsWindow_ScreenshotsFolder, Check(Strings.TaskSettingsWindow_OverrideScreenshotsFolder, folderOverride), folderRow));
     }
 
@@ -243,7 +194,7 @@ internal sealed class TaskSettingsPageBuilder
         return Page("general-notifications", Strings.TaskSettingsWindow_Notifications, LucideIcons.bell,
             EnabledCard(_generalOverride, Strings.TaskSettingsWindow_Sounds,
                 Check(Strings.TaskSettingsWindow_PlaySoundAfterCaptureIsMade, () => general.PlaySoundAfterCapture, value => general.PlaySoundAfterCapture = value),
-                Check(Strings.TaskSettingsWindow_PlaySoundAfterTaskIsCompleted, () => general.PlaySoundAfterUpload, value => general.PlaySoundAfterUpload = value),
+                Check(Strings.TaskSettingsWindow_PlaySoundAfterTaskIsCompleted, () => general.PlaySoundAfterTaskCompleted, value => general.PlaySoundAfterTaskCompleted = value),
                 Check(Strings.TaskSettingsWindow_PlaySoundAfterActionIsCompleted, () => general.PlaySoundAfterAction, value => general.PlaySoundAfterAction = value)),
             EnabledCard(_generalOverride, Strings.TaskSettingsWindow_ToastNotification,
                 Check(Strings.TaskSettingsWindow_ShowToastNotificationAfterTaskIsCompleted, showToast), toastOptions),
@@ -490,7 +441,7 @@ internal sealed class TaskSettingsPageBuilder
 
     private Control BuildFileNamingPage()
     {
-        TaskSettingsUpload upload = _settings.UploadSettings;
+        TaskSettingsFile upload = _settings.FileSettings;
         TextBlock capturePreview = Hint(string.Empty);
         TextBlock windowPreview = Hint(string.Empty);
 
@@ -509,7 +460,7 @@ internal sealed class TaskSettingsPageBuilder
 
             capturePreview.Text = parser.Parse(upload.NameFormatPattern);
             parser.WindowText = _window.Title;
-            parser.ProcessName = "ShareX";
+            parser.ProcessName = Program.AppName;
             windowPreview.Text = parser.Parse(upload.NameFormatPatternActiveWindow);
         }
 
@@ -522,12 +473,6 @@ internal sealed class TaskSettingsPageBuilder
         ComboBox timeZone = ObjectCombo(timeZones, () => upload.CustomTimeZone, value => { upload.CustomTimeZone = value; UpdatePreviews(); }, value => value.DisplayName);
         BindEnabled(timeZone, customTimeZone);
 
-        BoundValue<bool> regexReplace = new(upload.URLRegexReplace, value => upload.URLRegexReplace = value);
-        TextBox regexPattern = Text(() => upload.URLRegexReplacePattern, value => upload.URLRegexReplacePattern = value);
-        TextBox regexReplacement = Text(() => upload.URLRegexReplaceReplacement, value => upload.URLRegexReplaceReplacement = value);
-        BindEnabled(regexPattern, regexReplace);
-        BindEnabled(regexReplacement, regexReplace);
-
         NumericUpDown autoIncrement = Number(() => Program.Settings.NameParserAutoIncrementNumber, value => Program.Settings.NameParserAutoIncrementNumber = (int)value, 0, int.MaxValue);
         if (autoIncrement.DataContext is BoundValue<decimal?> autoIncrementValue)
         {
@@ -536,120 +481,16 @@ internal sealed class TaskSettingsPageBuilder
 
         UpdatePreviews();
 
-        return Page("upload-file-naming", Strings.TaskSettingsWindow_FileNaming, LucideIcons.file_pen,
-            EnabledCard(_uploadOverride, Strings.TaskSettingsWindow_NamePatterns,
+        return Page("file-naming", Strings.TaskSettingsWindow_FileNaming, LucideIcons.file_pen,
+            OverrideCard(_fileOverride, Strings.TaskSettingsWindow_OverrideUploadSettings),
+            EnabledCard(_fileOverride, Strings.TaskSettingsWindow_NamePatterns,
                 Row(Strings.TaskSettingsWindow_CaptureOrClipboardUpload, capturePatternTextBox), Row(Strings.TaskSettingsWindow_Preview, capturePreview),
                 Row(Strings.TaskSettingsWindow_WindowCapture, windowPatternTextBox), Row(Strings.TaskSettingsWindow_Preview, windowPreview),
-                Check(Strings.TaskSettingsWindow_UseNamePatternForFileUploads, () => upload.FileUploadUseNamePattern, value => upload.FileUploadUseNamePattern = value),
-                Check(Strings.TaskSettingsWindow_ReplaceURLProblematicCharactersWithUnderscores, () => upload.FileUploadReplaceProblematicCharacters, value => upload.FileUploadReplaceProblematicCharacters = value),
+                Check(Strings.TaskSettingsWindow_UseNamePatternForFileUploads, () => upload.FileTaskUseNamePattern, value => upload.FileTaskUseNamePattern = value),
                 Row(Strings.TaskSettingsWindow_AutoIncrementNumber, autoIncrement)),
-            EnabledCard(_uploadOverride, Strings.TaskSettingsWindow_TimeZone,
-                Check(Strings.TaskSettingsWindow_UseCustomTimeZone, customTimeZone), Row(Strings.TaskSettingsWindow_TimeZoneLabel, timeZone)),
-            EnabledCard(_uploadOverride, Strings.TaskSettingsWindow_URLReplacement,
-                Check(Strings.TaskSettingsWindow_ReplaceResultURLUsingARegularExpression, regexReplace),
-                Row(Strings.TaskSettingsWindow_Pattern, regexPattern), Row(Strings.TaskSettingsWindow_Replacement, regexReplacement)));
+            EnabledCard(_fileOverride, Strings.TaskSettingsWindow_TimeZone,
+                Check(Strings.TaskSettingsWindow_UseCustomTimeZone, customTimeZone), Row(Strings.TaskSettingsWindow_TimeZoneLabel, timeZone)));
     }
-
-    private Control BuildClipboardUploadPage()
-    {
-        TaskSettingsUpload upload = _settings.UploadSettings;
-        return Page("upload-clipboard", Strings.TaskSettingsWindow_ClipboardUpload, LucideIcons.clipboard,
-            EnabledCard(_uploadOverride, Strings.TaskSettingsWindow_ClipboardContent,
-                Check(Strings.TaskSettingsWindow_IfClipboardContainsAFileURLDownloadAndUploadIt, () => upload.ClipboardUploadURLContents, value => upload.ClipboardUploadURLContents = value),
-                Check(Strings.TaskSettingsWindow_IfClipboardContainsAURLUseURLShortener, () => upload.ClipboardUploadShortenURL, value => upload.ClipboardUploadShortenURL = value),
-                Check(Strings.TaskSettingsWindow_IfClipboardContainsAURLShareItUsingURLSharingService, () => upload.ClipboardUploadShareURL, value => upload.ClipboardUploadShareURL = value),
-                Check(Strings.TaskSettingsWindow_IfClipboardContainsAFolderPathIndexAndUploadIt, () => upload.ClipboardUploadAutoIndexFolder, value => upload.ClipboardUploadAutoIndexFolder = value)));
-    }
-
-    private Control BuildUploaderFiltersPage()
-    {
-        TaskSettingsUpload upload = _settings.UploadSettings;
-        upload.UploaderFilters ??= [];
-
-        ObservableCollection<string> rows = new(upload.UploaderFilters.Select(FilterTitle));
-        ListBox list = new() { ItemsSource = rows, MinHeight = 180 };
-        list.Classes.Add("settings-list");
-
-        IGenericUploaderService[] services = UploaderFactory.AllGenericUploaderServices.OrderBy(x => x.ServiceName).ToArray();
-        IGenericUploaderService initialService = services.FirstOrDefault()!;
-        ComboBox uploader = services.Length > 0
-            ? ObjectCombo(services, () => initialService, _ => { }, value => value.ServiceName)
-            : new ComboBox { IsEnabled = false };
-        TextBox extensions = Text(() => string.Empty, _ => { });
-
-        void LoadSelection()
-        {
-            int index = list.SelectedIndex;
-            if (index < 0 || index >= upload.UploaderFilters.Count)
-            {
-                return;
-            }
-
-            UploaderFilter filter = upload.UploaderFilters[index];
-            if (uploader.DataContext is BoundValue<ChoiceOption<IGenericUploaderService>> uploaderValue)
-            {
-                ChoiceOption<IGenericUploaderService>? match = ((IEnumerable<ChoiceOption<IGenericUploaderService>>)uploader.ItemsSource!)
-                    .FirstOrDefault(x => x.Value.ServiceIdentifier.Equals(filter.Uploader, StringComparison.OrdinalIgnoreCase));
-                if (match != null)
-                {
-                    uploaderValue.Value = match;
-                }
-            }
-
-            ((BoundValue<string>)extensions.DataContext!).Value = filter.GetExtensions();
-        }
-
-        list.SelectionChanged += (_, _) => LoadSelection();
-
-        UploaderFilter? CreateFilter()
-        {
-            if (uploader.DataContext is not BoundValue<ChoiceOption<IGenericUploaderService>> selected)
-            {
-                return null;
-            }
-
-            UploaderFilter filter = new() { Uploader = selected.Value.Value.ServiceIdentifier };
-            filter.SetExtensions(((BoundValue<string>)extensions.DataContext!).Value);
-            return filter;
-        }
-
-        Button add = Button(Strings.TaskSettingsWindow_Add, () =>
-        {
-            if (CreateFilter() is { } filter)
-            {
-                upload.UploaderFilters.Add(filter);
-                rows.Add(FilterTitle(filter));
-                list.SelectedIndex = rows.Count - 1;
-            }
-        });
-        Button update = Button(Strings.TaskSettingsWindow_Update, () =>
-        {
-            int index = list.SelectedIndex;
-            if (index >= 0 && CreateFilter() is { } filter)
-            {
-                upload.UploaderFilters[index] = filter;
-                rows[index] = FilterTitle(filter);
-            }
-        });
-        Button remove = Button(Strings.TaskSettingsWindow_Remove, () =>
-        {
-            int index = list.SelectedIndex;
-            if (index >= 0)
-            {
-                upload.UploaderFilters.RemoveAt(index);
-                rows.RemoveAt(index);
-            }
-        });
-
-        return Page("upload-filters", Strings.TaskSettingsWindow_UploaderFilters, LucideIcons.filter,
-            EnabledCard(_uploadOverride, Strings.TaskSettingsWindow_Filters, list,
-                Row(Strings.TaskSettingsWindow_Uploader, uploader),
-                Row(Strings.TaskSettingsWindow_Extensions, extensions),
-                Hint(Strings.TaskSettingsWindow_SeparateExtensionsWithCommasForExamplePngJpgJpeg),
-                ButtonRow(add, update, remove)));
-    }
-
-    private static string FilterTitle(UploaderFilter filter) => $"{filter.Uploader} — {filter.GetExtensions()}";
 
     private Control BuildToolsPage()
     {
@@ -891,12 +732,6 @@ internal sealed class TaskSettingsPageBuilder
         if (property.PropertyType == typeof(string))
         {
             TextBox text = Text(() => (string?)property.GetValue(_settings.AdvancedSettings) ?? string.Empty, value => property.SetValue(_settings.AdvancedSettings, value));
-            if (property.Name == nameof(TaskSettingsAdvanced.TextCustom))
-            {
-                text.AcceptsReturn = true;
-                text.TextWrapping = TextWrapping.Wrap;
-                text.MinHeight = 80;
-            }
             return text;
         }
 
@@ -914,35 +749,21 @@ internal sealed class TaskSettingsPageBuilder
     {
         "General" => Strings.TaskSettingsWindow_General,
         "Capture" => Strings.TaskSettingsWindow_Capture,
-        "Upload" => Strings.TaskSettingsWindow_Upload,
-        "Upload text" => Strings.TaskSettingsWindow_UploadText,
-        "After upload" => Strings.TaskSettingsWindow_AfterUpload,
+        "File types" => Strings.TaskSettingsWindow_Upload,
+        "Text" => Strings.TaskSettingsWindow_UploadText,
         "Name pattern" => Strings.TaskSettingsWindow_NamePattern,
         _ => category
     };
 
     private static string GetAdvancedSettingTitle(PropertyInfo property) => property.Name switch
     {
-        nameof(TaskSettingsAdvanced.ProcessImagesDuringFileUpload) => Strings.TaskSettingsWindow_ProcessImagesDuringFileUpload,
-        nameof(TaskSettingsAdvanced.ProcessImagesDuringClipboardUpload) => Strings.TaskSettingsWindow_ProcessImagesDuringClipboardUpload,
-        nameof(TaskSettingsAdvanced.ProcessImagesDuringExtensionUpload) => Strings.TaskSettingsWindow_ProcessImagesDuringExtensionUpload,
-        nameof(TaskSettingsAdvanced.UseAfterCaptureTasksDuringFileUpload) => Strings.TaskSettingsWindow_UseAfterCaptureTasksDuringFileUpload,
+        nameof(TaskSettingsAdvanced.ProcessImagesDuringFileTask) => Strings.TaskSettingsWindow_ProcessImagesDuringFileUpload,
+        nameof(TaskSettingsAdvanced.UseAfterCaptureTasksDuringFileTask) => Strings.TaskSettingsWindow_UseAfterCaptureTasksDuringFileUpload,
         nameof(TaskSettingsAdvanced.TextTaskSaveAsFile) => Strings.TaskSettingsWindow_TextTaskSaveAsFile,
-        nameof(TaskSettingsAdvanced.AutoClearClipboard) => Strings.TaskSettingsWindow_AutoClearClipboard,
         nameof(TaskSettingsAdvanced.RegionCaptureDisableAnnotation) => Strings.TaskSettingsWindow_RegionCaptureDisableAnnotation,
         nameof(TaskSettingsAdvanced.ImageExtensions) => Strings.TaskSettingsWindow_ImageExtensions,
         nameof(TaskSettingsAdvanced.TextExtensions) => Strings.TaskSettingsWindow_TextExtensions,
-        nameof(TaskSettingsAdvanced.EarlyCopyURL) => Strings.TaskSettingsWindow_EarlyCopyURL,
         nameof(TaskSettingsAdvanced.TextFileExtension) => Strings.TaskSettingsWindow_TextFileExtension,
-        nameof(TaskSettingsAdvanced.TextFormat) => Strings.TaskSettingsWindow_TextFormat,
-        nameof(TaskSettingsAdvanced.TextCustom) => Strings.TaskSettingsWindow_TextCustom,
-        nameof(TaskSettingsAdvanced.TextCustomEncodeInput) => Strings.TaskSettingsWindow_TextCustomEncodeInput,
-        nameof(TaskSettingsAdvanced.ResultForceHTTPS) => Strings.TaskSettingsWindow_ResultForceHTTPS,
-        nameof(TaskSettingsAdvanced.ClipboardContentFormat) => Strings.TaskSettingsWindow_ClipboardContentFormat,
-        nameof(TaskSettingsAdvanced.BalloonTipContentFormat) => Strings.TaskSettingsWindow_BalloonTipContentFormat,
-        nameof(TaskSettingsAdvanced.OpenURLFormat) => Strings.TaskSettingsWindow_OpenURLFormat,
-        nameof(TaskSettingsAdvanced.AutoShortenURLLength) => Strings.TaskSettingsWindow_AutoShortenURLLength,
-        nameof(TaskSettingsAdvanced.AutoCloseAfterUploadForm) => Strings.TaskSettingsWindow_AutoCloseAfterUploadForm,
         nameof(TaskSettingsAdvanced.NamePatternMaxLength) => Strings.TaskSettingsWindow_NamePatternMaxLength,
         nameof(TaskSettingsAdvanced.NamePatternMaxTitleLength) => Strings.TaskSettingsWindow_NamePatternMaxTitleLength,
         _ => property.GetCustomAttribute<DisplayNameAttribute>()?.DisplayName ?? SplitPascalCase(property.Name)
@@ -1394,93 +1215,6 @@ internal sealed class TaskSettingsPageBuilder
         };
 
         return button;
-    }
-
-    private static Button DestinationMenu(TaskSettings settings)
-    {
-        TextBlock icon = CreateAccentMenuIcon(LucideIcons.server);
-        TextBlock title = new()
-        {
-            Text = Strings.TaskSettingsWindow_Destinations + "...",
-            FontWeight = FontWeight.Normal,
-            VerticalAlignment = VerticalAlignment.Center
-        };
-        TextBlock chevron = new()
-        {
-            Text = LucideIcons.chevron_down,
-            FontSize = 14,
-            VerticalAlignment = VerticalAlignment.Center
-        };
-        chevron.Classes.Add("icon");
-
-        Grid content = new()
-        {
-            ColumnDefinitions = new ColumnDefinitions("Auto,*,Auto"),
-            ColumnSpacing = 7
-        };
-        Grid.SetColumn(title, 1);
-        Grid.SetColumn(chevron, 2);
-        content.Children.Add(icon);
-        content.Children.Add(title);
-        content.Children.Add(chevron);
-
-        Button button = new()
-        {
-            Content = content,
-            MinWidth = 300,
-            MinHeight = 32,
-            Padding = new Thickness(8, 4),
-            HorizontalAlignment = HorizontalAlignment.Stretch,
-            HorizontalContentAlignment = HorizontalAlignment.Stretch
-        };
-
-        button.Click += (_, _) =>
-        {
-            ContextMenu menu = new()
-            {
-                Placement = PlacementMode.BottomEdgeAlignedLeft,
-                PlacementTarget = button,
-                ItemsSource = MainMenuBuilder.BuildDestinationsMenu(settings)
-                    .Select(CreateDestinationMenuItem)
-                    .ToList()
-            };
-            menu.Open(button);
-        };
-
-        return button;
-    }
-
-    private static MenuItem CreateDestinationMenuItem(MainMenuEntry entry)
-    {
-        MenuItem item = new()
-        {
-            Header = entry.Header,
-            IsChecked = entry.IsChecked,
-            ToggleType = entry.ToggleType switch
-            {
-                MainMenuToggleType.CheckBox => MenuItemToggleType.CheckBox,
-                MainMenuToggleType.Radio => MenuItemToggleType.Radio,
-                _ => MenuItemToggleType.None
-            }
-        };
-        item.Classes.Add("compact-menu-item");
-
-        if (!string.IsNullOrEmpty(entry.Icon))
-        {
-            item.Icon = CreateAccentMenuIcon(entry.Icon);
-        }
-
-        if (entry.CreateChildren != null)
-        {
-            item.ItemsSource = entry.CreateChildren().Select(CreateDestinationMenuItem).ToList();
-        }
-
-        if (entry.ExecuteAsync != null)
-        {
-            item.Click += async (_, _) => await entry.ExecuteAsync();
-        }
-
-        return item;
     }
 
     private static bool HasFlag<T>(T value, T flag) where T : struct, Enum =>

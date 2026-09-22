@@ -114,7 +114,7 @@ namespace ShareX.Tools
 
         private string GetFooter()
         {
-            return string.Format(Localization.Strings.IndexerText_Generated_by, DateTime.UtcNow, Links.Website);
+            return string.Format(Localization.Strings.IndexerText_Generated_by, DateTime.UtcNow, Links.UpstreamWebsite);
         }
     }
 }

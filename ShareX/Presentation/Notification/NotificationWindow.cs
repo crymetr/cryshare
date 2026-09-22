@@ -592,34 +592,18 @@ public partial class NotificationWindow : Window
                         ClipboardHelpers.CopyText(config.FilePath);
                     }
                     break;
-                case ToastClickAction.CopyUrl:
-                    ClipboardHelpers.CopyText(!string.IsNullOrEmpty(config.URL) ? config.URL : config.FilePath);
-                    break;
                 case ToastClickAction.OpenFile:
                     FileHelpers.OpenFile(config.FilePath);
                     break;
                 case ToastClickAction.OpenFolder:
                     FileHelpers.OpenFolderWithFile(config.FilePath);
                     break;
-                case ToastClickAction.OpenUrl:
-                    if (!string.IsNullOrEmpty(config.URL))
-                    {
-                        URLHelpers.OpenURL(config.URL);
-                    }
-                    else
-                    {
-                        FileHelpers.OpenFile(config.FilePath);
-                    }
-                    break;
-                case ToastClickAction.Upload:
-                    UploadManager.UploadFile(config.FilePath);
-                    break;
                 case ToastClickAction.PinToScreen:
                     TaskHelpers.PinToScreen(config.FilePath);
                     break;
                 case ToastClickAction.DeleteFile:
                     if (MessageBox.Show(Strings.MainForm_tsmiDeleteSelectedFile_Click_Do_you_really_want_to_delete_this_file_,
-                        "ShareX - " + Strings.MainForm_tsmiDeleteSelectedFile_Click_File_delete_confirmation,
+                        Program.AppName + " - " + Strings.MainForm_tsmiDeleteSelectedFile_Click_File_delete_confirmation,
                         MessageBoxButtons.YesNo) == MessageBoxResult.Yes)
                     {
                         FileHelpers.DeleteFile(config.FilePath, true);
@@ -642,14 +626,12 @@ public partial class NotificationWindow : Window
     {
         bool hasFile = !string.IsNullOrWhiteSpace(config.FilePath);
         bool hasImageFile = hasFile && FileHelpers.IsImageFile(config.FilePath);
-        bool hasTarget = hasFile || !string.IsNullOrWhiteSpace(config.URL);
 
         return action switch
         {
             ToastClickAction.AnnotateImage or ToastClickAction.CopyImageToClipboard or ToastClickAction.PinToScreen => hasImageFile,
             ToastClickAction.CopyFile or ToastClickAction.CopyFilePath or ToastClickAction.OpenFile or
-                ToastClickAction.OpenFolder or ToastClickAction.Upload or ToastClickAction.DeleteFile => hasFile,
-            ToastClickAction.CopyUrl or ToastClickAction.OpenUrl => hasTarget,
+                ToastClickAction.OpenFolder or ToastClickAction.DeleteFile => hasFile,
             ToastClickAction.CloseNotification => true,
             _ => false
         };

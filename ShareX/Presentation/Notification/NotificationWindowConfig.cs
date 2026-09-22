@@ -49,7 +49,6 @@ namespace ShareX
         public string Title { get; set; }
         public string Text { get; set; }
         public string FilePath { get; set; }
-        public string URL { get; set; }
         public ToastClickAction LeftClickAction { get; set; }
         public ToastClickAction RightClickAction { get; set; }
         public ToastClickAction MiddleClickAction { get; set; }

@@ -16,7 +16,6 @@ using Avalonia.Media.Imaging;
 using ShareX.AvaloniaUI.Theming;
 using ShareX.HelpersLib;
 using ShareX.Localization;
-using ShareX.UploadersLib;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -36,8 +35,6 @@ public partial class AfterCaptureWindow : Window
 
     public TaskSettings TaskSettings { get; }
     public IReadOnlyList<AfterCaptureTaskOption> AfterCaptureOptions { get; }
-    public IReadOnlyList<AfterCaptureTaskOption> AfterUploadOptions { get; }
-    public IReadOnlyList<AfterCaptureDestinationOption> DestinationOptions { get; }
     public AfterCaptureWindowResult Result { get; private set; }
 
     public AfterCaptureWindow() : this(global::ShareX.TaskSettings.GetDefaultTaskSettings(), null, null)
@@ -48,8 +45,6 @@ public partial class AfterCaptureWindow : Window
     {
         TaskSettings = taskSettings;
         AfterCaptureOptions = CreateAfterCaptureOptions(taskSettings.AfterCaptureJob);
-        AfterUploadOptions = CreateAfterUploadOptions(taskSettings.AfterUploadJob);
-        DestinationOptions = CreateDestinationOptions(taskSettings);
 
         InitializeComponent();
         DataContext = this;
@@ -118,74 +113,6 @@ public partial class AfterCaptureWindow : Window
             .ToArray();
     }
 
-    private static IReadOnlyList<AfterCaptureTaskOption> CreateAfterUploadOptions(AfterUploadTasks selected)
-    {
-        return Helpers.GetEnums<AfterUploadTasks>()
-            .Where(task => task != AfterUploadTasks.None)
-            .Select(task => new AfterCaptureTaskOption(task, task.GetLocalizedDescription(), selected.HasFlag(task)))
-            .ToArray();
-    }
-
-    private static IReadOnlyList<AfterCaptureDestinationOption> CreateDestinationOptions(TaskSettings taskSettings)
-    {
-        List<AfterCaptureDestinationOption> options = new();
-
-        foreach (ImageDestination destination in Helpers.GetEnums<ImageDestination>())
-        {
-            if (destination == ImageDestination.FileUploader ||
-                !UploadersConfigValidator.Validate<ImageDestination>((int)destination, Program.UploadersConfig))
-            {
-                continue;
-            }
-
-            string label = destination.GetLocalizedDescription();
-            if (destination == ImageDestination.CustomImageUploader)
-            {
-                label = GetCustomDestinationLabel(Program.UploadersConfig.CustomImageUploaderSelected, taskSettings, label);
-            }
-
-            bool selected = taskSettings.ImageDestination == destination;
-            options.Add(new AfterCaptureDestinationOption(label, selected, () => taskSettings.ImageDestination = destination));
-        }
-
-        foreach (FileDestination destination in Helpers.GetEnums<FileDestination>())
-        {
-            if (!UploadersConfigValidator.Validate<FileDestination>((int)destination, Program.UploadersConfig))
-            {
-                continue;
-            }
-
-            string label = destination.GetLocalizedDescription();
-            if (destination == FileDestination.CustomFileUploader)
-            {
-                label = GetCustomDestinationLabel(Program.UploadersConfig.CustomFileUploaderSelected, taskSettings, label);
-            }
-
-            bool selected = taskSettings.ImageDestination == ImageDestination.FileUploader &&
-                taskSettings.ImageFileDestination == destination;
-            options.Add(new AfterCaptureDestinationOption(label, selected, () =>
-            {
-                taskSettings.ImageDestination = ImageDestination.FileUploader;
-                taskSettings.ImageFileDestination = destination;
-            }));
-        }
-
-        return options;
-    }
-
-    private static string GetCustomDestinationLabel(int index, TaskSettings taskSettings, string fallback)
-    {
-        if (taskSettings.OverrideCustomUploader)
-        {
-            index = taskSettings.CustomUploaderIndex.BetweenOrDefault(0, Program.UploadersConfig.CustomUploadersList.Count - 1);
-        }
-
-        CustomUploaderItem? uploader = Program.UploadersConfig.CustomUploadersList.ReturnIfValidIndex(index);
-        return uploader == null
-            ? fallback
-            : string.Format(Strings.AfterCaptureWindow_CustomUploader, uploader);
-    }
-
     private void OnContinueClick(object? sender, RoutedEventArgs e)
     {
         AfterCaptureTasks afterCaptureTasks = AfterCaptureTasks.None;
@@ -194,27 +121,9 @@ public partial class AfterCaptureWindow : Window
             afterCaptureTasks |= (AfterCaptureTasks)option.Value;
         }
 
-        AfterUploadTasks afterUploadTasks = AfterUploadTasks.None;
-        foreach (AfterCaptureTaskOption option in AfterUploadOptions.Where(option => option.IsChecked))
-        {
-            afterUploadTasks |= (AfterUploadTasks)option.Value;
-        }
 
         TaskSettings.AfterCaptureJob = afterCaptureTasks;
-        TaskSettings.AfterUploadJob = afterUploadTasks;
         AcceptAndClose();
-    }
-
-    private void OnSectionSelectionChanged(object? sender, SelectionChangedEventArgs e)
-    {
-        if (AfterCaptureOptionsPanel == null || DestinationOptionsPanel == null || AfterUploadOptionsPanel == null)
-        {
-            return;
-        }
-
-        AfterCaptureOptionsPanel.IsVisible = SectionNavigation.SelectedIndex == 0;
-        DestinationOptionsPanel.IsVisible = SectionNavigation.SelectedIndex == 1;
-        AfterUploadOptionsPanel.IsVisible = SectionNavigation.SelectedIndex == 2;
     }
 
     private void OnCopyClick(object? sender, RoutedEventArgs e)

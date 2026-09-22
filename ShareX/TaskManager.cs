@@ -27,7 +27,6 @@ using ShareX.HelpersLib;
 using ShareX.HistoryLib;
 using ShareX.Localization;
 using ShareX.Properties;
-using ShareX.UploadersLib;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -61,11 +60,7 @@ namespace ShareX
                 {
                     task.StatusChanged += Task_StatusChanged;
                     task.ImageReady += Task_ImageReady;
-                    task.UploadStarted += Task_UploadStarted;
-                    task.UploadProgressChanged += Task_UploadProgressChanged;
-                    task.UploadCompleted += Task_UploadCompleted;
                     task.TaskCompleted += Task_TaskCompleted;
-                    task.UploadersConfigWindowRequested += Task_UploadersConfigWindowRequested;
                 }
 
                 TaskAdded?.Invoke(task);
@@ -95,26 +90,9 @@ namespace ShareX
 
         private static void StartTasks()
         {
-            int workingTasksCount = Tasks.Count(x => x.IsWorking);
-            WorkerTask[] inQueueTasks = Tasks.Where(x => x.Status == TaskStatus.InQueue).ToArray();
-
-            if (inQueueTasks.Length > 0)
+            foreach (WorkerTask task in Tasks.Where(x => x.Status == TaskStatus.InQueue).ToArray())
             {
-                int len;
-
-                if (Program.Settings.UploadLimit == 0)
-                {
-                    len = inQueueTasks.Length;
-                }
-                else
-                {
-                    len = (Program.Settings.UploadLimit - workingTasksCount).Clamp(0, inQueueTasks.Length);
-                }
-
-                for (int i = 0; i < len; i++)
-                {
-                    inQueueTasks[i].Start();
-                }
+                task.Start();
             }
         }
 
@@ -145,50 +123,6 @@ namespace ShareX
             TaskImageReady?.Invoke(task, image);
         }
 
-        private static void Task_UploadStarted(WorkerTask task)
-        {
-            TaskInfo info = task.Info;
-
-            string status = string.Format("Upload started. File name: {0}", info.FileName);
-            if (!string.IsNullOrEmpty(info.FilePath)) status += ", File path: " + info.FilePath;
-            DebugHelper.WriteLine(status);
-
-            TaskChanged?.Invoke(task);
-        }
-
-        private static void Task_UploadProgressChanged(WorkerTask task)
-        {
-            if (task.Status == TaskStatus.Working)
-            {
-                UpdateProgressUI();
-                TaskChanged?.Invoke(task);
-            }
-        }
-
-        private static void Task_UploadCompleted(WorkerTask task)
-        {
-            TaskInfo info = task.Info;
-
-            if (info != null && info.Result != null && !info.Result.IsError)
-            {
-                string url = info.Result.ToString();
-
-                if (!string.IsNullOrEmpty(url))
-                {
-                    string text = string.Format(Strings.TaskManager_UploadCompletedURL, url);
-
-                    if (info.UploadDuration != null)
-                    {
-                        text += $", Duration: {info.UploadDuration.ElapsedMilliseconds} ms";
-                    }
-
-                    DebugHelper.WriteLine(text);
-                }
-            }
-
-            TaskChanged?.Invoke(task);
-        }
-
         private static void Task_TaskCompleted(WorkerTask task)
         {
             try
@@ -210,8 +144,7 @@ namespace ShareX
 
                         if (!string.IsNullOrEmpty(result))
                         {
-                            if (Program.Settings.HistorySaveTasks && (!Program.Settings.HistoryCheckURL ||
-                                !string.IsNullOrEmpty(info.Result.URL) || !string.IsNullOrEmpty(info.Result.ShortenedURL)))
+                            if (Program.Settings.HistorySaveTasks)
                             {
                                 HistoryItem historyItem = info.GetHistoryItem();
                                 AppendHistoryItemAsync(historyItem);
@@ -226,7 +159,7 @@ namespace ShareX
                         }
                         else if (task.Status == TaskStatus.Failed)
                         {
-                            string errors = info.Result.Errors.ToString();
+                            string errors = info.Result.ErrorsToString();
 
                             DebugHelper.WriteLine($"Task failed. File name: {info.FileName}, Errors:\r\n{errors}");
 
@@ -234,19 +167,12 @@ namespace ShareX
 
                             if (info.Result.Errors.Count > 0)
                             {
-                                UploaderErrorInfo error = info.Result.Errors.Errors[0];
+                                string text = info.Result.Errors[0];
 
-                                string title = error.Title;
-
-                                if (string.IsNullOrEmpty(title))
-                                {
-                                    title = Strings.TaskManager_task_UploadCompleted_Error;
-                                }
-
-                                if (info.TaskSettings.GeneralSettings.ShowToastNotificationAfterTaskCompleted && !string.IsNullOrEmpty(error.Text) &&
+                                if (info.TaskSettings.GeneralSettings.ShowToastNotificationAfterTaskCompleted && !string.IsNullOrEmpty(text) &&
                                     (!info.TaskSettings.GeneralSettings.DisableNotificationsOnFullscreen || !CaptureHelpers.IsActiveWindowFullscreen()))
                                 {
-                                    TaskHelpers.ShowNotificationTip(error.Text, "ShareX - " + title, 5000);
+                                    TaskHelpers.ShowNotificationTip(text, Program.AppName + " - " + Strings.TaskManager_task_UploadCompleted_Error, 5000);
                                 }
                             }
                         }
@@ -254,16 +180,11 @@ namespace ShareX
                         {
                             DebugHelper.WriteLine($"Task completed. File name: {info.FileName}, Duration: {(long)info.TaskDuration.TotalMilliseconds} ms");
 
-                            if (!task.StopRequested && info.Job != TaskJob.ShareURL && !string.IsNullOrEmpty(result))
+                            if (!task.StopRequested && !string.IsNullOrEmpty(result))
                             {
                                 TaskHelpers.PlayNotificationSoundAsync(NotificationSound.TaskCompleted, info.TaskSettings);
 
-                                if (!string.IsNullOrEmpty(info.TaskSettings.AdvancedSettings.BalloonTipContentFormat))
-                                {
-                                    result = new UploadInfoParser().Parse(info, info.TaskSettings.AdvancedSettings.BalloonTipContentFormat);
-                                }
-
-                                if (info.TaskSettings.GeneralSettings.ShowToastNotificationAfterTaskCompleted && !string.IsNullOrEmpty(result) &&
+                                if (info.TaskSettings.GeneralSettings.ShowToastNotificationAfterTaskCompleted &&
                                     (!info.TaskSettings.GeneralSettings.DisableNotificationsOnFullscreen || !CaptureHelpers.IsActiveWindowFullscreen()))
                                 {
                                     task.KeepImage = true;
@@ -281,21 +202,14 @@ namespace ShareX
                                         ActionButtons = NotificationActionButton.CloneButtons(info.TaskSettings.GeneralSettings.ToastWindowButtons),
                                         FilePath = info.FilePath,
                                         Image = task.Image,
-                                        Title = "ShareX - " + Strings.TaskManager_task_UploadCompleted_ShareX___Task_completed,
-                                        Text = result,
-                                        URL = info.Result.ToString()
+                                        Title = Program.AppName + " - " + Strings.TaskManager_task_UploadCompleted_ShareX___Task_completed,
+                                        Text = result
                                     };
 
                                     NotificationWindow.Show(toastConfig);
-
-                                    if (info.TaskSettings.AfterUploadJob.HasFlag(AfterUploadTasks.ShowAfterUploadWindow) && info.IsUploadJob)
-                                    {
-                                        AfterUploadWindowIntegration.Show(info);
-                                    }
                                 }
                             }
                         }
-
                     }
                 }
             }
@@ -320,36 +234,15 @@ namespace ShareX
             }
         }
 
-        private static void Task_UploadersConfigWindowRequested(IUploaderService uploaderService)
-        {
-            TaskHelpers.OpenUploadersConfigWindow(uploaderService);
-        }
-
         public static void UpdateProgressUI()
         {
-            bool isTasksWorking = false;
-            double averageProgress = 0;
-
-            IEnumerable<WorkerTask> workingTasks = Tasks.Where(x => x != null && x.Status == TaskStatus.Working && x.Info != null);
-
-            if (workingTasks.Count() > 0)
-            {
-                isTasksWorking = true;
-
-                workingTasks = workingTasks.Where(x => x.Info.Progress != null);
-
-                if (workingTasks.Count() > 0)
-                {
-                    averageProgress = workingTasks.Average(x => x.Info.Progress.Percentage);
-                }
-            }
+            bool isTasksWorking = Tasks.Any(x => x != null && x.Status == TaskStatus.Working && x.Info != null);
 
             if (isTasksWorking)
             {
-                string title = string.Format("{0} - {1:0.0}%", Program.Title, averageProgress);
-                MainWindowIntegration.SetTitle(title);
-                UpdateTrayIcon((int)averageProgress);
-                TaskbarManager.SetProgressValue((int)averageProgress);
+                MainWindowIntegration.SetTitle(Program.Title);
+                UpdateTrayIcon(0);
+                TaskbarManager.SetProgressState(TaskbarProgressBarStatus.Indeterminate);
             }
             else
             {

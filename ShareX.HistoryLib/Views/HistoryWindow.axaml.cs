@@ -31,7 +31,6 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
 using System.Linq;
-using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -39,7 +38,6 @@ namespace ShareX.HistoryLib;
 
 public partial class HistoryWindow : Window
 {
-    private static readonly HttpClient PreviewHttpClient = new();
 
     private readonly HistoryManagerSQLite _historyManager;
     private readonly HistorySettings _settings;
@@ -435,12 +433,7 @@ public partial class HistoryWindow : Window
             }
             else
             {
-                byte[] data = await PreviewHttpClient.GetByteArrayAsync(imageSource, token);
-                bitmap = await Task.Run(() =>
-                {
-                    using MemoryStream stream = new(data, writable: false);
-                    return new Bitmap(stream);
-                }, token);
+                return;
             }
 
             if (token.IsCancellationRequested)
@@ -599,7 +592,6 @@ public partial class HistoryWindow : Window
         UploadMenu.IsEnabled = single && file && _services.UploadFile != null;
         EditImageMenu.IsEnabled = single && imageFile && _services.EditImage != null;
         PinMenu.IsEnabled = single && imageFile && _services.PinToScreen != null;
-        AnalyzeMenu.IsEnabled = single && imageFile && _services.AnalyzeImage != null;
     }
 
     private void OnAdvancedClick(object? sender, RoutedEventArgs e)
@@ -1050,7 +1042,6 @@ public partial class HistoryWindow : Window
     private void OnUploadFileClick(object? sender, RoutedEventArgs e) => InvokeFileService(_services.UploadFile, false);
     private void OnEditImageClick(object? sender, RoutedEventArgs e) => InvokeFileService(_services.EditImage, true);
     private void OnPinToScreenClick(object? sender, RoutedEventArgs e) => InvokeFileService(_services.PinToScreen, true);
-    private void OnAnalyzeImageClick(object? sender, RoutedEventArgs e) => InvokeFileService(_services.AnalyzeImage, true);
     private void InvokeFileService(Action<string>? action, bool imageOnly)
     {
         HistoryItem? item = GetPrimaryItem();

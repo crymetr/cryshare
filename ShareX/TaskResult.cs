@@ -1,4 +1,4 @@
-#region License Information (GPL v3)
+﻿#region License Information (GPL v3)
 
 /*
     ShareX - A program that allows you to take screenshots and share any file type
@@ -23,27 +23,40 @@
 
 #endregion License Information (GPL v3)
 
-namespace ShareX.Tools;
 
-public enum QRCodeScanMode
-{
-    Screen,
-    Region,
-    ImageFile
-}
+using System.Collections.Generic;
+using System.Text;
 
-public sealed class QRCodeWindowOptions
+namespace ShareX
 {
-    public string? InitialText { get; init; }
-    public string? InitialImageFilePath { get; init; }
-    public QRCodeScanMode? InitialScanMode { get; init; }
-}
+    /// <summary>
+    /// Outcome of a local task. CrySnap has no upload step, so a result is just a list of error messages.
+    /// </summary>
+    public class TaskResult
+    {
+        public List<string> Errors { get; } = new List<string>();
 
-public sealed class QRCodeServices
-{
-    public required Func<string, int, Task<byte[]?>> GeneratePreviewAsync { get; init; }
-    public required Func<QRCodeScanMode, string?, Task<string[]?>> ScanAsync { get; init; }
-    public required Func<string, int, string, Task> SaveAsync { get; init; }
-    public required Action<string, int> CopyImage { get; init; }
-    public Action? PlayNotificationSound { get; init; }
+        public bool IsError => Errors.Count > 0;
+
+        public string ErrorsToString()
+        {
+            StringBuilder sb = new StringBuilder();
+
+            foreach (string error in Errors)
+            {
+                if (!string.IsNullOrEmpty(error))
+                {
+                    if (sb.Length > 0) sb.AppendLine().AppendLine();
+                    sb.Append(error);
+                }
+            }
+
+            return sb.ToString();
+        }
+
+        public override string ToString()
+        {
+            return "";
+        }
+    }
 }

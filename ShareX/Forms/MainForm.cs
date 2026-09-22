@@ -19,7 +19,6 @@ using ShareX.AvaloniaUI.Integration;
 using ShareX.AvaloniaUI.Theming;
 using ShareX.HelpersLib;
 using ShareX.Localization;
-using ShareX.UploadersLib;
 using System;
 using System.Drawing;
 using System.Threading.Tasks;
@@ -61,7 +60,6 @@ public sealed class MainForm : HotkeyForm
     {
         Show();
 
-        RunPuushTasks();
         NativeMethods.UseImmersiveDarkMode(Handle, ShareXResources.IsDarkTheme);
 
         await UpdateControls();
@@ -104,7 +102,6 @@ public sealed class MainForm : HotkeyForm
         HotkeyRepeatLimit = Program.Settings.HotkeyRepeatLimit;
 
         HelpersOptions.CurrentProxy = Program.Settings.ProxySettings;
-        HelpersOptions.URLEncodeIgnoreEmoji = Program.Settings.URLEncodeIgnoreEmoji;
         HelpersOptions.DefaultCopyImageFillBackground = Program.Settings.DefaultClipboardCopyImageFillBackground;
         HelpersOptions.UseAlternativeClipboardCopyImage = Program.Settings.UseAlternativeClipboardCopyImage;
         HelpersOptions.UseAlternativeClipboardGetImage = Program.Settings.UseAlternativeClipboardGetImage;
@@ -123,7 +120,6 @@ public sealed class MainForm : HotkeyForm
         TrayIconService.Visible = Program.Settings.ShowTray;
 
         UpdateTheme();
-        ConfigureAutoUpdate();
 
         MainWindowIntegration.SetTitle(Program.Title);
         MainWindowIntegration.SetTrayVisible(Program.Settings.ShowTray);
@@ -170,13 +166,6 @@ public sealed class MainForm : HotkeyForm
         }
     }
 
-    private void ConfigureAutoUpdate()
-    {
-        Program.UpdateManager.AllowAutoUpdate = !SystemOptions.DisableUpdateCheck && Program.Settings.AutoCheckUpdate;
-        Program.UpdateManager.UpdateChannel = Program.Settings.UpdateChannel;
-        Program.UpdateManager.ConfigureAutoUpdate();
-    }
-
     private async Task InitHotkeys()
     {
         await Task.Run(SettingManager.WaitHotkeysConfig);
@@ -203,49 +192,17 @@ public sealed class MainForm : HotkeyForm
         await TaskHelpers.ExecuteJob(hotkeySetting.TaskSettings);
     }
 
-    private static void RunPuushTasks()
+    private static Task AfterShownJobs()
     {
-        if (!Program.PuushMode || !Program.Settings.IsFirstTimeRun)
-        {
-            return;
-        }
-
-        string? puushApiKey = PuushLoginWindowIntegration.Show();
-        if (string.IsNullOrEmpty(puushApiKey))
-        {
-            return;
-        }
-
-        Program.DefaultTaskSettings.ImageDestination = ImageDestination.FileUploader;
-        Program.DefaultTaskSettings.ImageFileDestination = FileDestination.Puush;
-        Program.DefaultTaskSettings.TextDestination = TextDestination.FileUploader;
-        Program.DefaultTaskSettings.TextFileDestination = FileDestination.Puush;
-        Program.DefaultTaskSettings.FileDestination = FileDestination.Puush;
-
-        SettingManager.WaitUploadersConfig();
-        if (Program.UploadersConfig != null)
-        {
-            Program.UploadersConfig.PuushAPIKey = puushApiKey;
-        }
-    }
-
-    private static async Task AfterShownJobs()
-    {
-        if (Program.SteamFirstTimeConfig)
-        {
-            await FirstTimeConfigWindowIntegration.ShowAsync();
-        }
-        else
-        {
-            MainWindowIntegration.Activate();
-        }
+        MainWindowIntegration.Activate();
+        return Task.CompletedTask;
     }
 
     public void ForceClose()
     {
         if (ScreenRecordManager.IsRecording)
         {
-            if (MessageBox.Show(Strings.ShareXCannotBeClosedWhileScreenRecordingIsActive, "ShareX",
+            if (MessageBox.Show(Strings.ShareXCannotBeClosedWhileScreenRecordingIsActive, Program.AppName,
                 MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == MessageBoxResult.Yes)
             {
                 ScreenRecordManager.AbortRecording();
@@ -309,12 +266,6 @@ public sealed class MainForm : HotkeyForm
             case MainFormCommand.HotkeySettings:
                 OpenHotkeySettings();
                 break;
-            case MainFormCommand.DestinationSettings:
-                TaskHelpers.OpenUploadersConfigWindow();
-                break;
-            case MainFormCommand.CustomUploaderSettings:
-                TaskHelpers.OpenCustomUploaderSettingsWindow();
-                break;
             case MainFormCommand.ScreenshotsFolder:
                 TaskHelpers.OpenScreenshotsFolder();
                 break;
@@ -326,34 +277,6 @@ public sealed class MainForm : HotkeyForm
                 break;
             case MainFormCommand.DebugLog:
                 TaskHelpers.OpenDebugLog();
-                break;
-            case MainFormCommand.TestImageUpload:
-                UploadManager.UploadImage(ShareXResources.Logo);
-                break;
-            case MainFormCommand.TestTextUpload:
-                UploadManager.UploadText(Strings.MainForm_tsmiTestTextUpload_Click_Text_upload_test);
-                break;
-            case MainFormCommand.TestFileUpload:
-                UploadManager.UploadImage(ShareXResources.Logo, ImageDestination.FileUploader, Program.DefaultTaskSettings.FileDestination);
-                break;
-            case MainFormCommand.TestUrlShortener:
-                UploadManager.ShortenURL(Links.Website);
-                break;
-            case MainFormCommand.TestUrlSharing:
-                UploadManager.ShareURL(Links.Website);
-                break;
-            case MainFormCommand.Donate:
-#if STEAM
-                URLHelpers.OpenURL(Links.Website);
-#else
-                URLHelpers.OpenURL(Links.Donate);
-#endif
-                break;
-            case MainFormCommand.X:
-                URLHelpers.OpenURL(Links.XFollow);
-                break;
-            case MainFormCommand.Discord:
-                URLHelpers.OpenURL(Links.Discord);
                 break;
             case MainFormCommand.About:
                 AboutWindowIntegration.Show();
