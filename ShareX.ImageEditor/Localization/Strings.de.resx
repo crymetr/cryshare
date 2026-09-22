@@ -505,7 +505,7 @@ Schattenoptionen (Rechtsklick)</value>
     <value>Bild</value>
   </data>
   <data name="MainViewModel_WindowTitle" xml:space="preserve">
-    <value>ShareX – Bildeditor</value>
+    <value>CrySnap – Bildeditor</value>
   </data>
   <data name="MainViewModel_RunAfterCaptureTasksEnter" xml:space="preserve">
     <value>Aufgaben nach der Aufnahme ausführen (Eingabe)</value>

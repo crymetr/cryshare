@@ -719,7 +719,7 @@ Favorite image effects (Right click)</value>
     <value>Size: {0}x{1}</value>
   </data>
   <data name="MainViewModel_WindowTitle" xml:space="preserve">
-    <value>ShareX - Image Editor</value>
+    <value>CrySnap - Image Editor</value>
   </data>
   <data name="MainViewModel_HideToolbars" xml:space="preserve">
     <value>Hide toolbars</value>

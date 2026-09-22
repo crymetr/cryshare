@@ -128,7 +128,7 @@
     <value>Opslaan</value>
   </data>
   <data name="AnalyzeImageOptionsWindow_ShareX_Analyze_image_options" xml:space="preserve">
-    <value>ShareX - Opties voor afbeeldingsanalyse</value>
+    <value>CrySnap - Opties voor afbeeldingsanalyse</value>
   </data>
   <data name="AnalyzeImageOptionsWindow_Test_connection" xml:space="preserve">
     <value>Verbinding testen</value>
@@ -212,7 +212,7 @@
     <value>Gebied selecteren...</value>
   </data>
   <data name="AnalyzeImageWindow_ShareX_Analyze_image" xml:space="preserve">
-    <value>ShareX - Afbeelding analyseren</value>
+    <value>CrySnap - Afbeelding analyseren</value>
   </data>
   <data name="BackgroundRemoverViewModel_Background_removed_ms" xml:space="preserve">
     <value>Achtergrond verwijderd in {0} ms.</value>
@@ -267,7 +267,7 @@ Bestandspad: {0}</value>
     <value>Selecteer een afbeelding om hier een voorbeeld weer te geven.</value>
   </data>
   <data name="BackgroundRemoverWindow_ShareX_Background_Remover" xml:space="preserve">
-    <value>ShareX - Achtergrondverwijderaar</value>
+    <value>CrySnap - Achtergrondverwijderaar</value>
   </data>
   <data name="BorderlessWindowViewModel_Unable_to_toggle" xml:space="preserve">
     <value>Kan het geselecteerde venster niet omschakelen. {0}</value>
@@ -294,7 +294,7 @@ Bestandspad: {0}</value>
     <value>Venster selecteren</value>
   </data>
   <data name="BorderlessWindowWindow_ShareX_Borderless_Window" xml:space="preserve">
-    <value>ShareX - Randloos venster</value>
+    <value>CrySnap - Randloos venster</value>
   </data>
   <data name="BorderlessWindowWindow_Toggle_again_to_restore_the_original_border_and_window_size" xml:space="preserve">
     <value>Schakel opnieuw om de oorspronkelijke rand en venstergrootte te herstellen.</value>
@@ -360,7 +360,7 @@ Bestandspad: {0}</value>
     <value>Vernieuwen</value>
   </data>
   <data name="ClipboardViewerWindow_ShareX_Clipboard_Viewer" xml:space="preserve">
-    <value>ShareX - Klembordviewer</value>
+    <value>CrySnap - Klembordviewer</value>
   </data>
   <data name="DirectoryIndexerViewModel_Index_for" xml:space="preserve">
     <value>Index van {0}</value>
@@ -447,7 +447,7 @@ Bestandspad: {0}</value>
     <value>Map selecteren voor indexering</value>
   </data>
   <data name="DirectoryIndexerWindow_ShareX_Directory_Indexer" xml:space="preserve">
-    <value>ShareX - Mapindexeerder</value>
+    <value>CrySnap - Mapindexeerder</value>
   </data>
   <data name="DirectoryIndexerWindow_Show_sizes" xml:space="preserve">
     <value>Grootten weergeven</value>
@@ -570,7 +570,7 @@ Bestandspad: {0}</value>
     <value>Tweede bestand</value>
   </data>
   <data name="HashCheckerWindow_ShareX_Hash_Checker" xml:space="preserve">
-    <value>ShareX - Hashcontrole</value>
+    <value>CrySnap - Hashcontrole</value>
   </data>
   <data name="HashCheckerWindow_Stop" xml:space="preserve">
     <value>Stoppen</value>
@@ -663,7 +663,7 @@ Bestandspad: {0}</value>
     <value>Pictogram opslaan als</value>
   </data>
   <data name="IconConverterWindow_ShareX_Icon_Converter" xml:space="preserve">
-    <value>ShareX - Pictogramconverter</value>
+    <value>CrySnap - Pictogramconverter</value>
   </data>
   <data name="IconConverterWindow_Sizes" xml:space="preserve">
     <value>Grootten</value>
@@ -738,7 +738,7 @@ Bestandspad: {0}</value>
     <value>Oriëntatie</value>
   </data>
   <data name="ImageCombinerWindow_ShareX_Image_Combiner" xml:space="preserve">
-    <value>ShareX - Afbeeldingscombinator</value>
+    <value>CrySnap - Afbeeldingscombinator</value>
   </data>
   <data name="ImageCombinerWindow_Spacing" xml:space="preserve">
     <value>Afstand</value>
@@ -789,7 +789,7 @@ Bestandspad: {0}</value>
     <value>Selecteer Afbeelding 1 en Afbeelding 2 om het vergelijkingsvoorbeeld weer te geven.</value>
   </data>
   <data name="ImageComparerWindow_ShareX_Image_Comparer" xml:space="preserve">
-    <value>ShareX - Afbeeldingsvergelijker</value>
+    <value>CrySnap - Afbeeldingsvergelijker</value>
   </data>
   <data name="ImageComparerWindow_Slider" xml:space="preserve">
     <value>Schuifregelaar</value>
@@ -819,7 +819,7 @@ Bestandspad: {0}</value>
     <value>Rijen</value>
   </data>
   <data name="ImageSplitterWindow_ShareX_Image_Splitter" xml:space="preserve">
-    <value>ShareX - Afbeeldingssplitser</value>
+    <value>CrySnap - Afbeeldingssplitser</value>
   </data>
   <data name="ImageSplitterWindow_Split_image" xml:space="preserve">
     <value>Afbeelding splitsen</value>
@@ -879,7 +879,7 @@ Bestandspad: {0}</value>
     <value>Uitvoer</value>
   </data>
   <data name="ImageThumbnailerWindow_ShareX_Image_Thumbnailer" xml:space="preserve">
-    <value>ShareX - Miniatuurgenerator</value>
+    <value>CrySnap - Miniatuurgenerator</value>
   </data>
   <data name="ImageThumbnailerWindow_Thumbnail_size" xml:space="preserve">
     <value>Miniatuurgrootte</value>
@@ -906,7 +906,7 @@ Bestandspad: {0}</value>
     <value>{0:n0} map</value>
   </data>
   <data name="IndexerText_Generated_by" xml:space="preserve">
-    <value>Gegenereerd door ShareX Directory Indexer op {0:yyyy-MM-dd 'at' HH:mm:ss 'UTC'}. De nieuwste versie kan hier worden gedownload: {1}</value>
+    <value>Gegenereerd door CrySnap Directory Indexer op {0:yyyy-MM-dd 'at' HH:mm:ss 'UTC'}. De nieuwste versie kan hier worden gedownload: {1}</value>
   </data>
   <data name="InspectWindowPickerOverlay_Click_control" xml:space="preserve">
     <value>Klik op een besturingselement om het te inspecteren  |  Esc om te annuleren</value>
@@ -987,7 +987,7 @@ Bestandspad: {0}</value>
     <value>Venster selecteren</value>
   </data>
   <data name="InspectWindowWindow_ShareX_Inspect_Window" xml:space="preserve">
-    <value>ShareX - Venster inspecteren</value>
+    <value>CrySnap - Venster inspecteren</value>
   </data>
   <data name="InspectWindowWindow_Window_information" xml:space="preserve">
     <value>Vensterinformatie</value>
@@ -1091,10 +1091,10 @@ Bestandspad: {0}</value>
 {0}</value>
   </data>
   <data name="MetadataViewModel_Window_title" xml:space="preserve">
-    <value>ShareX - Metagegevens</value>
+    <value>CrySnap - Metagegevens</value>
   </data>
   <data name="MetadataViewModel_Window_title_file" xml:space="preserve">
-    <value>ShareX - Metagegevens - {0}</value>
+    <value>CrySnap - Metagegevens - {0}</value>
   </data>
   <data name="MetadataWindow_Cancel" xml:space="preserve">
     <value>Annuleren</value>
@@ -1175,7 +1175,7 @@ Bestandspad: {0}</value>
     <value>RGB</value>
   </data>
   <data name="MonitorTestWindow_ShareX_Monitor_Test" xml:space="preserve">
-    <value>ShareX - Monitortest</value>
+    <value>CrySnap - Monitortest</value>
   </data>
   <data name="MonitorTestWindow_Speed" xml:space="preserve">
     <value>Snelheid</value>
@@ -1268,7 +1268,7 @@ Bestandspad: {0}</value>
     <value>Diensten</value>
   </data>
   <data name="OCRWindow_ShareX_Optical_character_recognition" xml:space="preserve">
-    <value>ShareX - Optische tekenherkenning</value>
+    <value>CrySnap - Optische tekenherkenning</value>
   </data>
   <data name="OCRWindow_Single_line" xml:space="preserve">
     <value>Enkele regel</value>
@@ -1370,7 +1370,7 @@ Bestandspad: {0}</value>
     <value>Afstand tot schermrand</value>
   </data>
   <data name="PinToScreenOptionsWindow_ShareX_Pin_to_Screen_options" xml:space="preserve">
-    <value>ShareX - Opties voor Vastmaken aan scherm</value>
+    <value>CrySnap - Opties voor Vastmaken aan scherm</value>
   </data>
   <data name="PinToScreenOptionsWindow_Size_and_opacity" xml:space="preserve">
     <value>Grootte en opaciteit</value>
@@ -1406,7 +1406,7 @@ Bestandspad: {0}</value>
     <value>Gebied selecteren...</value>
   </data>
   <data name="PinToScreenStartupWindow_ShareX_Pin_to_Screen" xml:space="preserve">
-    <value>ShareX - Vastmaken aan scherm</value>
+    <value>CrySnap - Vastmaken aan scherm</value>
   </data>
   <data name="PinToScreenWindow_Close" xml:space="preserve">
     <value>Sluiten</value>
@@ -1493,7 +1493,7 @@ Bestandspad: {0}</value>
     <value>Selecteer een afbeelding met een QR-code</value>
   </data>
   <data name="QRCodeWindow_ShareX_QR_Code" xml:space="preserve">
-    <value>ShareX - QR-code</value>
+    <value>CrySnap - QR-code</value>
   </data>
   <data name="QRCodeWindow_SVG_image" xml:space="preserve">
     <value>SVG-afbeelding</value>
@@ -1505,7 +1505,7 @@ Bestandspad: {0}</value>
     <value>Tolerantie: {0}%</value>
   </data>
   <data name="RulerWindow_ShareX_Ruler" xml:space="preserve">
-    <value>ShareX - Liniaal</value>
+    <value>CrySnap - Liniaal</value>
   </data>
   <data name="VideoConverterViewModel_Choose_video" xml:space="preserve">
     <value>Kies een video om te beginnen.</value>
@@ -1589,7 +1589,7 @@ Bestandspad: {0}</value>
     <value>Kwaliteit</value>
   </data>
   <data name="VideoConverterWindow_ShareX_Video_Converter" xml:space="preserve">
-    <value>ShareX - Videoconverter</value>
+    <value>CrySnap - Videoconverter</value>
   </data>
   <data name="VideoConverterWindow_Smaller_file" xml:space="preserve">
     <value>Kleiner bestand</value>
@@ -1691,7 +1691,7 @@ Bestandspad: {0}</value>
     <value>Video selecteren</value>
   </data>
   <data name="VideoThumbnailerWindow_ShareX_Video_Thumbnailer" xml:space="preserve">
-    <value>ShareX - Video-miniatuurgenerator</value>
+    <value>CrySnap - Video-miniatuurgenerator</value>
   </data>
   <data name="VideoThumbnailerWindow_Show_timestamps" xml:space="preserve">
     <value>Tijdstempels tonen</value>

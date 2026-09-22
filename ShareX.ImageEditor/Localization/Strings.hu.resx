@@ -514,7 +514,7 @@ Szeretné menteni a módosításokat a képszerkesztő bezárása előtt?</value
     <value>Kép</value>
   </data>
   <data name="MainViewModel_WindowTitle" xml:space="preserve">
-    <value>ShareX – Képszerkesztő</value>
+    <value>CrySnap – Képszerkesztő</value>
   </data>
   <data name="MainViewModel_RunAfterCaptureTasksEnter" xml:space="preserve">
     <value>Rögzítés utáni feladatok futtatása (Enter)</value>

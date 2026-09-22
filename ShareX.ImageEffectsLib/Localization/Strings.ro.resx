@@ -116,7 +116,7 @@
     <value>Y:</value>
   </data>
   <data name="ImageEffectPackagerWindow_Title" xml:space="preserve">
-    <value>ShareX - Creare pachet efect de imagine</value>
+    <value>CrySnap - Creare pachet efect de imagine</value>
   </data>
   <data name="ImageEffectPackagerWindow_Package_preset" xml:space="preserve">
     <value>Creare pachet presetare</value>
@@ -149,10 +149,10 @@
     <value>Salvați pachetul de efecte de imagine</value>
   </data>
   <data name="ImageEffectPackagerWindow_File_type" xml:space="preserve">
-    <value>Efect de imagine ShareX</value>
+    <value>Efect de imagine CrySnap</value>
   </data>
   <data name="ImageEffectPackagerWindow_Assets_must_be_inside" xml:space="preserve">
-    <value>Dosarul de resurse trebuie să se afle în dosarul de efecte de imagine ShareX.</value>
+    <value>Dosarul de resurse trebuie să se afle în dosarul de efecte de imagine CrySnap.</value>
   </data>
   <data name="ImageEffectPackagerWindow_Choose_package_path" xml:space="preserve">
     <value>Alegeți o cale pentru fișierul pachetului.</value>
@@ -164,7 +164,7 @@
     <value>Pachet creat cu succes.</value>
   </data>
   <data name="ImageEffectsConfirmationWindow_Title" xml:space="preserve">
-    <value>ShareX - Confirmare</value>
+    <value>CrySnap - Confirmare</value>
   </data>
   <data name="ImageEffectsConfirmationWindow_Continue" xml:space="preserve">
     <value>Continuă</value>
@@ -176,7 +176,7 @@
     <value>Nu</value>
   </data>
   <data name="ImageEffectsWindow_Title" xml:space="preserve">
-    <value>ShareX - Efecte de imagine</value>
+    <value>CrySnap - Efecte de imagine</value>
   </data>
   <data name="ImageEffectsWindow_Title_with_preview" xml:space="preserve">
     <value>{0} - {1} × {2} - {3} ms</value>

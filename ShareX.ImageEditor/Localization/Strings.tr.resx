@@ -514,7 +514,7 @@ Gölge seçenekleri (Sağ tık)</value>
     <value>Resim</value>
   </data>
   <data name="MainViewModel_WindowTitle" xml:space="preserve">
-    <value>ShareX - Resim düzenleyici</value>
+    <value>CrySnap - Resim düzenleyici</value>
   </data>
   <data name="MainViewModel_RunAfterCaptureTasksEnter" xml:space="preserve">
     <value>Yakalama sonrası görevlerini çalıştır (Enter)</value>

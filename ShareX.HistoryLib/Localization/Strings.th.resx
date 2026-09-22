@@ -13,7 +13,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="HistoryWindows_ShareX_History" xml:space="preserve">
-    <value>ShareX - ประวัติ</value>
+    <value>CrySnap - ประวัติ</value>
   </data>
   <data name="HistoryWindows_Search_file_names_and_tags" xml:space="preserve">
     <value>ค้นหาชื่อไฟล์และแท็ก</value>
@@ -217,7 +217,7 @@
     <value>ตกลง</value>
   </data>
   <data name="HistoryWindows_ShareX_Image_History" xml:space="preserve">
-    <value>ShareX - ประวัติรูปภาพ</value>
+    <value>CrySnap - ประวัติรูปภาพ</value>
   </data>
   <data name="HistoryWindows_Loading" xml:space="preserve">
     <value>กำลังโหลด...</value>

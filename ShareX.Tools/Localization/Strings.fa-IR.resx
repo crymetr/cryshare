@@ -128,7 +128,7 @@
     <value>ذخیره</value>
   </data>
   <data name="AnalyzeImageOptionsWindow_ShareX_Analyze_image_options" xml:space="preserve">
-    <value>ShareX - گزینه‌های تحلیل تصویر</value>
+    <value>CrySnap - گزینه‌های تحلیل تصویر</value>
   </data>
   <data name="AnalyzeImageOptionsWindow_Test_connection" xml:space="preserve">
     <value>آزمایش اتصال</value>
@@ -212,7 +212,7 @@
     <value>انتخاب ناحیه...</value>
   </data>
   <data name="AnalyzeImageWindow_ShareX_Analyze_image" xml:space="preserve">
-    <value>ShareX - تحلیل تصویر</value>
+    <value>CrySnap - تحلیل تصویر</value>
   </data>
   <data name="BackgroundRemoverViewModel_Background_removed_ms" xml:space="preserve">
     <value>پس‌زمینه در {0} میلی‌ثانیه حذف شد.</value>
@@ -266,7 +266,7 @@
     <value>برای پیش‌نمایش در اینجا یک تصویر انتخاب کنید.</value>
   </data>
   <data name="BackgroundRemoverWindow_ShareX_Background_Remover" xml:space="preserve">
-    <value>ShareX - حذف پس‌زمینه</value>
+    <value>CrySnap - حذف پس‌زمینه</value>
   </data>
   <data name="BorderlessWindowViewModel_Unable_to_toggle" xml:space="preserve">
     <value>تغییر وضعیت پنجره انتخاب‌شده ممکن نیست. {0}</value>
@@ -293,7 +293,7 @@
     <value>انتخاب پنجره</value>
   </data>
   <data name="BorderlessWindowWindow_ShareX_Borderless_Window" xml:space="preserve">
-    <value>ShareX - پنجره بدون حاشیه</value>
+    <value>CrySnap - پنجره بدون حاشیه</value>
   </data>
   <data name="BorderlessWindowWindow_Toggle_again_to_restore_the_original_border_and_window_size" xml:space="preserve">
     <value>برای بازیابی حاشیه و اندازه اصلی پنجره دوباره تغییر وضعیت دهید.</value>
@@ -356,7 +356,7 @@
     <value>تازه‌سازی</value>
   </data>
   <data name="ClipboardViewerWindow_ShareX_Clipboard_Viewer" xml:space="preserve">
-    <value>ShareX - نمایشگر حافظه موقت</value>
+    <value>CrySnap - نمایشگر حافظه موقت</value>
   </data>
   <data name="DirectoryIndexerViewModel_Index_for" xml:space="preserve">
     <value>نمایه {0}</value>
@@ -443,7 +443,7 @@
     <value>انتخاب پوشه برای نمایه‌سازی</value>
   </data>
   <data name="DirectoryIndexerWindow_ShareX_Directory_Indexer" xml:space="preserve">
-    <value>ShareX - نمایه‌ساز پوشه</value>
+    <value>CrySnap - نمایه‌ساز پوشه</value>
   </data>
   <data name="DirectoryIndexerWindow_Show_sizes" xml:space="preserve">
     <value>نمایش اندازه‌ها</value>
@@ -566,7 +566,7 @@
     <value>فایل دوم</value>
   </data>
   <data name="HashCheckerWindow_ShareX_Hash_Checker" xml:space="preserve">
-    <value>ShareX - بررسی‌کننده درهم‌سازی</value>
+    <value>CrySnap - بررسی‌کننده درهم‌سازی</value>
   </data>
   <data name="HashCheckerWindow_Stop" xml:space="preserve">
     <value>توقف</value>
@@ -659,7 +659,7 @@
     <value>ذخیره نماد با نام</value>
   </data>
   <data name="IconConverterWindow_ShareX_Icon_Converter" xml:space="preserve">
-    <value>ShareX - تبدیل‌کننده نماد</value>
+    <value>CrySnap - تبدیل‌کننده نماد</value>
   </data>
   <data name="IconConverterWindow_Sizes" xml:space="preserve">
     <value>اندازه‌ها</value>
@@ -734,7 +734,7 @@
     <value>جهت</value>
   </data>
   <data name="ImageCombinerWindow_ShareX_Image_Combiner" xml:space="preserve">
-    <value>ShareX - ترکیب‌کننده تصویر</value>
+    <value>CrySnap - ترکیب‌کننده تصویر</value>
   </data>
   <data name="ImageCombinerWindow_Spacing" xml:space="preserve">
     <value>فاصله</value>
@@ -785,7 +785,7 @@
     <value>برای نمایش پیش‌نمایش مقایسه، تصویر ۱ و تصویر ۲ را انتخاب کنید.</value>
   </data>
   <data name="ImageComparerWindow_ShareX_Image_Comparer" xml:space="preserve">
-    <value>ShareX - مقایسه‌کننده تصویر</value>
+    <value>CrySnap - مقایسه‌کننده تصویر</value>
   </data>
   <data name="ImageComparerWindow_Slider" xml:space="preserve">
     <value>لغزنده</value>
@@ -815,7 +815,7 @@
     <value>ردیف‌ها</value>
   </data>
   <data name="ImageSplitterWindow_ShareX_Image_Splitter" xml:space="preserve">
-    <value>ShareX - تقسیم‌کننده تصویر</value>
+    <value>CrySnap - تقسیم‌کننده تصویر</value>
   </data>
   <data name="ImageSplitterWindow_Split_image" xml:space="preserve">
     <value>تقسیم تصویر</value>
@@ -875,7 +875,7 @@
     <value>خروجی</value>
   </data>
   <data name="ImageThumbnailerWindow_ShareX_Image_Thumbnailer" xml:space="preserve">
-    <value>ShareX - سازنده تصویر بندانگشتی</value>
+    <value>CrySnap - سازنده تصویر بندانگشتی</value>
   </data>
   <data name="ImageThumbnailerWindow_Thumbnail_size" xml:space="preserve">
     <value>اندازه تصویر بندانگشتی</value>
@@ -902,7 +902,7 @@
     <value>{0:n0} پوشه</value>
   </data>
   <data name="IndexerText_Generated_by" xml:space="preserve">
-    <value>ایجادشده توسط ShareX Directory Indexer در {0:yyyy-MM-dd 'at' HH:mm:ss 'UTC'}. جدیدترین نسخه را می‌توان از اینجا دریافت کرد: {1}</value>
+    <value>ایجادشده توسط CrySnap Directory Indexer در {0:yyyy-MM-dd 'at' HH:mm:ss 'UTC'}. جدیدترین نسخه را می‌توان از اینجا دریافت کرد: {1}</value>
   </data>
   <data name="InspectWindowPickerOverlay_Click_control" xml:space="preserve">
     <value>برای بررسی روی یک کنترل کلیک کنید  |  Esc برای لغو</value>
@@ -983,7 +983,7 @@
     <value>انتخاب پنجره</value>
   </data>
   <data name="InspectWindowWindow_ShareX_Inspect_Window" xml:space="preserve">
-    <value>ShareX - بررسی پنجره</value>
+    <value>CrySnap - بررسی پنجره</value>
   </data>
   <data name="InspectWindowWindow_Window_information" xml:space="preserve">
     <value>اطلاعات پنجره</value>
@@ -1085,10 +1085,10 @@
     <value>حذف فراداده ممکن نیست\n{0}</value>
   </data>
   <data name="MetadataViewModel_Window_title" xml:space="preserve">
-    <value>ShareX - فراداده</value>
+    <value>CrySnap - فراداده</value>
   </data>
   <data name="MetadataViewModel_Window_title_file" xml:space="preserve">
-    <value>ShareX - فراداده - {0}</value>
+    <value>CrySnap - فراداده - {0}</value>
   </data>
   <data name="MetadataWindow_Cancel" xml:space="preserve">
     <value>انصراف</value>
@@ -1169,7 +1169,7 @@
     <value>RGB</value>
   </data>
   <data name="MonitorTestWindow_ShareX_Monitor_Test" xml:space="preserve">
-    <value>ShareX - آزمایش نمایشگر</value>
+    <value>CrySnap - آزمایش نمایشگر</value>
   </data>
   <data name="MonitorTestWindow_Speed" xml:space="preserve">
     <value>سرعت</value>
@@ -1262,7 +1262,7 @@
     <value>سرویس‌ها</value>
   </data>
   <data name="OCRWindow_ShareX_Optical_character_recognition" xml:space="preserve">
-    <value>ShareX - تشخیص نوری نویسه‌ها</value>
+    <value>CrySnap - تشخیص نوری نویسه‌ها</value>
   </data>
   <data name="OCRWindow_Single_line" xml:space="preserve">
     <value>تک‌خطی</value>
@@ -1364,7 +1364,7 @@
     <value>فاصله از لبه صفحه</value>
   </data>
   <data name="PinToScreenOptionsWindow_ShareX_Pin_to_Screen_options" xml:space="preserve">
-    <value>ShareX - گزینه‌های سنجاق به صفحه</value>
+    <value>CrySnap - گزینه‌های سنجاق به صفحه</value>
   </data>
   <data name="PinToScreenOptionsWindow_Size_and_opacity" xml:space="preserve">
     <value>اندازه و شفافیت</value>
@@ -1400,7 +1400,7 @@
     <value>انتخاب ناحیه...</value>
   </data>
   <data name="PinToScreenStartupWindow_ShareX_Pin_to_Screen" xml:space="preserve">
-    <value>ShareX - سنجاق به صفحه</value>
+    <value>CrySnap - سنجاق به صفحه</value>
   </data>
   <data name="PinToScreenWindow_Close" xml:space="preserve">
     <value>بستن</value>
@@ -1487,7 +1487,7 @@
     <value>انتخاب تصویر حاوی کد QR</value>
   </data>
   <data name="QRCodeWindow_ShareX_QR_Code" xml:space="preserve">
-    <value>ShareX - کد QR</value>
+    <value>CrySnap - کد QR</value>
   </data>
   <data name="QRCodeWindow_SVG_image" xml:space="preserve">
     <value>تصویر SVG</value>
@@ -1499,7 +1499,7 @@
     <value>تلرانس: {0}٪</value>
   </data>
   <data name="RulerWindow_ShareX_Ruler" xml:space="preserve">
-    <value>ShareX - خط‌کش</value>
+    <value>CrySnap - خط‌کش</value>
   </data>
   <data name="VideoConverterViewModel_Choose_video" xml:space="preserve">
     <value>برای شروع یک ویدئو انتخاب کنید.</value>
@@ -1583,7 +1583,7 @@
     <value>کیفیت</value>
   </data>
   <data name="VideoConverterWindow_ShareX_Video_Converter" xml:space="preserve">
-    <value>ShareX - تبدیل‌کننده ویدئو</value>
+    <value>CrySnap - تبدیل‌کننده ویدئو</value>
   </data>
   <data name="VideoConverterWindow_Smaller_file" xml:space="preserve">
     <value>فایل کوچک‌تر</value>
@@ -1685,7 +1685,7 @@
     <value>انتخاب ویدئو</value>
   </data>
   <data name="VideoThumbnailerWindow_ShareX_Video_Thumbnailer" xml:space="preserve">
-    <value>ShareX - سازنده تصویر بندانگشتی ویدئو</value>
+    <value>CrySnap - سازنده تصویر بندانگشتی ویدئو</value>
   </data>
   <data name="VideoThumbnailerWindow_Show_timestamps" xml:space="preserve">
     <value>نمایش مهرهای زمانی</value>

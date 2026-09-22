@@ -13,7 +13,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="HistoryWindows_ShareX_History" xml:space="preserve">
-    <value>ShareX - السجل</value>
+    <value>CrySnap - السجل</value>
   </data>
   <data name="HistoryWindows_Search_file_names_and_tags" xml:space="preserve">
     <value>البحث في أسماء الملفات والعلامات</value>
@@ -217,7 +217,7 @@
     <value>موافق</value>
   </data>
   <data name="HistoryWindows_ShareX_Image_History" xml:space="preserve">
-    <value>ShareX - سجل الصور</value>
+    <value>CrySnap - سجل الصور</value>
   </data>
   <data name="HistoryWindows_Loading" xml:space="preserve">
     <value>جارٍ التحميل...</value>

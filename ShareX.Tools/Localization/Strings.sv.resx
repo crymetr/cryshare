@@ -128,7 +128,7 @@
     <value>Spara</value>
   </data>
   <data name="AnalyzeImageOptionsWindow_ShareX_Analyze_image_options" xml:space="preserve">
-    <value>ShareX – Alternativ för bildanalys</value>
+    <value>CrySnap – Alternativ för bildanalys</value>
   </data>
   <data name="AnalyzeImageOptionsWindow_Test_connection" xml:space="preserve">
     <value>Testa anslutningen</value>
@@ -212,7 +212,7 @@
     <value>Välj område...</value>
   </data>
   <data name="AnalyzeImageWindow_ShareX_Analyze_image" xml:space="preserve">
-    <value>ShareX – Analysera bild</value>
+    <value>CrySnap – Analysera bild</value>
   </data>
   <data name="BackgroundRemoverViewModel_Background_removed_ms" xml:space="preserve">
     <value>Bakgrunden togs bort på {0} ms.</value>
@@ -267,7 +267,7 @@ Filsökväg: {0}</value>
     <value>Välj en bild för att förhandsgranska den här.</value>
   </data>
   <data name="BackgroundRemoverWindow_ShareX_Background_Remover" xml:space="preserve">
-    <value>ShareX – Bakgrundsborttagning</value>
+    <value>CrySnap – Bakgrundsborttagning</value>
   </data>
   <data name="BorderlessWindowViewModel_Unable_to_toggle" xml:space="preserve">
     <value>Det gick inte att växla det valda fönstret. {0}</value>
@@ -294,7 +294,7 @@ Filsökväg: {0}</value>
     <value>Välj fönster</value>
   </data>
   <data name="BorderlessWindowWindow_ShareX_Borderless_Window" xml:space="preserve">
-    <value>ShareX – Kantlöst fönster</value>
+    <value>CrySnap – Kantlöst fönster</value>
   </data>
   <data name="BorderlessWindowWindow_Toggle_again_to_restore_the_original_border_and_window_size" xml:space="preserve">
     <value>Växla igen för att återställa den ursprungliga kanten och fönsterstorleken.</value>
@@ -360,7 +360,7 @@ Filsökväg: {0}</value>
     <value>Uppdatera</value>
   </data>
   <data name="ClipboardViewerWindow_ShareX_Clipboard_Viewer" xml:space="preserve">
-    <value>ShareX – Urklippsvisare</value>
+    <value>CrySnap – Urklippsvisare</value>
   </data>
   <data name="DirectoryIndexerViewModel_Index_for" xml:space="preserve">
     <value>Index för {0}</value>
@@ -447,7 +447,7 @@ Filsökväg: {0}</value>
     <value>Välj mapp att indexera</value>
   </data>
   <data name="DirectoryIndexerWindow_ShareX_Directory_Indexer" xml:space="preserve">
-    <value>ShareX – Katalogindexerare</value>
+    <value>CrySnap – Katalogindexerare</value>
   </data>
   <data name="DirectoryIndexerWindow_Show_sizes" xml:space="preserve">
     <value>Visa storlekar</value>
@@ -570,7 +570,7 @@ Filsökväg: {0}</value>
     <value>Andra filen</value>
   </data>
   <data name="HashCheckerWindow_ShareX_Hash_Checker" xml:space="preserve">
-    <value>ShareX – Kontrollsummekontroll</value>
+    <value>CrySnap – Kontrollsummekontroll</value>
   </data>
   <data name="HashCheckerWindow_Stop" xml:space="preserve">
     <value>Stoppa</value>
@@ -663,7 +663,7 @@ Filsökväg: {0}</value>
     <value>Spara ikon som</value>
   </data>
   <data name="IconConverterWindow_ShareX_Icon_Converter" xml:space="preserve">
-    <value>ShareX – Ikonkonverterare</value>
+    <value>CrySnap – Ikonkonverterare</value>
   </data>
   <data name="IconConverterWindow_Sizes" xml:space="preserve">
     <value>Storlekar</value>
@@ -738,7 +738,7 @@ Filsökväg: {0}</value>
     <value>Orientering</value>
   </data>
   <data name="ImageCombinerWindow_ShareX_Image_Combiner" xml:space="preserve">
-    <value>ShareX – Bildkombinerare</value>
+    <value>CrySnap – Bildkombinerare</value>
   </data>
   <data name="ImageCombinerWindow_Spacing" xml:space="preserve">
     <value>Mellanrum</value>
@@ -789,7 +789,7 @@ Filsökväg: {0}</value>
     <value>Välj Bild 1 och Bild 2 för att visa jämförelseförhandsgranskningen.</value>
   </data>
   <data name="ImageComparerWindow_ShareX_Image_Comparer" xml:space="preserve">
-    <value>ShareX – Bildjämförelse</value>
+    <value>CrySnap – Bildjämförelse</value>
   </data>
   <data name="ImageComparerWindow_Slider" xml:space="preserve">
     <value>Skjutreglage</value>
@@ -819,7 +819,7 @@ Filsökväg: {0}</value>
     <value>Rader</value>
   </data>
   <data name="ImageSplitterWindow_ShareX_Image_Splitter" xml:space="preserve">
-    <value>ShareX – Bilddelare</value>
+    <value>CrySnap – Bilddelare</value>
   </data>
   <data name="ImageSplitterWindow_Split_image" xml:space="preserve">
     <value>Dela bild</value>
@@ -879,7 +879,7 @@ Filsökväg: {0}</value>
     <value>Utdata</value>
   </data>
   <data name="ImageThumbnailerWindow_ShareX_Image_Thumbnailer" xml:space="preserve">
-    <value>ShareX – Bildminiatyrskapare</value>
+    <value>CrySnap – Bildminiatyrskapare</value>
   </data>
   <data name="ImageThumbnailerWindow_Thumbnail_size" xml:space="preserve">
     <value>Miniatyrstorlek</value>
@@ -906,7 +906,7 @@ Filsökväg: {0}</value>
     <value>{0:n0} mapp</value>
   </data>
   <data name="IndexerText_Generated_by" xml:space="preserve">
-    <value>Genererat av ShareX Directory Indexer den {0:yyyy-MM-dd 'at' HH:mm:ss 'UTC'}. Den senaste versionen kan hämtas från: {1}</value>
+    <value>Genererat av CrySnap Directory Indexer den {0:yyyy-MM-dd 'at' HH:mm:ss 'UTC'}. Den senaste versionen kan hämtas från: {1}</value>
   </data>
   <data name="InspectWindowPickerOverlay_Click_control" xml:space="preserve">
     <value>Klicka på en kontroll för att granska den  |  Esc för att avbryta</value>
@@ -987,7 +987,7 @@ Filsökväg: {0}</value>
     <value>Välj fönster</value>
   </data>
   <data name="InspectWindowWindow_ShareX_Inspect_Window" xml:space="preserve">
-    <value>ShareX – Granska fönster</value>
+    <value>CrySnap – Granska fönster</value>
   </data>
   <data name="InspectWindowWindow_Window_information" xml:space="preserve">
     <value>Fönsterinformation</value>
@@ -1091,10 +1091,10 @@ Filsökväg: {0}</value>
 {0}</value>
   </data>
   <data name="MetadataViewModel_Window_title" xml:space="preserve">
-    <value>ShareX – Metadata</value>
+    <value>CrySnap – Metadata</value>
   </data>
   <data name="MetadataViewModel_Window_title_file" xml:space="preserve">
-    <value>ShareX – Metadata – {0}</value>
+    <value>CrySnap – Metadata – {0}</value>
   </data>
   <data name="MetadataWindow_Cancel" xml:space="preserve">
     <value>Avbryt</value>
@@ -1175,7 +1175,7 @@ Filsökväg: {0}</value>
     <value>RGB</value>
   </data>
   <data name="MonitorTestWindow_ShareX_Monitor_Test" xml:space="preserve">
-    <value>ShareX – Bildskärmstest</value>
+    <value>CrySnap – Bildskärmstest</value>
   </data>
   <data name="MonitorTestWindow_Speed" xml:space="preserve">
     <value>Hastighet</value>
@@ -1268,7 +1268,7 @@ Filsökväg: {0}</value>
     <value>Tjänster</value>
   </data>
   <data name="OCRWindow_ShareX_Optical_character_recognition" xml:space="preserve">
-    <value>ShareX – Optisk teckenigenkänning</value>
+    <value>CrySnap – Optisk teckenigenkänning</value>
   </data>
   <data name="OCRWindow_Single_line" xml:space="preserve">
     <value>En rad</value>
@@ -1370,7 +1370,7 @@ Filsökväg: {0}</value>
     <value>Förskjutning från skärmkanten</value>
   </data>
   <data name="PinToScreenOptionsWindow_ShareX_Pin_to_Screen_options" xml:space="preserve">
-    <value>ShareX – Alternativ för Fäst på skärmen</value>
+    <value>CrySnap – Alternativ för Fäst på skärmen</value>
   </data>
   <data name="PinToScreenOptionsWindow_Size_and_opacity" xml:space="preserve">
     <value>Storlek och opacitet</value>
@@ -1406,7 +1406,7 @@ Filsökväg: {0}</value>
     <value>Välj område...</value>
   </data>
   <data name="PinToScreenStartupWindow_ShareX_Pin_to_Screen" xml:space="preserve">
-    <value>ShareX – Fäst på skärmen</value>
+    <value>CrySnap – Fäst på skärmen</value>
   </data>
   <data name="PinToScreenWindow_Close" xml:space="preserve">
     <value>Stäng</value>
@@ -1493,7 +1493,7 @@ Filsökväg: {0}</value>
     <value>Välj en bild som innehåller en QR-kod</value>
   </data>
   <data name="QRCodeWindow_ShareX_QR_Code" xml:space="preserve">
-    <value>ShareX – QR-kod</value>
+    <value>CrySnap – QR-kod</value>
   </data>
   <data name="QRCodeWindow_SVG_image" xml:space="preserve">
     <value>SVG-bild</value>
@@ -1505,7 +1505,7 @@ Filsökväg: {0}</value>
     <value>Tolerans: {0}%</value>
   </data>
   <data name="RulerWindow_ShareX_Ruler" xml:space="preserve">
-    <value>ShareX – Linjal</value>
+    <value>CrySnap – Linjal</value>
   </data>
   <data name="VideoConverterViewModel_Choose_video" xml:space="preserve">
     <value>Välj en video för att börja.</value>
@@ -1589,7 +1589,7 @@ Filsökväg: {0}</value>
     <value>Kvalitet</value>
   </data>
   <data name="VideoConverterWindow_ShareX_Video_Converter" xml:space="preserve">
-    <value>ShareX – Videokonverterare</value>
+    <value>CrySnap – Videokonverterare</value>
   </data>
   <data name="VideoConverterWindow_Smaller_file" xml:space="preserve">
     <value>Mindre fil</value>
@@ -1691,7 +1691,7 @@ Filsökväg: {0}</value>
     <value>Välj video</value>
   </data>
   <data name="VideoThumbnailerWindow_ShareX_Video_Thumbnailer" xml:space="preserve">
-    <value>ShareX – Videominiatyrskapare</value>
+    <value>CrySnap – Videominiatyrskapare</value>
   </data>
   <data name="VideoThumbnailerWindow_Show_timestamps" xml:space="preserve">
     <value>Visa tidsstämplar</value>

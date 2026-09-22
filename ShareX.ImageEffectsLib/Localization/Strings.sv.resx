@@ -116,7 +116,7 @@
     <value>Y</value>
   </data>
   <data name="ImageEffectPackagerWindow_Title" xml:space="preserve">
-    <value>ShareX – Paketera bildeffekt</value>
+    <value>CrySnap – Paketera bildeffekt</value>
   </data>
   <data name="ImageEffectPackagerWindow_Package_preset" xml:space="preserve">
     <value>Paketera förinställning</value>
@@ -149,10 +149,10 @@
     <value>Spara bildeffektpaket</value>
   </data>
   <data name="ImageEffectPackagerWindow_File_type" xml:space="preserve">
-    <value>ShareX-bildeffekt</value>
+    <value>CrySnap-bildeffekt</value>
   </data>
   <data name="ImageEffectPackagerWindow_Assets_must_be_inside" xml:space="preserve">
-    <value>Resursmappen måste finnas i ShareX-mappen för bildeffekter.</value>
+    <value>Resursmappen måste finnas i CrySnap-mappen för bildeffekter.</value>
   </data>
   <data name="ImageEffectPackagerWindow_Choose_package_path" xml:space="preserve">
     <value>Välj en filsökväg för paketet.</value>
@@ -164,7 +164,7 @@
     <value>Paketet skapades.</value>
   </data>
   <data name="ImageEffectsConfirmationWindow_Title" xml:space="preserve">
-    <value>ShareX – Bekräftelse</value>
+    <value>CrySnap – Bekräftelse</value>
   </data>
   <data name="ImageEffectsConfirmationWindow_Continue" xml:space="preserve">
     <value>Fortsätta?</value>
@@ -176,7 +176,7 @@
     <value>Nej</value>
   </data>
   <data name="ImageEffectsWindow_Title" xml:space="preserve">
-    <value>ShareX – Bildeffekter</value>
+    <value>CrySnap – Bildeffekter</value>
   </data>
   <data name="ImageEffectsWindow_Title_with_preview" xml:space="preserve">
     <value>{0} - {1} × {2} - {3} ms</value>

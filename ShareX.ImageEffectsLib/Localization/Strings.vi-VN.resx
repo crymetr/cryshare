@@ -116,7 +116,7 @@
     <value>Y:</value>
   </data>
   <data name="ImageEffectPackagerWindow_Title" xml:space="preserve">
-    <value>ShareX - Đóng gói hiệu ứng hình ảnh</value>
+    <value>CrySnap - Đóng gói hiệu ứng hình ảnh</value>
   </data>
   <data name="ImageEffectPackagerWindow_Package_preset" xml:space="preserve">
     <value>Đóng gói thiết lập sẵn</value>
@@ -149,10 +149,10 @@
     <value>Lưu gói hiệu ứng hình ảnh</value>
   </data>
   <data name="ImageEffectPackagerWindow_File_type" xml:space="preserve">
-    <value>Hiệu ứng hình ảnh ShareX</value>
+    <value>Hiệu ứng hình ảnh CrySnap</value>
   </data>
   <data name="ImageEffectPackagerWindow_Assets_must_be_inside" xml:space="preserve">
-    <value>Thư mục tài nguyên phải nằm trong thư mục hiệu ứng hình ảnh của ShareX.</value>
+    <value>Thư mục tài nguyên phải nằm trong thư mục hiệu ứng hình ảnh của CrySnap.</value>
   </data>
   <data name="ImageEffectPackagerWindow_Choose_package_path" xml:space="preserve">
     <value>Chọn đường dẫn cho tệp gói.</value>
@@ -164,7 +164,7 @@
     <value>Đã tạo gói thành công.</value>
   </data>
   <data name="ImageEffectsConfirmationWindow_Title" xml:space="preserve">
-    <value>ShareX - Xác nhận</value>
+    <value>CrySnap - Xác nhận</value>
   </data>
   <data name="ImageEffectsConfirmationWindow_Continue" xml:space="preserve">
     <value>Tiếp tục</value>
@@ -176,7 +176,7 @@
     <value>Không</value>
   </data>
   <data name="ImageEffectsWindow_Title" xml:space="preserve">
-    <value>ShareX - Hiệu ứng hình ảnh</value>
+    <value>CrySnap - Hiệu ứng hình ảnh</value>
   </data>
   <data name="ImageEffectsWindow_Title_with_preview" xml:space="preserve">
     <value>{0} - {1} × {2} - {3} mili giây</value>

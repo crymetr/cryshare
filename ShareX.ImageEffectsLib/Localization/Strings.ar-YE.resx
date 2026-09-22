@@ -116,7 +116,7 @@
     <value>Y:</value>
   </data>
   <data name="ImageEffectPackagerWindow_Title" xml:space="preserve">
-    <value>ShareX - حزم تأثير الصورة</value>
+    <value>CrySnap - حزم تأثير الصورة</value>
   </data>
   <data name="ImageEffectPackagerWindow_Package_preset" xml:space="preserve">
     <value>حزم الإعداد المسبق</value>
@@ -149,10 +149,10 @@
     <value>حفظ حزمة تأثير الصورة</value>
   </data>
   <data name="ImageEffectPackagerWindow_File_type" xml:space="preserve">
-    <value>تأثير صورة ShareX</value>
+    <value>تأثير صورة CrySnap</value>
   </data>
   <data name="ImageEffectPackagerWindow_Assets_must_be_inside" xml:space="preserve">
-    <value>يجب أن يكون مجلد الأصول داخل مجلد تأثيرات الصور في ShareX.</value>
+    <value>يجب أن يكون مجلد الأصول داخل مجلد تأثيرات الصور في CrySnap.</value>
   </data>
   <data name="ImageEffectPackagerWindow_Choose_package_path" xml:space="preserve">
     <value>اختر مسارًا لملف الحزمة.</value>
@@ -164,7 +164,7 @@
     <value>تم إنشاء الحزمة بنجاح.</value>
   </data>
   <data name="ImageEffectsConfirmationWindow_Title" xml:space="preserve">
-    <value>ShareX - تأكيد</value>
+    <value>CrySnap - تأكيد</value>
   </data>
   <data name="ImageEffectsConfirmationWindow_Continue" xml:space="preserve">
     <value>متابعة</value>
@@ -176,7 +176,7 @@
     <value>لا</value>
   </data>
   <data name="ImageEffectsWindow_Title" xml:space="preserve">
-    <value>ShareX - تأثيرات الصور</value>
+    <value>CrySnap - تأثيرات الصور</value>
   </data>
   <data name="ImageEffectsWindow_Title_with_preview" xml:space="preserve">
     <value>{0} - {1} × {2} - {3} مللي ثانية</value>

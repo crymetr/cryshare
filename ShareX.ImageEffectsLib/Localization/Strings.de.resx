@@ -116,7 +116,7 @@
     <value>Y:</value>
   </data>
   <data name="ImageEffectPackagerWindow_Title" xml:space="preserve">
-    <value>ShareX - Bildeffekt paketieren</value>
+    <value>CrySnap - Bildeffekt paketieren</value>
   </data>
   <data name="ImageEffectPackagerWindow_Package_preset" xml:space="preserve">
     <value>Voreinstellung paketieren</value>
@@ -149,10 +149,10 @@
     <value>Bildeffektpaket speichern</value>
   </data>
   <data name="ImageEffectPackagerWindow_File_type" xml:space="preserve">
-    <value>ShareX-Bildeffekt</value>
+    <value>CrySnap-Bildeffekt</value>
   </data>
   <data name="ImageEffectPackagerWindow_Assets_must_be_inside" xml:space="preserve">
-    <value>Der Ressourcenordner muss sich im ShareX-Bildeffektordner befinden.</value>
+    <value>Der Ressourcenordner muss sich im CrySnap-Bildeffektordner befinden.</value>
   </data>
   <data name="ImageEffectPackagerWindow_Choose_package_path" xml:space="preserve">
     <value>Wählen Sie einen Pfad für die Paketdatei aus.</value>
@@ -164,7 +164,7 @@
     <value>Paket erfolgreich erstellt.</value>
   </data>
   <data name="ImageEffectsConfirmationWindow_Title" xml:space="preserve">
-    <value>ShareX – Bestätigung</value>
+    <value>CrySnap – Bestätigung</value>
   </data>
   <data name="ImageEffectsConfirmationWindow_Continue" xml:space="preserve">
     <value>Fortfahren</value>
@@ -176,7 +176,7 @@
     <value>Nein</value>
   </data>
   <data name="ImageEffectsWindow_Title" xml:space="preserve">
-    <value>ShareX - Bildeffekte</value>
+    <value>CrySnap - Bildeffekte</value>
   </data>
   <data name="ImageEffectsWindow_Title_with_preview" xml:space="preserve">
     <value>{0} - {1} × {2} - {3} ms</value>

@@ -13,7 +13,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="HistoryWindows_ShareX_History" xml:space="preserve">
-    <value>ShareX - تاریخچه</value>
+    <value>CrySnap - تاریخچه</value>
   </data>
   <data name="HistoryWindows_Search_file_names_and_tags" xml:space="preserve">
     <value>جستجو در نام فایل‌ها و برچسب‌ها</value>
@@ -217,7 +217,7 @@
     <value>تأیید</value>
   </data>
   <data name="HistoryWindows_ShareX_Image_History" xml:space="preserve">
-    <value>ShareX - تاریخچه تصاویر</value>
+    <value>CrySnap - تاریخچه تصاویر</value>
   </data>
   <data name="HistoryWindows_Loading" xml:space="preserve">
     <value>در حال بارگیری...</value>

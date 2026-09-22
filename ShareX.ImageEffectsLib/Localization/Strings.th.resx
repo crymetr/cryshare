@@ -116,7 +116,7 @@
     <value>Y</value>
   </data>
   <data name="ImageEffectPackagerWindow_Title" xml:space="preserve">
-    <value>ShareX - แพ็กเกจเอฟเฟกต์รูปภาพ</value>
+    <value>CrySnap - แพ็กเกจเอฟเฟกต์รูปภาพ</value>
   </data>
   <data name="ImageEffectPackagerWindow_Package_preset" xml:space="preserve">
     <value>แพ็กเกจ ค่าที่ตั้งไว้</value>
@@ -149,10 +149,10 @@
     <value>บันทึกรูปภาพ เอฟเฟกต์ แพ็กเกจ</value>
   </data>
   <data name="ImageEffectPackagerWindow_File_type" xml:space="preserve">
-    <value>ShareX รูปภาพ เอฟเฟกต์</value>
+    <value>CrySnap รูปภาพ เอฟเฟกต์</value>
   </data>
   <data name="ImageEffectPackagerWindow_Assets_must_be_inside" xml:space="preserve">
-    <value>โฟลเดอร์ทรัพยากรต้องอยู่ภายในโฟลเดอร์เอฟเฟกต์รูปภาพของ ShareX</value>
+    <value>โฟลเดอร์ทรัพยากรต้องอยู่ภายในโฟลเดอร์เอฟเฟกต์รูปภาพของ CrySnap</value>
   </data>
   <data name="ImageEffectPackagerWindow_Choose_package_path" xml:space="preserve">
     <value>เลือก แพ็กเกจ เส้นทางไฟล์.</value>
@@ -164,7 +164,7 @@
     <value>แพ็กเกจ สร้างแล้ว สำเร็จ.</value>
   </data>
   <data name="ImageEffectsConfirmationWindow_Title" xml:space="preserve">
-    <value>ShareX - การยืนยัน</value>
+    <value>CrySnap - การยืนยัน</value>
   </data>
   <data name="ImageEffectsConfirmationWindow_Continue" xml:space="preserve">
     <value>ดำเนินการต่อ?</value>
@@ -176,7 +176,7 @@
     <value>ไม่</value>
   </data>
   <data name="ImageEffectsWindow_Title" xml:space="preserve">
-    <value>ShareX - เอฟเฟกต์รูปภาพ</value>
+    <value>CrySnap - เอฟเฟกต์รูปภาพ</value>
   </data>
   <data name="ImageEffectsWindow_Title_with_preview" xml:space="preserve">
     <value>{0} - {1} × {2} - {3} ms</value>

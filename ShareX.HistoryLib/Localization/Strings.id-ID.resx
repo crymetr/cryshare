@@ -13,7 +13,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="HistoryWindows_ShareX_History" xml:space="preserve">
-    <value>ShareX - Riwayat</value>
+    <value>CrySnap - Riwayat</value>
   </data>
   <data name="HistoryWindows_Search_file_names_and_tags" xml:space="preserve">
     <value>Cari nama file dan tag</value>
@@ -217,7 +217,7 @@
     <value>OK</value>
   </data>
   <data name="HistoryWindows_ShareX_Image_History" xml:space="preserve">
-    <value>ShareX - Riwayat Gambar</value>
+    <value>CrySnap - Riwayat Gambar</value>
   </data>
   <data name="HistoryWindows_Loading" xml:space="preserve">
     <value>Memuat...</value>

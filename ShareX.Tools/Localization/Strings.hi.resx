@@ -128,7 +128,7 @@
     <value>सहेजें</value>
   </data>
   <data name="AnalyzeImageOptionsWindow_ShareX_Analyze_image_options" xml:space="preserve">
-    <value>ShareX - छवि विश्लेषण विकल्प</value>
+    <value>CrySnap - छवि विश्लेषण विकल्प</value>
   </data>
   <data name="AnalyzeImageOptionsWindow_Test_connection" xml:space="preserve">
     <value>कनेक्शन जाँचें</value>
@@ -212,7 +212,7 @@
     <value>क्षेत्र चुनें...</value>
   </data>
   <data name="AnalyzeImageWindow_ShareX_Analyze_image" xml:space="preserve">
-    <value>ShareX - छवि विश्लेषण</value>
+    <value>CrySnap - छवि विश्लेषण</value>
   </data>
   <data name="BackgroundRemoverViewModel_Background_removed_ms" xml:space="preserve">
     <value>पृष्ठभूमि {0} ms में हटाई गई।</value>
@@ -267,7 +267,7 @@
     <value>यहाँ पूर्वावलोकन के लिए कोई छवि चुनें।</value>
   </data>
   <data name="BackgroundRemoverWindow_ShareX_Background_Remover" xml:space="preserve">
-    <value>ShareX - पृष्ठभूमि हटाने वाला</value>
+    <value>CrySnap - पृष्ठभूमि हटाने वाला</value>
   </data>
   <data name="BorderlessWindowViewModel_Unable_to_toggle" xml:space="preserve">
     <value>चुनी गई विंडो को बदलना संभव नहीं। {0}</value>
@@ -294,7 +294,7 @@
     <value>विंडो चुनें</value>
   </data>
   <data name="BorderlessWindowWindow_ShareX_Borderless_Window" xml:space="preserve">
-    <value>ShareX - किनारारहित विंडो</value>
+    <value>CrySnap - किनारारहित विंडो</value>
   </data>
   <data name="BorderlessWindowWindow_Toggle_again_to_restore_the_original_border_and_window_size" xml:space="preserve">
     <value>मूल किनारा और विंडो आकार पुनर्स्थापित करने के लिए फिर से बदलें।</value>
@@ -360,7 +360,7 @@
     <value>ताज़ा करें</value>
   </data>
   <data name="ClipboardViewerWindow_ShareX_Clipboard_Viewer" xml:space="preserve">
-    <value>ShareX - क्लिपबोर्ड दर्शक</value>
+    <value>CrySnap - क्लिपबोर्ड दर्शक</value>
   </data>
   <data name="DirectoryIndexerViewModel_Index_for" xml:space="preserve">
     <value>{0} की अनुक्रमणिका</value>
@@ -447,7 +447,7 @@
     <value>अनुक्रमित करने के लिए फ़ोल्डर चुनें</value>
   </data>
   <data name="DirectoryIndexerWindow_ShareX_Directory_Indexer" xml:space="preserve">
-    <value>ShareX - निर्देशिका अनुक्रमक</value>
+    <value>CrySnap - निर्देशिका अनुक्रमक</value>
   </data>
   <data name="DirectoryIndexerWindow_Show_sizes" xml:space="preserve">
     <value>आकार दिखाएँ</value>
@@ -570,7 +570,7 @@
     <value>दूसरी फ़ाइल</value>
   </data>
   <data name="HashCheckerWindow_ShareX_Hash_Checker" xml:space="preserve">
-    <value>ShareX - हैश जाँचकर्ता</value>
+    <value>CrySnap - हैश जाँचकर्ता</value>
   </data>
   <data name="HashCheckerWindow_Stop" xml:space="preserve">
     <value>रोकें</value>
@@ -663,7 +663,7 @@
     <value>आइकन इस रूप में सहेजें</value>
   </data>
   <data name="IconConverterWindow_ShareX_Icon_Converter" xml:space="preserve">
-    <value>ShareX - आइकन रूपांतरक</value>
+    <value>CrySnap - आइकन रूपांतरक</value>
   </data>
   <data name="IconConverterWindow_Sizes" xml:space="preserve">
     <value>आकार</value>
@@ -738,7 +738,7 @@
     <value>दिशा</value>
   </data>
   <data name="ImageCombinerWindow_ShareX_Image_Combiner" xml:space="preserve">
-    <value>ShareX - छवि संयोजक</value>
+    <value>CrySnap - छवि संयोजक</value>
   </data>
   <data name="ImageCombinerWindow_Spacing" xml:space="preserve">
     <value>अंतर</value>
@@ -789,7 +789,7 @@
     <value>तुलना पूर्वावलोकन दिखाने के लिए छवि 1 और छवि 2 चुनें।</value>
   </data>
   <data name="ImageComparerWindow_ShareX_Image_Comparer" xml:space="preserve">
-    <value>ShareX - छवि तुलनाकर्ता</value>
+    <value>CrySnap - छवि तुलनाकर्ता</value>
   </data>
   <data name="ImageComparerWindow_Slider" xml:space="preserve">
     <value>स्लाइडर</value>
@@ -819,7 +819,7 @@
     <value>पंक्तियाँ</value>
   </data>
   <data name="ImageSplitterWindow_ShareX_Image_Splitter" xml:space="preserve">
-    <value>ShareX - छवि विभाजक</value>
+    <value>CrySnap - छवि विभाजक</value>
   </data>
   <data name="ImageSplitterWindow_Split_image" xml:space="preserve">
     <value>छवि विभाजित करें</value>
@@ -879,7 +879,7 @@
     <value>आउटपुट</value>
   </data>
   <data name="ImageThumbnailerWindow_ShareX_Image_Thumbnailer" xml:space="preserve">
-    <value>ShareX - छवि थंबनेल निर्माता</value>
+    <value>CrySnap - छवि थंबनेल निर्माता</value>
   </data>
   <data name="ImageThumbnailerWindow_Thumbnail_size" xml:space="preserve">
     <value>थंबनेल आकार</value>
@@ -906,7 +906,7 @@
     <value>{0:n0} फ़ोल्डर</value>
   </data>
   <data name="IndexerText_Generated_by" xml:space="preserve">
-    <value>{0:yyyy-MM-dd 'at' HH:mm:ss 'UTC'} को ShareX निर्देशिका अनुक्रमक द्वारा बनाया गया। नवीनतम संस्करण यहाँ से डाउनलोड किया जा सकता है: {1}</value>
+    <value>{0:yyyy-MM-dd 'at' HH:mm:ss 'UTC'} को CrySnap निर्देशिका अनुक्रमक द्वारा बनाया गया। नवीनतम संस्करण यहाँ से डाउनलोड किया जा सकता है: {1}</value>
   </data>
   <data name="InspectWindowPickerOverlay_Click_control" xml:space="preserve">
     <value>जाँचने के लिए नियंत्रण क्लिक करें  |  रद्द करने के लिए Esc</value>
@@ -987,7 +987,7 @@
     <value>विंडो चुनें</value>
   </data>
   <data name="InspectWindowWindow_ShareX_Inspect_Window" xml:space="preserve">
-    <value>ShareX - विंडो जाँच</value>
+    <value>CrySnap - विंडो जाँच</value>
   </data>
   <data name="InspectWindowWindow_Window_information" xml:space="preserve">
     <value>विंडो जानकारी</value>
@@ -1091,10 +1091,10 @@
 {0}</value>
   </data>
   <data name="MetadataViewModel_Window_title" xml:space="preserve">
-    <value>ShareX - मेटाडेटा</value>
+    <value>CrySnap - मेटाडेटा</value>
   </data>
   <data name="MetadataViewModel_Window_title_file" xml:space="preserve">
-    <value>ShareX - मेटाडेटा - {0}</value>
+    <value>CrySnap - मेटाडेटा - {0}</value>
   </data>
   <data name="MetadataWindow_Cancel" xml:space="preserve">
     <value>रद्द करें</value>
@@ -1175,7 +1175,7 @@
     <value>RGB</value>
   </data>
   <data name="MonitorTestWindow_ShareX_Monitor_Test" xml:space="preserve">
-    <value>ShareX - मॉनिटर परीक्षण</value>
+    <value>CrySnap - मॉनिटर परीक्षण</value>
   </data>
   <data name="MonitorTestWindow_Speed" xml:space="preserve">
     <value>गति</value>
@@ -1268,7 +1268,7 @@
     <value>सेवाएँ</value>
   </data>
   <data name="OCRWindow_ShareX_Optical_character_recognition" xml:space="preserve">
-    <value>ShareX - ऑप्टिकल वर्ण पहचान</value>
+    <value>CrySnap - ऑप्टिकल वर्ण पहचान</value>
   </data>
   <data name="OCRWindow_Single_line" xml:space="preserve">
     <value>एक पंक्ति</value>
@@ -1370,7 +1370,7 @@
     <value>स्क्रीन किनारा ऑफ़सेट</value>
   </data>
   <data name="PinToScreenOptionsWindow_ShareX_Pin_to_Screen_options" xml:space="preserve">
-    <value>ShareX - स्क्रीन पर पिन विकल्प</value>
+    <value>CrySnap - स्क्रीन पर पिन विकल्प</value>
   </data>
   <data name="PinToScreenOptionsWindow_Size_and_opacity" xml:space="preserve">
     <value>आकार और अपारदर्शिता</value>
@@ -1406,7 +1406,7 @@
     <value>क्षेत्र चुनें...</value>
   </data>
   <data name="PinToScreenStartupWindow_ShareX_Pin_to_Screen" xml:space="preserve">
-    <value>ShareX - स्क्रीन पर पिन करें</value>
+    <value>CrySnap - स्क्रीन पर पिन करें</value>
   </data>
   <data name="PinToScreenWindow_Close" xml:space="preserve">
     <value>बंद करें</value>
@@ -1493,7 +1493,7 @@
     <value>QR कोड वाली छवि चुनें</value>
   </data>
   <data name="QRCodeWindow_ShareX_QR_Code" xml:space="preserve">
-    <value>ShareX - QR कोड</value>
+    <value>CrySnap - QR कोड</value>
   </data>
   <data name="QRCodeWindow_SVG_image" xml:space="preserve">
     <value>SVG छवि</value>
@@ -1505,7 +1505,7 @@
     <value>सहनशीलता: {0}%</value>
   </data>
   <data name="RulerWindow_ShareX_Ruler" xml:space="preserve">
-    <value>ShareX - मापनी</value>
+    <value>CrySnap - मापनी</value>
   </data>
   <data name="VideoConverterViewModel_Choose_video" xml:space="preserve">
     <value>आरंभ करने के लिए वीडियो चुनें।</value>
@@ -1589,7 +1589,7 @@
     <value>गुणवत्ता</value>
   </data>
   <data name="VideoConverterWindow_ShareX_Video_Converter" xml:space="preserve">
-    <value>ShareX - वीडियो रूपांतरक</value>
+    <value>CrySnap - वीडियो रूपांतरक</value>
   </data>
   <data name="VideoConverterWindow_Smaller_file" xml:space="preserve">
     <value>छोटी फ़ाइल</value>
@@ -1691,7 +1691,7 @@
     <value>वीडियो चुनें</value>
   </data>
   <data name="VideoThumbnailerWindow_ShareX_Video_Thumbnailer" xml:space="preserve">
-    <value>ShareX - वीडियो थंबनेल निर्माता</value>
+    <value>CrySnap - वीडियो थंबनेल निर्माता</value>
   </data>
   <data name="VideoThumbnailerWindow_Show_timestamps" xml:space="preserve">
     <value>समय-मुद्राएँ दिखाएँ</value>

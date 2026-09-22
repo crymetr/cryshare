@@ -69,11 +69,11 @@ namespace ShareX.Setup
         private static string SolutionPath => Path.Combine(ParentDir, "ShareX.sln");
         private static string BinDir => Path.Combine(ParentDir, "ShareX", "bin", Configuration, RuntimeId);
         private static string SteamLauncherDir => Path.Combine(ParentDir, "ShareX.Steam", "bin", Configuration);
-        private static string ExecutablePath => Path.Combine(BinDir, "ShareX.exe");
+        private static string ExecutablePath => Path.Combine(BinDir, "CrySnap.exe");
 
         private static string OutputDir => Path.Combine(ParentDir, "Output");
-        private static string PortableOutputDir => Path.Combine(OutputDir, "ShareX-portable");
-        private static string DebugOutputDir => Path.Combine(OutputDir, "ShareX-debug");
+        private static string PortableOutputDir => Path.Combine(OutputDir, "CrySnap-portable");
+        private static string DebugOutputDir => Path.Combine(OutputDir, "CrySnap-debug");
         private static string SteamOutputDir => Path.Combine(OutputDir, "ShareX-Steam");
         private static string MicrosoftStoreOutputDir => Path.Combine(OutputDir, "ShareX-MicrosoftStore");
         private static string MicrosoftStoreDebugOutputDir => Path.Combine(OutputDir, "ShareX-MicrosoftStore-debug");
@@ -82,8 +82,8 @@ namespace ShareX.Setup
         private static string InnoSetupDir => Path.Combine(SetupDir, "InnoSetup");
         private static string MicrosoftStorePackageFilesDir => Path.Combine(SetupDir, "MicrosoftStore");
 
-        private static string SetupPath => Path.Combine(OutputDir, $"CryShare-{AppVersion}-setup-{Platform}.exe");
-        private static string PortableZipPath => Path.Combine(OutputDir, $"CryShare-{AppVersion}-portable-{Platform}.zip");
+        private static string SetupPath => Path.Combine(OutputDir, $"CrySnap-{AppVersion}-setup-{Platform}.exe");
+        private static string PortableZipPath => Path.Combine(OutputDir, $"CrySnap-{AppVersion}-portable-{Platform}.zip");
         private static string DebugZipPath => Path.Combine(OutputDir, $"ShareX-{AppVersion}-debug-{Platform}.zip");
         private static string SteamUpdatesDir => Path.Combine(SteamOutputDir, "Updates");
         private static string SteamZipPath => Path.Combine(OutputDir, $"ShareX-{AppVersion}-Steam-{Platform}.zip");
@@ -96,7 +96,7 @@ namespace ShareX.Setup
 
         private static void Main(string[] args)
         {
-            Console.WriteLine("ShareX setup started.");
+            Console.WriteLine("CrySnap setup started.");
 
             CheckArgs(args);
 

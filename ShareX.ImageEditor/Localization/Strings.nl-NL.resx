@@ -499,7 +499,7 @@ Schaduwopties (Rechtsklik)</value>
     <value>Afbeelding</value>
   </data>
   <data name="MainViewModel_WindowTitle" xml:space="preserve">
-    <value>ShareX - Afbeeldingseditor</value>
+    <value>CrySnap - Afbeeldingseditor</value>
   </data>
   <data name="MainViewModel_RunAfterCaptureTasksEnter" xml:space="preserve">
     <value>Taken na vastleggen uitvoeren (Enter)</value>

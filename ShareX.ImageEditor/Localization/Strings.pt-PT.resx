@@ -511,7 +511,7 @@ Opções de sombra (Clique direito)</value>
     <value>Imagem</value>
   </data>
   <data name="MainViewModel_WindowTitle" xml:space="preserve">
-    <value>ShareX - Editor de imagens</value>
+    <value>CrySnap - Editor de imagens</value>
   </data>
   <data name="MainViewModel_RunAfterCaptureTasksEnter" xml:space="preserve">
     <value>Executar tarefas após captura (Enter)</value>

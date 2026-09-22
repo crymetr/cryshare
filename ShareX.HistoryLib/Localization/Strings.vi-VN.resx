@@ -13,7 +13,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="HistoryWindows_ShareX_History" xml:space="preserve">
-    <value>ShareX - Lịch sử</value>
+    <value>CrySnap - Lịch sử</value>
   </data>
   <data name="HistoryWindows_Search_file_names_and_tags" xml:space="preserve">
     <value>Tìm kiếm tên tệp và thẻ</value>
@@ -217,7 +217,7 @@
     <value>OK</value>
   </data>
   <data name="HistoryWindows_ShareX_Image_History" xml:space="preserve">
-    <value>ShareX - Lịch sử ảnh</value>
+    <value>CrySnap - Lịch sử ảnh</value>
   </data>
   <data name="HistoryWindows_Loading" xml:space="preserve">
     <value>Đang tải...</value>

@@ -1,9 +1,9 @@
 <Project>
   <PropertyGroup>
     <Company>Sait Askar</Company>
-    <Product>CryShare</Product>
-    <Copyright>CryShare is a personal fork of ShareX. Copyright (c) 2007-2026 ShareX Team (GPL v3)</Copyright>
-    <Version>21.0.1</Version>
+    <Product>CrySnap</Product>
+    <Copyright>CrySnap is a local-only fork of ShareX. Copyright (c) 2007-2026 ShareX Team (GPL v3)</Copyright>
+    <Version>1.0.0</Version>
     <EmbeddedResourceUseDependentUponConvention>true</EmbeddedResourceUseDependentUponConvention>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <AppendPlatformToOutputPath>false</AppendPlatformToOutputPath>

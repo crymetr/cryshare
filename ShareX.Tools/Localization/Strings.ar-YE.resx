@@ -128,7 +128,7 @@
     <value>حفظ</value>
   </data>
   <data name="AnalyzeImageOptionsWindow_ShareX_Analyze_image_options" xml:space="preserve">
-    <value>ShareX - خيارات تحليل الصورة</value>
+    <value>CrySnap - خيارات تحليل الصورة</value>
   </data>
   <data name="AnalyzeImageOptionsWindow_Test_connection" xml:space="preserve">
     <value>اختبار الاتصال</value>
@@ -212,7 +212,7 @@
     <value>تحديد منطقة...</value>
   </data>
   <data name="AnalyzeImageWindow_ShareX_Analyze_image" xml:space="preserve">
-    <value>ShareX - تحليل الصورة</value>
+    <value>CrySnap - تحليل الصورة</value>
   </data>
   <data name="BackgroundRemoverViewModel_Background_removed_ms" xml:space="preserve">
     <value>تمت إزالة الخلفية خلال {0} مللي ثانية.</value>
@@ -266,7 +266,7 @@
     <value>اختر صورة لمعاينتها هنا.</value>
   </data>
   <data name="BackgroundRemoverWindow_ShareX_Background_Remover" xml:space="preserve">
-    <value>ShareX - إزالة الخلفية</value>
+    <value>CrySnap - إزالة الخلفية</value>
   </data>
   <data name="BorderlessWindowViewModel_Unable_to_toggle" xml:space="preserve">
     <value>تعذّر تبديل النافذة المحددة. {0}</value>
@@ -293,7 +293,7 @@
     <value>اختيار نافذة</value>
   </data>
   <data name="BorderlessWindowWindow_ShareX_Borderless_Window" xml:space="preserve">
-    <value>ShareX - نافذة بلا حدود</value>
+    <value>CrySnap - نافذة بلا حدود</value>
   </data>
   <data name="BorderlessWindowWindow_Toggle_again_to_restore_the_original_border_and_window_size" xml:space="preserve">
     <value>بدّل مرة أخرى لاستعادة الحد والحجم الأصليين للنافذة.</value>
@@ -356,7 +356,7 @@
     <value>تحديث</value>
   </data>
   <data name="ClipboardViewerWindow_ShareX_Clipboard_Viewer" xml:space="preserve">
-    <value>ShareX - عارض الحافظة</value>
+    <value>CrySnap - عارض الحافظة</value>
   </data>
   <data name="DirectoryIndexerViewModel_Index_for" xml:space="preserve">
     <value>فهرس {0}</value>
@@ -443,7 +443,7 @@
     <value>اختيار المجلد المراد فهرسته</value>
   </data>
   <data name="DirectoryIndexerWindow_ShareX_Directory_Indexer" xml:space="preserve">
-    <value>ShareX - مفهرس الأدلة</value>
+    <value>CrySnap - مفهرس الأدلة</value>
   </data>
   <data name="DirectoryIndexerWindow_Show_sizes" xml:space="preserve">
     <value>عرض الأحجام</value>
@@ -566,7 +566,7 @@
     <value>الملف الثاني</value>
   </data>
   <data name="HashCheckerWindow_ShareX_Hash_Checker" xml:space="preserve">
-    <value>ShareX - فاحص التجزئة</value>
+    <value>CrySnap - فاحص التجزئة</value>
   </data>
   <data name="HashCheckerWindow_Stop" xml:space="preserve">
     <value>إيقاف</value>
@@ -659,7 +659,7 @@
     <value>حفظ الرمز باسم</value>
   </data>
   <data name="IconConverterWindow_ShareX_Icon_Converter" xml:space="preserve">
-    <value>ShareX - محوّل الرموز</value>
+    <value>CrySnap - محوّل الرموز</value>
   </data>
   <data name="IconConverterWindow_Sizes" xml:space="preserve">
     <value>الأحجام</value>
@@ -734,7 +734,7 @@
     <value>الاتجاه</value>
   </data>
   <data name="ImageCombinerWindow_ShareX_Image_Combiner" xml:space="preserve">
-    <value>ShareX - دمج الصور</value>
+    <value>CrySnap - دمج الصور</value>
   </data>
   <data name="ImageCombinerWindow_Spacing" xml:space="preserve">
     <value>التباعد</value>
@@ -785,7 +785,7 @@
     <value>اختر الصورة 1 والصورة 2 لإظهار معاينة المقارنة.</value>
   </data>
   <data name="ImageComparerWindow_ShareX_Image_Comparer" xml:space="preserve">
-    <value>ShareX - مقارنة الصور</value>
+    <value>CrySnap - مقارنة الصور</value>
   </data>
   <data name="ImageComparerWindow_Slider" xml:space="preserve">
     <value>شريط التمرير</value>
@@ -815,7 +815,7 @@
     <value>الصفوف</value>
   </data>
   <data name="ImageSplitterWindow_ShareX_Image_Splitter" xml:space="preserve">
-    <value>ShareX - تقسيم الصور</value>
+    <value>CrySnap - تقسيم الصور</value>
   </data>
   <data name="ImageSplitterWindow_Split_image" xml:space="preserve">
     <value>تقسيم الصورة</value>
@@ -875,7 +875,7 @@
     <value>إخراج</value>
   </data>
   <data name="ImageThumbnailerWindow_ShareX_Image_Thumbnailer" xml:space="preserve">
-    <value>ShareX - منشئ الصور المصغرة</value>
+    <value>CrySnap - منشئ الصور المصغرة</value>
   </data>
   <data name="ImageThumbnailerWindow_Thumbnail_size" xml:space="preserve">
     <value>حجم الصورة المصغرة</value>
@@ -902,7 +902,7 @@
     <value>{0:n0} مجلد</value>
   </data>
   <data name="IndexerText_Generated_by" xml:space="preserve">
-    <value>تم الإنشاء بواسطة ShareX Directory Indexer في {0:yyyy-MM-dd 'at' HH:mm:ss 'UTC'}. يمكن تنزيل أحدث إصدار من: {1}</value>
+    <value>تم الإنشاء بواسطة CrySnap Directory Indexer في {0:yyyy-MM-dd 'at' HH:mm:ss 'UTC'}. يمكن تنزيل أحدث إصدار من: {1}</value>
   </data>
   <data name="InspectWindowPickerOverlay_Click_control" xml:space="preserve">
     <value>انقر فوق عنصر تحكم لفحصه  |  Esc للإلغاء</value>
@@ -983,7 +983,7 @@
     <value>اختيار نافذة</value>
   </data>
   <data name="InspectWindowWindow_ShareX_Inspect_Window" xml:space="preserve">
-    <value>ShareX - فحص النافذة</value>
+    <value>CrySnap - فحص النافذة</value>
   </data>
   <data name="InspectWindowWindow_Window_information" xml:space="preserve">
     <value>معلومات النافذة</value>
@@ -1085,10 +1085,10 @@
     <value>تعذّرت إزالة البيانات الوصفية\n{0}</value>
   </data>
   <data name="MetadataViewModel_Window_title" xml:space="preserve">
-    <value>ShareX - البيانات الوصفية</value>
+    <value>CrySnap - البيانات الوصفية</value>
   </data>
   <data name="MetadataViewModel_Window_title_file" xml:space="preserve">
-    <value>ShareX - البيانات الوصفية - {0}</value>
+    <value>CrySnap - البيانات الوصفية - {0}</value>
   </data>
   <data name="MetadataWindow_Cancel" xml:space="preserve">
     <value>إلغاء</value>
@@ -1169,7 +1169,7 @@
     <value>RGB</value>
   </data>
   <data name="MonitorTestWindow_ShareX_Monitor_Test" xml:space="preserve">
-    <value>ShareX - اختبار الشاشة</value>
+    <value>CrySnap - اختبار الشاشة</value>
   </data>
   <data name="MonitorTestWindow_Speed" xml:space="preserve">
     <value>السرعة</value>
@@ -1262,7 +1262,7 @@
     <value>الخدمات</value>
   </data>
   <data name="OCRWindow_ShareX_Optical_character_recognition" xml:space="preserve">
-    <value>ShareX - التعرف البصري على الأحرف</value>
+    <value>CrySnap - التعرف البصري على الأحرف</value>
   </data>
   <data name="OCRWindow_Single_line" xml:space="preserve">
     <value>سطر واحد</value>
@@ -1364,7 +1364,7 @@
     <value>الإزاحة عن حافة الشاشة</value>
   </data>
   <data name="PinToScreenOptionsWindow_ShareX_Pin_to_Screen_options" xml:space="preserve">
-    <value>ShareX - خيارات التثبيت على الشاشة</value>
+    <value>CrySnap - خيارات التثبيت على الشاشة</value>
   </data>
   <data name="PinToScreenOptionsWindow_Size_and_opacity" xml:space="preserve">
     <value>الحجم والتعتيم</value>
@@ -1400,7 +1400,7 @@
     <value>تحديد منطقة...</value>
   </data>
   <data name="PinToScreenStartupWindow_ShareX_Pin_to_Screen" xml:space="preserve">
-    <value>ShareX - التثبيت على الشاشة</value>
+    <value>CrySnap - التثبيت على الشاشة</value>
   </data>
   <data name="PinToScreenWindow_Close" xml:space="preserve">
     <value>إغلاق</value>
@@ -1487,7 +1487,7 @@
     <value>اختيار صورة تحتوي على رمز QR</value>
   </data>
   <data name="QRCodeWindow_ShareX_QR_Code" xml:space="preserve">
-    <value>ShareX - رمز QR</value>
+    <value>CrySnap - رمز QR</value>
   </data>
   <data name="QRCodeWindow_SVG_image" xml:space="preserve">
     <value>صورة SVG</value>
@@ -1499,7 +1499,7 @@
     <value>التفاوت: {0}٪</value>
   </data>
   <data name="RulerWindow_ShareX_Ruler" xml:space="preserve">
-    <value>ShareX - المسطرة</value>
+    <value>CrySnap - المسطرة</value>
   </data>
   <data name="VideoConverterViewModel_Choose_video" xml:space="preserve">
     <value>اختر مقطع فيديو للبدء.</value>
@@ -1583,7 +1583,7 @@
     <value>الجودة</value>
   </data>
   <data name="VideoConverterWindow_ShareX_Video_Converter" xml:space="preserve">
-    <value>ShareX - محوّل الفيديو</value>
+    <value>CrySnap - محوّل الفيديو</value>
   </data>
   <data name="VideoConverterWindow_Smaller_file" xml:space="preserve">
     <value>ملف أصغر</value>
@@ -1685,7 +1685,7 @@
     <value>اختيار فيديو</value>
   </data>
   <data name="VideoThumbnailerWindow_ShareX_Video_Thumbnailer" xml:space="preserve">
-    <value>ShareX - منشئ الصور المصغرة للفيديو</value>
+    <value>CrySnap - منشئ الصور المصغرة للفيديو</value>
   </data>
   <data name="VideoThumbnailerWindow_Show_timestamps" xml:space="preserve">
     <value>عرض الطوابع الزمنية</value>

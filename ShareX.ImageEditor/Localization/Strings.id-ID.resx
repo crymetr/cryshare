@@ -508,7 +508,7 @@ Opsi bayangan (Klik kanan)</value>
     <value>Gambar</value>
   </data>
   <data name="MainViewModel_WindowTitle" xml:space="preserve">
-    <value>ShareX - Editor Gambar</value>
+    <value>CrySnap - Editor Gambar</value>
   </data>
   <data name="MainViewModel_RunAfterCaptureTasksEnter" xml:space="preserve">
     <value>Jalankan tugas setelah tangkapan (Enter)</value>

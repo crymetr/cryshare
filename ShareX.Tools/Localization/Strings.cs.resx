@@ -128,7 +128,7 @@
     <value>Uložit</value>
   </data>
   <data name="AnalyzeImageOptionsWindow_ShareX_Analyze_image_options" xml:space="preserve">
-    <value>ShareX – Možnosti analýzy obrázku</value>
+    <value>CrySnap – Možnosti analýzy obrázku</value>
   </data>
   <data name="AnalyzeImageOptionsWindow_Test_connection" xml:space="preserve">
     <value>Otestovat připojení</value>
@@ -212,7 +212,7 @@
     <value>Vybrat oblast...</value>
   </data>
   <data name="AnalyzeImageWindow_ShareX_Analyze_image" xml:space="preserve">
-    <value>ShareX – Analýza obrázku</value>
+    <value>CrySnap – Analýza obrázku</value>
   </data>
   <data name="BackgroundRemoverViewModel_Background_removed_ms" xml:space="preserve">
     <value>Pozadí bylo odstraněno za {0} ms.</value>
@@ -267,7 +267,7 @@ Cesta k souboru: {0}</value>
     <value>Vyberte obrázek a zobrazí se zde jeho náhled.</value>
   </data>
   <data name="BackgroundRemoverWindow_ShareX_Background_Remover" xml:space="preserve">
-    <value>ShareX – Odstranění pozadí</value>
+    <value>CrySnap – Odstranění pozadí</value>
   </data>
   <data name="BorderlessWindowViewModel_Unable_to_toggle" xml:space="preserve">
     <value>Vybrané okno nelze přepnout. {0}</value>
@@ -294,7 +294,7 @@ Cesta k souboru: {0}</value>
     <value>Vybrat okno</value>
   </data>
   <data name="BorderlessWindowWindow_ShareX_Borderless_Window" xml:space="preserve">
-    <value>ShareX – Okno bez ohraničení</value>
+    <value>CrySnap – Okno bez ohraničení</value>
   </data>
   <data name="BorderlessWindowWindow_Toggle_again_to_restore_the_original_border_and_window_size" xml:space="preserve">
     <value>Dalším přepnutím obnovíte původní ohraničení a velikost okna.</value>
@@ -360,7 +360,7 @@ Cesta k souboru: {0}</value>
     <value>Obnovit</value>
   </data>
   <data name="ClipboardViewerWindow_ShareX_Clipboard_Viewer" xml:space="preserve">
-    <value>ShareX – Prohlížeč schránky</value>
+    <value>CrySnap – Prohlížeč schránky</value>
   </data>
   <data name="DirectoryIndexerViewModel_Index_for" xml:space="preserve">
     <value>Index pro {0}</value>
@@ -447,7 +447,7 @@ Cesta k souboru: {0}</value>
     <value>Vybrat složku k indexování</value>
   </data>
   <data name="DirectoryIndexerWindow_ShareX_Directory_Indexer" xml:space="preserve">
-    <value>ShareX – Indexování adresářů</value>
+    <value>CrySnap – Indexování adresářů</value>
   </data>
   <data name="DirectoryIndexerWindow_Show_sizes" xml:space="preserve">
     <value>Zobrazit velikosti</value>
@@ -570,7 +570,7 @@ Cesta k souboru: {0}</value>
     <value>Druhý soubor</value>
   </data>
   <data name="HashCheckerWindow_ShareX_Hash_Checker" xml:space="preserve">
-    <value>ShareX – Kontrola kontrolního součtu</value>
+    <value>CrySnap – Kontrola kontrolního součtu</value>
   </data>
   <data name="HashCheckerWindow_Stop" xml:space="preserve">
     <value>Zastavit</value>
@@ -663,7 +663,7 @@ Cesta k souboru: {0}</value>
     <value>Uložit ikonu jako</value>
   </data>
   <data name="IconConverterWindow_ShareX_Icon_Converter" xml:space="preserve">
-    <value>ShareX – Převodník ikon</value>
+    <value>CrySnap – Převodník ikon</value>
   </data>
   <data name="IconConverterWindow_Sizes" xml:space="preserve">
     <value>Velikosti</value>
@@ -738,7 +738,7 @@ Cesta k souboru: {0}</value>
     <value>Orientace</value>
   </data>
   <data name="ImageCombinerWindow_ShareX_Image_Combiner" xml:space="preserve">
-    <value>ShareX – Spojování obrázků</value>
+    <value>CrySnap – Spojování obrázků</value>
   </data>
   <data name="ImageCombinerWindow_Spacing" xml:space="preserve">
     <value>Mezery</value>
@@ -789,7 +789,7 @@ Cesta k souboru: {0}</value>
     <value>Výběrem obrázku 1 a obrázku 2 zobrazíte náhled porovnání.</value>
   </data>
   <data name="ImageComparerWindow_ShareX_Image_Comparer" xml:space="preserve">
-    <value>ShareX – Porovnání obrázků</value>
+    <value>CrySnap – Porovnání obrázků</value>
   </data>
   <data name="ImageComparerWindow_Slider" xml:space="preserve">
     <value>Posuvník</value>
@@ -819,7 +819,7 @@ Cesta k souboru: {0}</value>
     <value>Řádky</value>
   </data>
   <data name="ImageSplitterWindow_ShareX_Image_Splitter" xml:space="preserve">
-    <value>ShareX – Rozdělení obrázku</value>
+    <value>CrySnap – Rozdělení obrázku</value>
   </data>
   <data name="ImageSplitterWindow_Split_image" xml:space="preserve">
     <value>Rozdělit obrázek</value>
@@ -879,7 +879,7 @@ Cesta k souboru: {0}</value>
     <value>Výstup</value>
   </data>
   <data name="ImageThumbnailerWindow_ShareX_Image_Thumbnailer" xml:space="preserve">
-    <value>ShareX – Generátor miniatur obrázků</value>
+    <value>CrySnap – Generátor miniatur obrázků</value>
   </data>
   <data name="ImageThumbnailerWindow_Thumbnail_size" xml:space="preserve">
     <value>Velikost miniatury</value>
@@ -906,7 +906,7 @@ Cesta k souboru: {0}</value>
     <value>{0:n0} složka</value>
   </data>
   <data name="IndexerText_Generated_by" xml:space="preserve">
-    <value>Vygenerováno nástrojem ShareX Directory Indexer dne {0:yyyy-MM-dd 'at' HH:mm:ss 'UTC'}. Nejnovější verzi lze stáhnout z: {1}</value>
+    <value>Vygenerováno nástrojem CrySnap Directory Indexer dne {0:yyyy-MM-dd 'at' HH:mm:ss 'UTC'}. Nejnovější verzi lze stáhnout z: {1}</value>
   </data>
   <data name="InspectWindowPickerOverlay_Click_control" xml:space="preserve">
     <value>Kliknutím vyberte ovládací prvek ke kontrole  |  Esc – zrušit</value>
@@ -987,7 +987,7 @@ Cesta k souboru: {0}</value>
     <value>Vybrat okno</value>
   </data>
   <data name="InspectWindowWindow_ShareX_Inspect_Window" xml:space="preserve">
-    <value>ShareX – Kontrola okna</value>
+    <value>CrySnap – Kontrola okna</value>
   </data>
   <data name="InspectWindowWindow_Window_information" xml:space="preserve">
     <value>Informace o okně</value>
@@ -1091,10 +1091,10 @@ Cesta k souboru: {0}</value>
 {0}</value>
   </data>
   <data name="MetadataViewModel_Window_title" xml:space="preserve">
-    <value>ShareX – Metadata</value>
+    <value>CrySnap – Metadata</value>
   </data>
   <data name="MetadataViewModel_Window_title_file" xml:space="preserve">
-    <value>ShareX – Metadata – {0}</value>
+    <value>CrySnap – Metadata – {0}</value>
   </data>
   <data name="MetadataWindow_Cancel" xml:space="preserve">
     <value>Zrušit</value>
@@ -1175,7 +1175,7 @@ Cesta k souboru: {0}</value>
     <value>RGB</value>
   </data>
   <data name="MonitorTestWindow_ShareX_Monitor_Test" xml:space="preserve">
-    <value>ShareX – Test monitoru</value>
+    <value>CrySnap – Test monitoru</value>
   </data>
   <data name="MonitorTestWindow_Speed" xml:space="preserve">
     <value>Rychlost</value>
@@ -1268,7 +1268,7 @@ Cesta k souboru: {0}</value>
     <value>Služby</value>
   </data>
   <data name="OCRWindow_ShareX_Optical_character_recognition" xml:space="preserve">
-    <value>ShareX – Optické rozpoznávání znaků</value>
+    <value>CrySnap – Optické rozpoznávání znaků</value>
   </data>
   <data name="OCRWindow_Single_line" xml:space="preserve">
     <value>Jeden řádek</value>
@@ -1370,7 +1370,7 @@ Cesta k souboru: {0}</value>
     <value>Odsazení od okraje obrazovky</value>
   </data>
   <data name="PinToScreenOptionsWindow_ShareX_Pin_to_Screen_options" xml:space="preserve">
-    <value>ShareX – Možnosti připnutí na obrazovku</value>
+    <value>CrySnap – Možnosti připnutí na obrazovku</value>
   </data>
   <data name="PinToScreenOptionsWindow_Size_and_opacity" xml:space="preserve">
     <value>Velikost a neprůhlednost</value>
@@ -1406,7 +1406,7 @@ Cesta k souboru: {0}</value>
     <value>Vybrat oblast...</value>
   </data>
   <data name="PinToScreenStartupWindow_ShareX_Pin_to_Screen" xml:space="preserve">
-    <value>ShareX – Připnout na obrazovku</value>
+    <value>CrySnap – Připnout na obrazovku</value>
   </data>
   <data name="PinToScreenWindow_Close" xml:space="preserve">
     <value>Zavřít</value>
@@ -1493,7 +1493,7 @@ Cesta k souboru: {0}</value>
     <value>Vybrat obrázek obsahující QR kód</value>
   </data>
   <data name="QRCodeWindow_ShareX_QR_Code" xml:space="preserve">
-    <value>ShareX – QR kód</value>
+    <value>CrySnap – QR kód</value>
   </data>
   <data name="QRCodeWindow_SVG_image" xml:space="preserve">
     <value>Obrázek SVG</value>
@@ -1505,7 +1505,7 @@ Cesta k souboru: {0}</value>
     <value>Tolerance: {0}%</value>
   </data>
   <data name="RulerWindow_ShareX_Ruler" xml:space="preserve">
-    <value>ShareX – Pravítko</value>
+    <value>CrySnap – Pravítko</value>
   </data>
   <data name="VideoConverterViewModel_Choose_video" xml:space="preserve">
     <value>Začněte výběrem videa.</value>
@@ -1589,7 +1589,7 @@ Cesta k souboru: {0}</value>
     <value>Kvalita</value>
   </data>
   <data name="VideoConverterWindow_ShareX_Video_Converter" xml:space="preserve">
-    <value>ShareX – Převodník videa</value>
+    <value>CrySnap – Převodník videa</value>
   </data>
   <data name="VideoConverterWindow_Smaller_file" xml:space="preserve">
     <value>Menší soubor</value>
@@ -1691,7 +1691,7 @@ Cesta k souboru: {0}</value>
     <value>Vybrat video</value>
   </data>
   <data name="VideoThumbnailerWindow_ShareX_Video_Thumbnailer" xml:space="preserve">
-    <value>ShareX – Generátor miniatur videa</value>
+    <value>CrySnap – Generátor miniatur videa</value>
   </data>
   <data name="VideoThumbnailerWindow_Show_timestamps" xml:space="preserve">
     <value>Zobrazit časové značky</value>

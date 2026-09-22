@@ -13,7 +13,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="HistoryWindows_ShareX_History" xml:space="preserve">
-    <value>ShareX - 기록</value>
+    <value>CrySnap - 기록</value>
   </data>
   <data name="HistoryWindows_Search_file_names_and_tags" xml:space="preserve">
     <value>파일 이름 및 태그 검색</value>
@@ -217,7 +217,7 @@
     <value>확인</value>
   </data>
   <data name="HistoryWindows_ShareX_Image_History" xml:space="preserve">
-    <value>ShareX - 이미지 기록</value>
+    <value>CrySnap - 이미지 기록</value>
   </data>
   <data name="HistoryWindows_Loading" xml:space="preserve">
     <value>불러오는 중...</value>

@@ -514,7 +514,7 @@
     <value>تصویر</value>
   </data>
   <data name="MainViewModel_WindowTitle" xml:space="preserve">
-    <value>ShareX - ویرایشگر تصویر</value>
+    <value>CrySnap - ویرایشگر تصویر</value>
   </data>
   <data name="MainViewModel_RunAfterCaptureTasksEnter" xml:space="preserve">
     <value>اجرای کارهای پس از ثبت (Enter)</value>

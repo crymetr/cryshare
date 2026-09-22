@@ -13,7 +13,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="HistoryWindows_ShareX_History" xml:space="preserve">
-    <value>ShareX - 歷史記錄</value>
+    <value>CrySnap - 歷史記錄</value>
   </data>
   <data name="HistoryWindows_Search_file_names_and_tags" xml:space="preserve">
     <value>搜尋檔案名稱與標籤</value>
@@ -217,7 +217,7 @@
     <value>確定</value>
   </data>
   <data name="HistoryWindows_ShareX_Image_History" xml:space="preserve">
-    <value>ShareX - 圖片歷史記錄</value>
+    <value>CrySnap - 圖片歷史記錄</value>
   </data>
   <data name="HistoryWindows_Loading" xml:space="preserve">
     <value>正在載入...</value>

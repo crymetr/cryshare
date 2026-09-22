@@ -128,7 +128,7 @@
     <value>Зберегти</value>
   </data>
   <data name="AnalyzeImageOptionsWindow_ShareX_Analyze_image_options" xml:space="preserve">
-    <value>ShareX — параметри аналізу зображення</value>
+    <value>CrySnap — параметри аналізу зображення</value>
   </data>
   <data name="AnalyzeImageOptionsWindow_Test_connection" xml:space="preserve">
     <value>Перевірити підключення</value>
@@ -212,7 +212,7 @@
     <value>Вибрати область...</value>
   </data>
   <data name="AnalyzeImageWindow_ShareX_Analyze_image" xml:space="preserve">
-    <value>ShareX — аналіз зображення</value>
+    <value>CrySnap — аналіз зображення</value>
   </data>
   <data name="BackgroundRemoverViewModel_Background_removed_ms" xml:space="preserve">
     <value>Тло видалено за {0} мс.</value>
@@ -266,7 +266,7 @@
     <value>Виберіть зображення для попереднього перегляду.</value>
   </data>
   <data name="BackgroundRemoverWindow_ShareX_Background_Remover" xml:space="preserve">
-    <value>ShareX — видалення тла</value>
+    <value>CrySnap — видалення тла</value>
   </data>
   <data name="BorderlessWindowViewModel_Unable_to_toggle" xml:space="preserve">
     <value>Не вдалося перемкнути вибране вікно. {0}</value>
@@ -293,7 +293,7 @@
     <value>Вибрати вікно</value>
   </data>
   <data name="BorderlessWindowWindow_ShareX_Borderless_Window" xml:space="preserve">
-    <value>ShareX — вікно без рамки</value>
+    <value>CrySnap — вікно без рамки</value>
   </data>
   <data name="BorderlessWindowWindow_Toggle_again_to_restore_the_original_border_and_window_size" xml:space="preserve">
     <value>Перемкніть ще раз, щоб відновити початкову рамку та розмір вікна.</value>
@@ -356,7 +356,7 @@
     <value>Оновити</value>
   </data>
   <data name="ClipboardViewerWindow_ShareX_Clipboard_Viewer" xml:space="preserve">
-    <value>ShareX — перегляд буфера обміну</value>
+    <value>CrySnap — перегляд буфера обміну</value>
   </data>
   <data name="DirectoryIndexerViewModel_Index_for" xml:space="preserve">
     <value>Індекс для {0}</value>
@@ -443,7 +443,7 @@
     <value>Виберіть папку для індексування</value>
   </data>
   <data name="DirectoryIndexerWindow_ShareX_Directory_Indexer" xml:space="preserve">
-    <value>ShareX — індексатор каталогів</value>
+    <value>CrySnap — індексатор каталогів</value>
   </data>
   <data name="DirectoryIndexerWindow_Show_sizes" xml:space="preserve">
     <value>Показувати розміри</value>
@@ -566,7 +566,7 @@
     <value>Другий файл</value>
   </data>
   <data name="HashCheckerWindow_ShareX_Hash_Checker" xml:space="preserve">
-    <value>ShareX — перевірка хешу</value>
+    <value>CrySnap — перевірка хешу</value>
   </data>
   <data name="HashCheckerWindow_Stop" xml:space="preserve">
     <value>Зупинити</value>
@@ -659,7 +659,7 @@
     <value>Зберегти піктограму як</value>
   </data>
   <data name="IconConverterWindow_ShareX_Icon_Converter" xml:space="preserve">
-    <value>ShareX — конвертер піктограм</value>
+    <value>CrySnap — конвертер піктограм</value>
   </data>
   <data name="IconConverterWindow_Sizes" xml:space="preserve">
     <value>Розміри</value>
@@ -734,7 +734,7 @@
     <value>Орієнтація</value>
   </data>
   <data name="ImageCombinerWindow_ShareX_Image_Combiner" xml:space="preserve">
-    <value>ShareX — об'єднання зображень</value>
+    <value>CrySnap — об'єднання зображень</value>
   </data>
   <data name="ImageCombinerWindow_Spacing" xml:space="preserve">
     <value>Інтервал</value>
@@ -785,7 +785,7 @@
     <value>Виберіть зображення 1 і 2 для попереднього перегляду порівняння.</value>
   </data>
   <data name="ImageComparerWindow_ShareX_Image_Comparer" xml:space="preserve">
-    <value>ShareX — порівняння зображень</value>
+    <value>CrySnap — порівняння зображень</value>
   </data>
   <data name="ImageComparerWindow_Slider" xml:space="preserve">
     <value>Повзунок</value>
@@ -815,7 +815,7 @@
     <value>Рядки</value>
   </data>
   <data name="ImageSplitterWindow_ShareX_Image_Splitter" xml:space="preserve">
-    <value>ShareX — розділення зображення</value>
+    <value>CrySnap — розділення зображення</value>
   </data>
   <data name="ImageSplitterWindow_Split_image" xml:space="preserve">
     <value>Розділити зображення</value>
@@ -875,7 +875,7 @@
     <value>Виведення</value>
   </data>
   <data name="ImageThumbnailerWindow_ShareX_Image_Thumbnailer" xml:space="preserve">
-    <value>ShareX — створення мініатюр</value>
+    <value>CrySnap — створення мініатюр</value>
   </data>
   <data name="ImageThumbnailerWindow_Thumbnail_size" xml:space="preserve">
     <value>Розмір мініатюри</value>
@@ -902,7 +902,7 @@
     <value>{0:n0} папка</value>
   </data>
   <data name="IndexerText_Generated_by" xml:space="preserve">
-    <value>Створено ShareX Directory Indexer, {0:yyyy-MM-dd 'at' HH:mm:ss 'UTC'}. Останню версію можна завантажити тут: {1}</value>
+    <value>Створено CrySnap Directory Indexer, {0:yyyy-MM-dd 'at' HH:mm:ss 'UTC'}. Останню версію можна завантажити тут: {1}</value>
   </data>
   <data name="InspectWindowPickerOverlay_Click_control" xml:space="preserve">
     <value>Клацніть елемент керування для перевірки  |  Esc — скасувати</value>
@@ -983,7 +983,7 @@
     <value>Вибрати вікно</value>
   </data>
   <data name="InspectWindowWindow_ShareX_Inspect_Window" xml:space="preserve">
-    <value>ShareX — дослідження вікна</value>
+    <value>CrySnap — дослідження вікна</value>
   </data>
   <data name="InspectWindowWindow_Window_information" xml:space="preserve">
     <value>Відомості про вікно</value>
@@ -1085,10 +1085,10 @@
     <value>Не вдалося видалити метадані\n{0}</value>
   </data>
   <data name="MetadataViewModel_Window_title" xml:space="preserve">
-    <value>ShareX — метадані</value>
+    <value>CrySnap — метадані</value>
   </data>
   <data name="MetadataViewModel_Window_title_file" xml:space="preserve">
-    <value>ShareX — метадані — {0}</value>
+    <value>CrySnap — метадані — {0}</value>
   </data>
   <data name="MetadataWindow_Cancel" xml:space="preserve">
     <value>Скасувати</value>
@@ -1169,7 +1169,7 @@
     <value>RGB</value>
   </data>
   <data name="MonitorTestWindow_ShareX_Monitor_Test" xml:space="preserve">
-    <value>ShareX — перевірка монітора</value>
+    <value>CrySnap — перевірка монітора</value>
   </data>
   <data name="MonitorTestWindow_Speed" xml:space="preserve">
     <value>Швидкість</value>
@@ -1262,7 +1262,7 @@
     <value>Служби</value>
   </data>
   <data name="OCRWindow_ShareX_Optical_character_recognition" xml:space="preserve">
-    <value>ShareX — оптичне розпізнавання символів</value>
+    <value>CrySnap — оптичне розпізнавання символів</value>
   </data>
   <data name="OCRWindow_Single_line" xml:space="preserve">
     <value>Один рядок</value>
@@ -1364,7 +1364,7 @@
     <value>Відступ від краю екрана</value>
   </data>
   <data name="PinToScreenOptionsWindow_ShareX_Pin_to_Screen_options" xml:space="preserve">
-    <value>ShareX — параметри закріплення на екрані</value>
+    <value>CrySnap — параметри закріплення на екрані</value>
   </data>
   <data name="PinToScreenOptionsWindow_Size_and_opacity" xml:space="preserve">
     <value>Розмір і непрозорість</value>
@@ -1400,7 +1400,7 @@
     <value>Вибрати область...</value>
   </data>
   <data name="PinToScreenStartupWindow_ShareX_Pin_to_Screen" xml:space="preserve">
-    <value>ShareX — закріплення на екрані</value>
+    <value>CrySnap — закріплення на екрані</value>
   </data>
   <data name="PinToScreenWindow_Close" xml:space="preserve">
     <value>Закрити</value>
@@ -1487,7 +1487,7 @@
     <value>Виберіть зображення з QR-кодом</value>
   </data>
   <data name="QRCodeWindow_ShareX_QR_Code" xml:space="preserve">
-    <value>ShareX — QR-код</value>
+    <value>CrySnap — QR-код</value>
   </data>
   <data name="QRCodeWindow_SVG_image" xml:space="preserve">
     <value>Зображення SVG</value>
@@ -1499,7 +1499,7 @@
     <value>Допуск: {0}%</value>
   </data>
   <data name="RulerWindow_ShareX_Ruler" xml:space="preserve">
-    <value>ShareX — лінійка</value>
+    <value>CrySnap — лінійка</value>
   </data>
   <data name="VideoConverterViewModel_Choose_video" xml:space="preserve">
     <value>Виберіть відео, щоб почати.</value>
@@ -1583,7 +1583,7 @@
     <value>Якість</value>
   </data>
   <data name="VideoConverterWindow_ShareX_Video_Converter" xml:space="preserve">
-    <value>ShareX — конвертер відео</value>
+    <value>CrySnap — конвертер відео</value>
   </data>
   <data name="VideoConverterWindow_Smaller_file" xml:space="preserve">
     <value>Менший файл</value>
@@ -1685,7 +1685,7 @@
     <value>Вибрати відео</value>
   </data>
   <data name="VideoThumbnailerWindow_ShareX_Video_Thumbnailer" xml:space="preserve">
-    <value>ShareX — створення мініатюр відео</value>
+    <value>CrySnap — створення мініатюр відео</value>
   </data>
   <data name="VideoThumbnailerWindow_Show_timestamps" xml:space="preserve">
     <value>Показувати позначки часу</value>

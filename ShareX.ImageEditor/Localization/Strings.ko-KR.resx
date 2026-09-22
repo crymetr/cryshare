@@ -514,7 +514,7 @@
     <value>이미지</value>
   </data>
   <data name="MainViewModel_WindowTitle" xml:space="preserve">
-    <value>ShareX - 이미지 편집기</value>
+    <value>CrySnap - 이미지 편집기</value>
   </data>
   <data name="MainViewModel_RunAfterCaptureTasksEnter" xml:space="preserve">
     <value>캡처 후 작업 실행 (Enter)</value>

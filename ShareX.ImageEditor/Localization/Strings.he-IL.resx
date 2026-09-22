@@ -514,7 +514,7 @@
     <value>תמונה</value>
   </data>
   <data name="MainViewModel_WindowTitle" xml:space="preserve">
-    <value>ShareX - עורך תמונות</value>
+    <value>CrySnap - עורך תמונות</value>
   </data>
   <data name="MainViewModel_RunAfterCaptureTasksEnter" xml:space="preserve">
     <value>הפעל משימות לאחר לכידה (Enter)</value>

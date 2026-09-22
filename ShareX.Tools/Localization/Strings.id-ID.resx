@@ -128,7 +128,7 @@
     <value>Simpan</value>
   </data>
   <data name="AnalyzeImageOptionsWindow_ShareX_Analyze_image_options" xml:space="preserve">
-    <value>ShareX - Opsi analisis gambar</value>
+    <value>CrySnap - Opsi analisis gambar</value>
   </data>
   <data name="AnalyzeImageOptionsWindow_Test_connection" xml:space="preserve">
     <value>Uji koneksi</value>
@@ -212,7 +212,7 @@
     <value>Pilih area...</value>
   </data>
   <data name="AnalyzeImageWindow_ShareX_Analyze_image" xml:space="preserve">
-    <value>ShareX - Analisis gambar</value>
+    <value>CrySnap - Analisis gambar</value>
   </data>
   <data name="BackgroundRemoverViewModel_Background_removed_ms" xml:space="preserve">
     <value>Latar belakang dihapus dalam {0} md.</value>
@@ -266,7 +266,7 @@
     <value>Pilih gambar untuk mempratinjaunya di sini.</value>
   </data>
   <data name="BackgroundRemoverWindow_ShareX_Background_Remover" xml:space="preserve">
-    <value>ShareX - Penghapus latar belakang</value>
+    <value>CrySnap - Penghapus latar belakang</value>
   </data>
   <data name="BorderlessWindowViewModel_Unable_to_toggle" xml:space="preserve">
     <value>Tidak dapat mengalihkan jendela yang dipilih. {0}</value>
@@ -293,7 +293,7 @@
     <value>Pilih jendela</value>
   </data>
   <data name="BorderlessWindowWindow_ShareX_Borderless_Window" xml:space="preserve">
-    <value>ShareX - Jendela tanpa bingkai</value>
+    <value>CrySnap - Jendela tanpa bingkai</value>
   </data>
   <data name="BorderlessWindowWindow_Toggle_again_to_restore_the_original_border_and_window_size" xml:space="preserve">
     <value>Alihkan lagi untuk memulihkan bingkai dan ukuran jendela asli.</value>
@@ -356,7 +356,7 @@
     <value>Segarkan</value>
   </data>
   <data name="ClipboardViewerWindow_ShareX_Clipboard_Viewer" xml:space="preserve">
-    <value>ShareX - Penampil papan klip</value>
+    <value>CrySnap - Penampil papan klip</value>
   </data>
   <data name="DirectoryIndexerViewModel_Index_for" xml:space="preserve">
     <value>Indeks untuk {0}</value>
@@ -443,7 +443,7 @@
     <value>Pilih folder untuk diindeks</value>
   </data>
   <data name="DirectoryIndexerWindow_ShareX_Directory_Indexer" xml:space="preserve">
-    <value>ShareX - Pengindeks direktori</value>
+    <value>CrySnap - Pengindeks direktori</value>
   </data>
   <data name="DirectoryIndexerWindow_Show_sizes" xml:space="preserve">
     <value>Tampilkan ukuran</value>
@@ -566,7 +566,7 @@
     <value>File kedua</value>
   </data>
   <data name="HashCheckerWindow_ShareX_Hash_Checker" xml:space="preserve">
-    <value>ShareX - Pemeriksa hash</value>
+    <value>CrySnap - Pemeriksa hash</value>
   </data>
   <data name="HashCheckerWindow_Stop" xml:space="preserve">
     <value>Berhenti</value>
@@ -659,7 +659,7 @@
     <value>Simpan ikon sebagai</value>
   </data>
   <data name="IconConverterWindow_ShareX_Icon_Converter" xml:space="preserve">
-    <value>ShareX - Pengonversi ikon</value>
+    <value>CrySnap - Pengonversi ikon</value>
   </data>
   <data name="IconConverterWindow_Sizes" xml:space="preserve">
     <value>Ukuran</value>
@@ -734,7 +734,7 @@
     <value>Orientasi</value>
   </data>
   <data name="ImageCombinerWindow_ShareX_Image_Combiner" xml:space="preserve">
-    <value>ShareX - Penggabung gambar</value>
+    <value>CrySnap - Penggabung gambar</value>
   </data>
   <data name="ImageCombinerWindow_Spacing" xml:space="preserve">
     <value>Jarak</value>
@@ -785,7 +785,7 @@
     <value>Pilih Gambar 1 dan Gambar 2 untuk menampilkan pratinjau perbandingan.</value>
   </data>
   <data name="ImageComparerWindow_ShareX_Image_Comparer" xml:space="preserve">
-    <value>ShareX - Pembanding gambar</value>
+    <value>CrySnap - Pembanding gambar</value>
   </data>
   <data name="ImageComparerWindow_Slider" xml:space="preserve">
     <value>Penggeser</value>
@@ -815,7 +815,7 @@
     <value>Baris</value>
   </data>
   <data name="ImageSplitterWindow_ShareX_Image_Splitter" xml:space="preserve">
-    <value>ShareX - Pemisah gambar</value>
+    <value>CrySnap - Pemisah gambar</value>
   </data>
   <data name="ImageSplitterWindow_Split_image" xml:space="preserve">
     <value>Pisahkan gambar</value>
@@ -875,7 +875,7 @@
     <value>Keluaran</value>
   </data>
   <data name="ImageThumbnailerWindow_ShareX_Image_Thumbnailer" xml:space="preserve">
-    <value>ShareX - Pembuat gambar mini</value>
+    <value>CrySnap - Pembuat gambar mini</value>
   </data>
   <data name="ImageThumbnailerWindow_Thumbnail_size" xml:space="preserve">
     <value>Ukuran gambar mini</value>
@@ -902,7 +902,7 @@
     <value>{0:n0} folder</value>
   </data>
   <data name="IndexerText_Generated_by" xml:space="preserve">
-    <value>Dibuat oleh ShareX Directory Indexer pada {0:yyyy-MM-dd 'at' HH:mm:ss 'UTC'}. Versi terbaru dapat diunduh dari: {1}</value>
+    <value>Dibuat oleh CrySnap Directory Indexer pada {0:yyyy-MM-dd 'at' HH:mm:ss 'UTC'}. Versi terbaru dapat diunduh dari: {1}</value>
   </data>
   <data name="InspectWindowPickerOverlay_Click_control" xml:space="preserve">
     <value>Klik kontrol untuk memeriksa  |  Esc untuk membatalkan</value>
@@ -983,7 +983,7 @@
     <value>Pilih jendela</value>
   </data>
   <data name="InspectWindowWindow_ShareX_Inspect_Window" xml:space="preserve">
-    <value>ShareX - Periksa jendela</value>
+    <value>CrySnap - Periksa jendela</value>
   </data>
   <data name="InspectWindowWindow_Window_information" xml:space="preserve">
     <value>Informasi jendela</value>
@@ -1085,10 +1085,10 @@
     <value>Tidak dapat menghapus metadata\n{0}</value>
   </data>
   <data name="MetadataViewModel_Window_title" xml:space="preserve">
-    <value>ShareX - Metadata</value>
+    <value>CrySnap - Metadata</value>
   </data>
   <data name="MetadataViewModel_Window_title_file" xml:space="preserve">
-    <value>ShareX - Metadata - {0}</value>
+    <value>CrySnap - Metadata - {0}</value>
   </data>
   <data name="MetadataWindow_Cancel" xml:space="preserve">
     <value>Batal</value>
@@ -1169,7 +1169,7 @@
     <value>RGB</value>
   </data>
   <data name="MonitorTestWindow_ShareX_Monitor_Test" xml:space="preserve">
-    <value>ShareX - Uji monitor</value>
+    <value>CrySnap - Uji monitor</value>
   </data>
   <data name="MonitorTestWindow_Speed" xml:space="preserve">
     <value>Kecepatan</value>
@@ -1262,7 +1262,7 @@
     <value>Layanan</value>
   </data>
   <data name="OCRWindow_ShareX_Optical_character_recognition" xml:space="preserve">
-    <value>ShareX - Pengenalan karakter optik</value>
+    <value>CrySnap - Pengenalan karakter optik</value>
   </data>
   <data name="OCRWindow_Single_line" xml:space="preserve">
     <value>Satu baris</value>
@@ -1364,7 +1364,7 @@
     <value>Ofset tepi layar</value>
   </data>
   <data name="PinToScreenOptionsWindow_ShareX_Pin_to_Screen_options" xml:space="preserve">
-    <value>ShareX - Opsi sematkan ke layar</value>
+    <value>CrySnap - Opsi sematkan ke layar</value>
   </data>
   <data name="PinToScreenOptionsWindow_Size_and_opacity" xml:space="preserve">
     <value>Ukuran dan opasitas</value>
@@ -1400,7 +1400,7 @@
     <value>Pilih area...</value>
   </data>
   <data name="PinToScreenStartupWindow_ShareX_Pin_to_Screen" xml:space="preserve">
-    <value>ShareX - Sematkan ke layar</value>
+    <value>CrySnap - Sematkan ke layar</value>
   </data>
   <data name="PinToScreenWindow_Close" xml:space="preserve">
     <value>Tutup</value>
@@ -1487,7 +1487,7 @@
     <value>Pilih gambar yang berisi kode QR</value>
   </data>
   <data name="QRCodeWindow_ShareX_QR_Code" xml:space="preserve">
-    <value>ShareX - Kode QR</value>
+    <value>CrySnap - Kode QR</value>
   </data>
   <data name="QRCodeWindow_SVG_image" xml:space="preserve">
     <value>Gambar SVG</value>
@@ -1499,7 +1499,7 @@
     <value>Toleransi: {0}%</value>
   </data>
   <data name="RulerWindow_ShareX_Ruler" xml:space="preserve">
-    <value>ShareX - Penggaris</value>
+    <value>CrySnap - Penggaris</value>
   </data>
   <data name="VideoConverterViewModel_Choose_video" xml:space="preserve">
     <value>Pilih video untuk memulai.</value>
@@ -1583,7 +1583,7 @@
     <value>Kualitas</value>
   </data>
   <data name="VideoConverterWindow_ShareX_Video_Converter" xml:space="preserve">
-    <value>ShareX - Pengonversi video</value>
+    <value>CrySnap - Pengonversi video</value>
   </data>
   <data name="VideoConverterWindow_Smaller_file" xml:space="preserve">
     <value>File lebih kecil</value>
@@ -1685,7 +1685,7 @@
     <value>Pilih video</value>
   </data>
   <data name="VideoThumbnailerWindow_ShareX_Video_Thumbnailer" xml:space="preserve">
-    <value>ShareX - Pembuat gambar mini video</value>
+    <value>CrySnap - Pembuat gambar mini video</value>
   </data>
   <data name="VideoThumbnailerWindow_Show_timestamps" xml:space="preserve">
     <value>Tampilkan stempel waktu</value>

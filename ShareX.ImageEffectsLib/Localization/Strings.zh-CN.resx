@@ -116,7 +116,7 @@
     <value>Y：</value>
   </data>
   <data name="ImageEffectPackagerWindow_Title" xml:space="preserve">
-    <value>ShareX - 打包图像效果</value>
+    <value>CrySnap - 打包图像效果</value>
   </data>
   <data name="ImageEffectPackagerWindow_Package_preset" xml:space="preserve">
     <value>打包预设</value>
@@ -149,10 +149,10 @@
     <value>保存图像效果包</value>
   </data>
   <data name="ImageEffectPackagerWindow_File_type" xml:space="preserve">
-    <value>ShareX 图像效果</value>
+    <value>CrySnap 图像效果</value>
   </data>
   <data name="ImageEffectPackagerWindow_Assets_must_be_inside" xml:space="preserve">
-    <value>资源文件夹必须位于 ShareX 图像效果文件夹内。</value>
+    <value>资源文件夹必须位于 CrySnap 图像效果文件夹内。</value>
   </data>
   <data name="ImageEffectPackagerWindow_Choose_package_path" xml:space="preserve">
     <value>选择包文件路径。</value>
@@ -164,7 +164,7 @@
     <value>包创建成功。</value>
   </data>
   <data name="ImageEffectsConfirmationWindow_Title" xml:space="preserve">
-    <value>ShareX - 确认</value>
+    <value>CrySnap - 确认</value>
   </data>
   <data name="ImageEffectsConfirmationWindow_Continue" xml:space="preserve">
     <value>继续</value>
@@ -176,7 +176,7 @@
     <value>否</value>
   </data>
   <data name="ImageEffectsWindow_Title" xml:space="preserve">
-    <value>ShareX - 图像效果</value>
+    <value>CrySnap - 图像效果</value>
   </data>
   <data name="ImageEffectsWindow_Title_with_preview" xml:space="preserve">
     <value>{0} - {1} × {2} - {3} 毫秒</value>

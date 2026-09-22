@@ -116,7 +116,7 @@
     <value>Y:</value>
   </data>
   <data name="ImageEffectPackagerWindow_Title" xml:space="preserve">
-    <value>ShareX - Képeffektus csomagolása</value>
+    <value>CrySnap - Képeffektus csomagolása</value>
   </data>
   <data name="ImageEffectPackagerWindow_Package_preset" xml:space="preserve">
     <value>Előbeállítás csomagolása</value>
@@ -149,10 +149,10 @@
     <value>Képeffektus-csomag mentése</value>
   </data>
   <data name="ImageEffectPackagerWindow_File_type" xml:space="preserve">
-    <value>ShareX képeffektus</value>
+    <value>CrySnap képeffektus</value>
   </data>
   <data name="ImageEffectPackagerWindow_Assets_must_be_inside" xml:space="preserve">
-    <value>Az erőforrásmappának a ShareX képeffektusmappáján belül kell lennie.</value>
+    <value>Az erőforrásmappának a CrySnap képeffektusmappáján belül kell lennie.</value>
   </data>
   <data name="ImageEffectPackagerWindow_Choose_package_path" xml:space="preserve">
     <value>Válassza ki a csomagfájl elérési útját.</value>
@@ -164,7 +164,7 @@
     <value>A csomag sikeresen létrejött.</value>
   </data>
   <data name="ImageEffectsConfirmationWindow_Title" xml:space="preserve">
-    <value>ShareX – Megerősítés</value>
+    <value>CrySnap – Megerősítés</value>
   </data>
   <data name="ImageEffectsConfirmationWindow_Continue" xml:space="preserve">
     <value>Folytatás</value>
@@ -176,7 +176,7 @@
     <value>Nem</value>
   </data>
   <data name="ImageEffectsWindow_Title" xml:space="preserve">
-    <value>ShareX - Képeffektusok</value>
+    <value>CrySnap - Képeffektusok</value>
   </data>
   <data name="ImageEffectsWindow_Title_with_preview" xml:space="preserve">
     <value>{0} - {1} × {2} - {3} ms</value>

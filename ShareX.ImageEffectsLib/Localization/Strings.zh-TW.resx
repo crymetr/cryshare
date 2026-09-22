@@ -116,7 +116,7 @@
     <value>Y：</value>
   </data>
   <data name="ImageEffectPackagerWindow_Title" xml:space="preserve">
-    <value>ShareX - 封裝影像效果</value>
+    <value>CrySnap - 封裝影像效果</value>
   </data>
   <data name="ImageEffectPackagerWindow_Package_preset" xml:space="preserve">
     <value>封裝預設</value>
@@ -149,10 +149,10 @@
     <value>儲存影像效果套件</value>
   </data>
   <data name="ImageEffectPackagerWindow_File_type" xml:space="preserve">
-    <value>ShareX 影像效果</value>
+    <value>CrySnap 影像效果</value>
   </data>
   <data name="ImageEffectPackagerWindow_Assets_must_be_inside" xml:space="preserve">
-    <value>資源資料夾必須位於 ShareX 影像效果資料夾內。</value>
+    <value>資源資料夾必須位於 CrySnap 影像效果資料夾內。</value>
   </data>
   <data name="ImageEffectPackagerWindow_Choose_package_path" xml:space="preserve">
     <value>選擇套件檔案路徑。</value>
@@ -164,7 +164,7 @@
     <value>套件建立成功。</value>
   </data>
   <data name="ImageEffectsConfirmationWindow_Title" xml:space="preserve">
-    <value>ShareX - 確認</value>
+    <value>CrySnap - 確認</value>
   </data>
   <data name="ImageEffectsConfirmationWindow_Continue" xml:space="preserve">
     <value>繼續</value>
@@ -176,7 +176,7 @@
     <value>否</value>
   </data>
   <data name="ImageEffectsWindow_Title" xml:space="preserve">
-    <value>ShareX - 影像效果</value>
+    <value>CrySnap - 影像效果</value>
   </data>
   <data name="ImageEffectsWindow_Title_with_preview" xml:space="preserve">
     <value>{0} - {1} × {2} - {3} 毫秒</value>

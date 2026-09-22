@@ -128,7 +128,7 @@
     <value>Mentés</value>
   </data>
   <data name="AnalyzeImageOptionsWindow_ShareX_Analyze_image_options" xml:space="preserve">
-    <value>ShareX – Képelemzési beállítások</value>
+    <value>CrySnap – Képelemzési beállítások</value>
   </data>
   <data name="AnalyzeImageOptionsWindow_Test_connection" xml:space="preserve">
     <value>Kapcsolat tesztelése</value>
@@ -212,7 +212,7 @@
     <value>Terület kijelölése...</value>
   </data>
   <data name="AnalyzeImageWindow_ShareX_Analyze_image" xml:space="preserve">
-    <value>ShareX – Képelemzés</value>
+    <value>CrySnap – Képelemzés</value>
   </data>
   <data name="BackgroundRemoverViewModel_Background_removed_ms" xml:space="preserve">
     <value>A háttér eltávolítása {0} ms alatt megtörtént.</value>
@@ -266,7 +266,7 @@
     <value>Válasszon ki egy képet az előnézethez.</value>
   </data>
   <data name="BackgroundRemoverWindow_ShareX_Background_Remover" xml:space="preserve">
-    <value>ShareX – Háttér eltávolítása</value>
+    <value>CrySnap – Háttér eltávolítása</value>
   </data>
   <data name="BorderlessWindowViewModel_Unable_to_toggle" xml:space="preserve">
     <value>A kijelölt ablak nem váltható át. {0}</value>
@@ -293,7 +293,7 @@
     <value>Ablak kiválasztása</value>
   </data>
   <data name="BorderlessWindowWindow_ShareX_Borderless_Window" xml:space="preserve">
-    <value>ShareX – Keret nélküli ablak</value>
+    <value>CrySnap – Keret nélküli ablak</value>
   </data>
   <data name="BorderlessWindowWindow_Toggle_again_to_restore_the_original_border_and_window_size" xml:space="preserve">
     <value>Váltson át újra az eredeti keret és ablakméret visszaállításához.</value>
@@ -356,7 +356,7 @@
     <value>Frissítés</value>
   </data>
   <data name="ClipboardViewerWindow_ShareX_Clipboard_Viewer" xml:space="preserve">
-    <value>ShareX – Vágólap-megjelenítő</value>
+    <value>CrySnap – Vágólap-megjelenítő</value>
   </data>
   <data name="DirectoryIndexerViewModel_Index_for" xml:space="preserve">
     <value>{0} indexe</value>
@@ -443,7 +443,7 @@
     <value>Indexelendő mappa kiválasztása</value>
   </data>
   <data name="DirectoryIndexerWindow_ShareX_Directory_Indexer" xml:space="preserve">
-    <value>ShareX – Könyvtárindexelő</value>
+    <value>CrySnap – Könyvtárindexelő</value>
   </data>
   <data name="DirectoryIndexerWindow_Show_sizes" xml:space="preserve">
     <value>Méretek megjelenítése</value>
@@ -566,7 +566,7 @@
     <value>Második fájl</value>
   </data>
   <data name="HashCheckerWindow_ShareX_Hash_Checker" xml:space="preserve">
-    <value>ShareX – Kivonatellenőrző</value>
+    <value>CrySnap – Kivonatellenőrző</value>
   </data>
   <data name="HashCheckerWindow_Stop" xml:space="preserve">
     <value>Leállítás</value>
@@ -659,7 +659,7 @@
     <value>Ikon mentése másként</value>
   </data>
   <data name="IconConverterWindow_ShareX_Icon_Converter" xml:space="preserve">
-    <value>ShareX – Ikonátalakító</value>
+    <value>CrySnap – Ikonátalakító</value>
   </data>
   <data name="IconConverterWindow_Sizes" xml:space="preserve">
     <value>Méretek</value>
@@ -734,7 +734,7 @@
     <value>Tájolás</value>
   </data>
   <data name="ImageCombinerWindow_ShareX_Image_Combiner" xml:space="preserve">
-    <value>ShareX – Képegyesítő</value>
+    <value>CrySnap – Képegyesítő</value>
   </data>
   <data name="ImageCombinerWindow_Spacing" xml:space="preserve">
     <value>Térköz</value>
@@ -785,7 +785,7 @@
     <value>Az összehasonlítás előnézetéhez válassza ki az 1. és a 2. képet.</value>
   </data>
   <data name="ImageComparerWindow_ShareX_Image_Comparer" xml:space="preserve">
-    <value>ShareX – Kép-összehasonlító</value>
+    <value>CrySnap – Kép-összehasonlító</value>
   </data>
   <data name="ImageComparerWindow_Slider" xml:space="preserve">
     <value>Csúszka</value>
@@ -815,7 +815,7 @@
     <value>Sorok</value>
   </data>
   <data name="ImageSplitterWindow_ShareX_Image_Splitter" xml:space="preserve">
-    <value>ShareX – Képfelosztó</value>
+    <value>CrySnap – Képfelosztó</value>
   </data>
   <data name="ImageSplitterWindow_Split_image" xml:space="preserve">
     <value>Kép felosztása</value>
@@ -875,7 +875,7 @@
     <value>Kimenet</value>
   </data>
   <data name="ImageThumbnailerWindow_ShareX_Image_Thumbnailer" xml:space="preserve">
-    <value>ShareX – Bélyegkép-készítő</value>
+    <value>CrySnap – Bélyegkép-készítő</value>
   </data>
   <data name="ImageThumbnailerWindow_Thumbnail_size" xml:space="preserve">
     <value>Bélyegkép mérete</value>
@@ -902,7 +902,7 @@
     <value>{0:n0} mappa</value>
   </data>
   <data name="IndexerText_Generated_by" xml:space="preserve">
-    <value>Létrehozta a ShareX Directory Indexer ekkor: {0:yyyy-MM-dd 'at' HH:mm:ss 'UTC'}. A legújabb verzió innen tölthető le: {1}</value>
+    <value>Létrehozta a CrySnap Directory Indexer ekkor: {0:yyyy-MM-dd 'at' HH:mm:ss 'UTC'}. A legújabb verzió innen tölthető le: {1}</value>
   </data>
   <data name="InspectWindowPickerOverlay_Click_control" xml:space="preserve">
     <value>Kattintson egy vezérlőre a vizsgálathoz  |  Esc a megszakításhoz</value>
@@ -983,7 +983,7 @@
     <value>Ablak kiválasztása</value>
   </data>
   <data name="InspectWindowWindow_ShareX_Inspect_Window" xml:space="preserve">
-    <value>ShareX – Ablak vizsgálata</value>
+    <value>CrySnap – Ablak vizsgálata</value>
   </data>
   <data name="InspectWindowWindow_Window_information" xml:space="preserve">
     <value>Ablakinformációk</value>
@@ -1085,10 +1085,10 @@
     <value>A metaadatok nem távolíthatók el\n{0}</value>
   </data>
   <data name="MetadataViewModel_Window_title" xml:space="preserve">
-    <value>ShareX – Metaadatok</value>
+    <value>CrySnap – Metaadatok</value>
   </data>
   <data name="MetadataViewModel_Window_title_file" xml:space="preserve">
-    <value>ShareX – Metaadatok – {0}</value>
+    <value>CrySnap – Metaadatok – {0}</value>
   </data>
   <data name="MetadataWindow_Cancel" xml:space="preserve">
     <value>Mégse</value>
@@ -1169,7 +1169,7 @@
     <value>RGB</value>
   </data>
   <data name="MonitorTestWindow_ShareX_Monitor_Test" xml:space="preserve">
-    <value>ShareX – Monitorteszt</value>
+    <value>CrySnap – Monitorteszt</value>
   </data>
   <data name="MonitorTestWindow_Speed" xml:space="preserve">
     <value>Sebesség</value>
@@ -1262,7 +1262,7 @@
     <value>Szolgáltatások</value>
   </data>
   <data name="OCRWindow_ShareX_Optical_character_recognition" xml:space="preserve">
-    <value>ShareX – Optikai karakterfelismerés</value>
+    <value>CrySnap – Optikai karakterfelismerés</value>
   </data>
   <data name="OCRWindow_Single_line" xml:space="preserve">
     <value>Egy sor</value>
@@ -1364,7 +1364,7 @@
     <value>Eltolás a képernyő szélétől</value>
   </data>
   <data name="PinToScreenOptionsWindow_ShareX_Pin_to_Screen_options" xml:space="preserve">
-    <value>ShareX – Képernyőre rögzítés beállításai</value>
+    <value>CrySnap – Képernyőre rögzítés beállításai</value>
   </data>
   <data name="PinToScreenOptionsWindow_Size_and_opacity" xml:space="preserve">
     <value>Méret és átlátszatlanság</value>
@@ -1400,7 +1400,7 @@
     <value>Terület kijelölése...</value>
   </data>
   <data name="PinToScreenStartupWindow_ShareX_Pin_to_Screen" xml:space="preserve">
-    <value>ShareX – Képernyőre rögzítés</value>
+    <value>CrySnap – Képernyőre rögzítés</value>
   </data>
   <data name="PinToScreenWindow_Close" xml:space="preserve">
     <value>Bezárás</value>
@@ -1487,7 +1487,7 @@
     <value>Válasszon QR-kódot tartalmazó képet</value>
   </data>
   <data name="QRCodeWindow_ShareX_QR_Code" xml:space="preserve">
-    <value>ShareX – QR-kód</value>
+    <value>CrySnap – QR-kód</value>
   </data>
   <data name="QRCodeWindow_SVG_image" xml:space="preserve">
     <value>SVG-kép</value>
@@ -1499,7 +1499,7 @@
     <value>Tűrés: {0}%</value>
   </data>
   <data name="RulerWindow_ShareX_Ruler" xml:space="preserve">
-    <value>ShareX – Vonalzó</value>
+    <value>CrySnap – Vonalzó</value>
   </data>
   <data name="VideoConverterViewModel_Choose_video" xml:space="preserve">
     <value>A kezdéshez válasszon videót.</value>
@@ -1583,7 +1583,7 @@
     <value>Minőség</value>
   </data>
   <data name="VideoConverterWindow_ShareX_Video_Converter" xml:space="preserve">
-    <value>ShareX – Videóátalakító</value>
+    <value>CrySnap – Videóátalakító</value>
   </data>
   <data name="VideoConverterWindow_Smaller_file" xml:space="preserve">
     <value>Kisebb fájl</value>
@@ -1685,7 +1685,7 @@
     <value>Videó kiválasztása</value>
   </data>
   <data name="VideoThumbnailerWindow_ShareX_Video_Thumbnailer" xml:space="preserve">
-    <value>ShareX – Videóbélyegkép-készítő</value>
+    <value>CrySnap – Videóbélyegkép-készítő</value>
   </data>
   <data name="VideoThumbnailerWindow_Show_timestamps" xml:space="preserve">
     <value>Időbélyegek megjelenítése</value>

@@ -128,7 +128,7 @@
     <value>Kaydet</value>
   </data>
   <data name="AnalyzeImageOptionsWindow_ShareX_Analyze_image_options" xml:space="preserve">
-    <value>ShareX - Görüntü analizi seçenekleri</value>
+    <value>CrySnap - Görüntü analizi seçenekleri</value>
   </data>
   <data name="AnalyzeImageOptionsWindow_Test_connection" xml:space="preserve">
     <value>Bağlantıyı test et</value>
@@ -212,7 +212,7 @@
     <value>Bölge seç...</value>
   </data>
   <data name="AnalyzeImageWindow_ShareX_Analyze_image" xml:space="preserve">
-    <value>ShareX - Görüntüyü analiz et</value>
+    <value>CrySnap - Görüntüyü analiz et</value>
   </data>
   <data name="BackgroundRemoverViewModel_Background_removed_ms" xml:space="preserve">
     <value>Arka plan {0} ms içinde kaldırıldı.</value>
@@ -267,7 +267,7 @@ Dosya yolu: {0}</value>
     <value>Önizlemek için burada bir görüntü seçin.</value>
   </data>
   <data name="BackgroundRemoverWindow_ShareX_Background_Remover" xml:space="preserve">
-    <value>ShareX - Arka Plan Kaldırıcı</value>
+    <value>CrySnap - Arka Plan Kaldırıcı</value>
   </data>
   <data name="BorderlessWindowViewModel_Unable_to_toggle" xml:space="preserve">
     <value>Seçilen pencere değiştirilemedi. {0}</value>
@@ -294,7 +294,7 @@ Dosya yolu: {0}</value>
     <value>Pencere seç</value>
   </data>
   <data name="BorderlessWindowWindow_ShareX_Borderless_Window" xml:space="preserve">
-    <value>ShareX - Kenarlıksız Pencere</value>
+    <value>CrySnap - Kenarlıksız Pencere</value>
   </data>
   <data name="BorderlessWindowWindow_Toggle_again_to_restore_the_original_border_and_window_size" xml:space="preserve">
     <value>Özgün kenarlığı ve pencere boyutunu geri yüklemek için tekrar değiştirin.</value>
@@ -360,7 +360,7 @@ Dosya yolu: {0}</value>
     <value>Yenile</value>
   </data>
   <data name="ClipboardViewerWindow_ShareX_Clipboard_Viewer" xml:space="preserve">
-    <value>ShareX - Pano Görüntüleyici</value>
+    <value>CrySnap - Pano Görüntüleyici</value>
   </data>
   <data name="DirectoryIndexerViewModel_Index_for" xml:space="preserve">
     <value>{0} dizini</value>
@@ -447,7 +447,7 @@ Dosya yolu: {0}</value>
     <value>Dizinlenecek klasörü seç</value>
   </data>
   <data name="DirectoryIndexerWindow_ShareX_Directory_Indexer" xml:space="preserve">
-    <value>ShareX - Dizin Oluşturucu</value>
+    <value>CrySnap - Dizin Oluşturucu</value>
   </data>
   <data name="DirectoryIndexerWindow_Show_sizes" xml:space="preserve">
     <value>Boyutları göster</value>
@@ -570,7 +570,7 @@ Dosya yolu: {0}</value>
     <value>İkinci dosya</value>
   </data>
   <data name="HashCheckerWindow_ShareX_Hash_Checker" xml:space="preserve">
-    <value>ShareX - Karma Denetleyici</value>
+    <value>CrySnap - Karma Denetleyici</value>
   </data>
   <data name="HashCheckerWindow_Stop" xml:space="preserve">
     <value>Durdur</value>
@@ -663,7 +663,7 @@ Dosya yolu: {0}</value>
     <value>Simgeyi farklı kaydet</value>
   </data>
   <data name="IconConverterWindow_ShareX_Icon_Converter" xml:space="preserve">
-    <value>ShareX - Simge Dönüştürücü</value>
+    <value>CrySnap - Simge Dönüştürücü</value>
   </data>
   <data name="IconConverterWindow_Sizes" xml:space="preserve">
     <value>Boyutlar</value>
@@ -738,7 +738,7 @@ Dosya yolu: {0}</value>
     <value>Yön</value>
   </data>
   <data name="ImageCombinerWindow_ShareX_Image_Combiner" xml:space="preserve">
-    <value>ShareX - Görüntü Birleştirici</value>
+    <value>CrySnap - Görüntü Birleştirici</value>
   </data>
   <data name="ImageCombinerWindow_Spacing" xml:space="preserve">
     <value>Aralık</value>
@@ -789,7 +789,7 @@ Dosya yolu: {0}</value>
     <value>Karşılaştırma önizlemesini göstermek için Görüntü 1 ve Görüntü 2'yi seçin.</value>
   </data>
   <data name="ImageComparerWindow_ShareX_Image_Comparer" xml:space="preserve">
-    <value>ShareX - Görüntü Karşılaştırıcı</value>
+    <value>CrySnap - Görüntü Karşılaştırıcı</value>
   </data>
   <data name="ImageComparerWindow_Slider" xml:space="preserve">
     <value>Kaydırıcı</value>
@@ -819,7 +819,7 @@ Dosya yolu: {0}</value>
     <value>Satırlar</value>
   </data>
   <data name="ImageSplitterWindow_ShareX_Image_Splitter" xml:space="preserve">
-    <value>ShareX - Görüntü Bölücü</value>
+    <value>CrySnap - Görüntü Bölücü</value>
   </data>
   <data name="ImageSplitterWindow_Split_image" xml:space="preserve">
     <value>Görüntüyü böl</value>
@@ -879,7 +879,7 @@ Dosya yolu: {0}</value>
     <value>Çıktı</value>
   </data>
   <data name="ImageThumbnailerWindow_ShareX_Image_Thumbnailer" xml:space="preserve">
-    <value>ShareX - Görüntü Küçük Resim Oluşturucu</value>
+    <value>CrySnap - Görüntü Küçük Resim Oluşturucu</value>
   </data>
   <data name="ImageThumbnailerWindow_Thumbnail_size" xml:space="preserve">
     <value>Küçük resim boyutu</value>
@@ -906,7 +906,7 @@ Dosya yolu: {0}</value>
     <value>{0:n0} klasör</value>
   </data>
   <data name="IndexerText_Generated_by" xml:space="preserve">
-    <value>ShareX Dizin Oluşturucu tarafından {0:yyyy-MM-dd 'at' HH:mm:ss 'UTC'} tarihinde oluşturuldu. En son sürüm şuradan indirilebilir: {1}</value>
+    <value>CrySnap Dizin Oluşturucu tarafından {0:yyyy-MM-dd 'at' HH:mm:ss 'UTC'} tarihinde oluşturuldu. En son sürüm şuradan indirilebilir: {1}</value>
   </data>
   <data name="InspectWindowPickerOverlay_Click_control" xml:space="preserve">
     <value>İncelemek için bir denetime tıklayın  |  İptal etmek için Esc'ye basın</value>
@@ -987,7 +987,7 @@ Dosya yolu: {0}</value>
     <value>Pencere seç</value>
   </data>
   <data name="InspectWindowWindow_ShareX_Inspect_Window" xml:space="preserve">
-    <value>ShareX - Pencereyi İncele</value>
+    <value>CrySnap - Pencereyi İncele</value>
   </data>
   <data name="InspectWindowWindow_Window_information" xml:space="preserve">
     <value>Pencere bilgileri</value>
@@ -1091,10 +1091,10 @@ Dosya yolu: {0}</value>
 {0}</value>
   </data>
   <data name="MetadataViewModel_Window_title" xml:space="preserve">
-    <value>ShareX - Meta Veriler</value>
+    <value>CrySnap - Meta Veriler</value>
   </data>
   <data name="MetadataViewModel_Window_title_file" xml:space="preserve">
-    <value>ShareX - Meta Veriler - {0}</value>
+    <value>CrySnap - Meta Veriler - {0}</value>
   </data>
   <data name="MetadataWindow_Cancel" xml:space="preserve">
     <value>İptal</value>
@@ -1175,7 +1175,7 @@ Dosya yolu: {0}</value>
     <value>RGB</value>
   </data>
   <data name="MonitorTestWindow_ShareX_Monitor_Test" xml:space="preserve">
-    <value>ShareX - Monitör Testi</value>
+    <value>CrySnap - Monitör Testi</value>
   </data>
   <data name="MonitorTestWindow_Speed" xml:space="preserve">
     <value>Hız</value>
@@ -1268,7 +1268,7 @@ Dosya yolu: {0}</value>
     <value>Hizmetler</value>
   </data>
   <data name="OCRWindow_ShareX_Optical_character_recognition" xml:space="preserve">
-    <value>ShareX - Optik Karakter Tanıma</value>
+    <value>CrySnap - Optik Karakter Tanıma</value>
   </data>
   <data name="OCRWindow_Single_line" xml:space="preserve">
     <value>Tek satır</value>
@@ -1370,7 +1370,7 @@ Dosya yolu: {0}</value>
     <value>Ekran kenarı uzaklığı</value>
   </data>
   <data name="PinToScreenOptionsWindow_ShareX_Pin_to_Screen_options" xml:space="preserve">
-    <value>ShareX - Ekrana Sabitleme seçenekleri</value>
+    <value>CrySnap - Ekrana Sabitleme seçenekleri</value>
   </data>
   <data name="PinToScreenOptionsWindow_Size_and_opacity" xml:space="preserve">
     <value>Boyut ve opaklık</value>
@@ -1406,7 +1406,7 @@ Dosya yolu: {0}</value>
     <value>Bölge seç...</value>
   </data>
   <data name="PinToScreenStartupWindow_ShareX_Pin_to_Screen" xml:space="preserve">
-    <value>ShareX - Ekrana Sabitle</value>
+    <value>CrySnap - Ekrana Sabitle</value>
   </data>
   <data name="PinToScreenWindow_Close" xml:space="preserve">
     <value>Kapat</value>
@@ -1493,7 +1493,7 @@ Dosya yolu: {0}</value>
     <value>QR kodu içeren görüntüyü seçin</value>
   </data>
   <data name="QRCodeWindow_ShareX_QR_Code" xml:space="preserve">
-    <value>ShareX - QR Kodu</value>
+    <value>CrySnap - QR Kodu</value>
   </data>
   <data name="QRCodeWindow_SVG_image" xml:space="preserve">
     <value>SVG görüntüsü</value>
@@ -1505,7 +1505,7 @@ Dosya yolu: {0}</value>
     <value>Tolerans: {0}%</value>
   </data>
   <data name="RulerWindow_ShareX_Ruler" xml:space="preserve">
-    <value>ShareX - Cetvel</value>
+    <value>CrySnap - Cetvel</value>
   </data>
   <data name="VideoConverterViewModel_Choose_video" xml:space="preserve">
     <value>Başlamak için bir video seçin.</value>
@@ -1589,7 +1589,7 @@ Dosya yolu: {0}</value>
     <value>Kalite</value>
   </data>
   <data name="VideoConverterWindow_ShareX_Video_Converter" xml:space="preserve">
-    <value>ShareX - Video Dönüştürücü</value>
+    <value>CrySnap - Video Dönüştürücü</value>
   </data>
   <data name="VideoConverterWindow_Smaller_file" xml:space="preserve">
     <value>Daha küçük dosya</value>
@@ -1691,7 +1691,7 @@ Dosya yolu: {0}</value>
     <value>Video seç</value>
   </data>
   <data name="VideoThumbnailerWindow_ShareX_Video_Thumbnailer" xml:space="preserve">
-    <value>ShareX - Video Küçük Resim Oluşturucu</value>
+    <value>CrySnap - Video Küçük Resim Oluşturucu</value>
   </data>
   <data name="VideoThumbnailerWindow_Show_timestamps" xml:space="preserve">
     <value>Zaman damgalarını göster</value>

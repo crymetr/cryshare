@@ -719,7 +719,7 @@ Favoritbilledeffekter (højreklik)</value>
     <value>Størrelse: {0} × {1}</value>
   </data>
   <data name="MainViewModel_WindowTitle" xml:space="preserve">
-    <value>ShareX – Billedredigering</value>
+    <value>CrySnap – Billedredigering</value>
   </data>
   <data name="MainViewModel_HideToolbars" xml:space="preserve">
     <value>Skjul værktøjslinje</value>

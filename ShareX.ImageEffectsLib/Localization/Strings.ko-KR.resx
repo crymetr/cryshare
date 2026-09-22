@@ -116,7 +116,7 @@
     <value>Y:</value>
   </data>
   <data name="ImageEffectPackagerWindow_Title" xml:space="preserve">
-    <value>ShareX - 이미지 효과 패키지 만들기</value>
+    <value>CrySnap - 이미지 효과 패키지 만들기</value>
   </data>
   <data name="ImageEffectPackagerWindow_Package_preset" xml:space="preserve">
     <value>프리셋 패키지 만들기</value>
@@ -149,10 +149,10 @@
     <value>이미지 효과 패키지 저장</value>
   </data>
   <data name="ImageEffectPackagerWindow_File_type" xml:space="preserve">
-    <value>ShareX 이미지 효과</value>
+    <value>CrySnap 이미지 효과</value>
   </data>
   <data name="ImageEffectPackagerWindow_Assets_must_be_inside" xml:space="preserve">
-    <value>에셋 폴더는 ShareX 이미지 효과 폴더 안에 있어야 합니다.</value>
+    <value>에셋 폴더는 CrySnap 이미지 효과 폴더 안에 있어야 합니다.</value>
   </data>
   <data name="ImageEffectPackagerWindow_Choose_package_path" xml:space="preserve">
     <value>패키지 파일 경로를 선택하세요.</value>
@@ -164,7 +164,7 @@
     <value>패키지를 만들었습니다.</value>
   </data>
   <data name="ImageEffectsConfirmationWindow_Title" xml:space="preserve">
-    <value>ShareX - 확인</value>
+    <value>CrySnap - 확인</value>
   </data>
   <data name="ImageEffectsConfirmationWindow_Continue" xml:space="preserve">
     <value>계속</value>
@@ -176,7 +176,7 @@
     <value>아니요</value>
   </data>
   <data name="ImageEffectsWindow_Title" xml:space="preserve">
-    <value>ShareX - 이미지 효과</value>
+    <value>CrySnap - 이미지 효과</value>
   </data>
   <data name="ImageEffectsWindow_Title_with_preview" xml:space="preserve">
     <value>{0} - {1} × {2} - {3}밀리초</value>

@@ -514,7 +514,7 @@
     <value>Зображення</value>
   </data>
   <data name="MainViewModel_WindowTitle" xml:space="preserve">
-    <value>ShareX — Редактор зображень</value>
+    <value>CrySnap — Редактор зображень</value>
   </data>
   <data name="MainViewModel_RunAfterCaptureTasksEnter" xml:space="preserve">
     <value>Виконати завдання після захоплення (Enter)</value>

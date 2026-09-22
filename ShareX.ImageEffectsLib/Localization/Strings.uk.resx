@@ -116,7 +116,7 @@
     <value>Y:</value>
   </data>
   <data name="ImageEffectPackagerWindow_Title" xml:space="preserve">
-    <value>ShareX - Пакування ефекту зображення</value>
+    <value>CrySnap - Пакування ефекту зображення</value>
   </data>
   <data name="ImageEffectPackagerWindow_Package_preset" xml:space="preserve">
     <value>Запакувати попереднє налаштування</value>
@@ -149,10 +149,10 @@
     <value>Зберегти пакет ефектів зображення</value>
   </data>
   <data name="ImageEffectPackagerWindow_File_type" xml:space="preserve">
-    <value>Ефект зображення ShareX</value>
+    <value>Ефект зображення CrySnap</value>
   </data>
   <data name="ImageEffectPackagerWindow_Assets_must_be_inside" xml:space="preserve">
-    <value>Тека ресурсів має міститися всередині теки ефектів зображення ShareX.</value>
+    <value>Тека ресурсів має міститися всередині теки ефектів зображення CrySnap.</value>
   </data>
   <data name="ImageEffectPackagerWindow_Choose_package_path" xml:space="preserve">
     <value>Виберіть шлях до файла пакета.</value>
@@ -164,7 +164,7 @@
     <value>Пакет успішно створено.</value>
   </data>
   <data name="ImageEffectsConfirmationWindow_Title" xml:space="preserve">
-    <value>ShareX — Підтвердження</value>
+    <value>CrySnap — Підтвердження</value>
   </data>
   <data name="ImageEffectsConfirmationWindow_Continue" xml:space="preserve">
     <value>Продовжити</value>
@@ -176,7 +176,7 @@
     <value>Ні</value>
   </data>
   <data name="ImageEffectsWindow_Title" xml:space="preserve">
-    <value>ShareX - Ефекти зображення</value>
+    <value>CrySnap - Ефекти зображення</value>
   </data>
   <data name="ImageEffectsWindow_Title_with_preview" xml:space="preserve">
     <value>{0} - {1} × {2} - {3} мс</value>

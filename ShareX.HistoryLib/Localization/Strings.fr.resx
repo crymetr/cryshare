@@ -13,7 +13,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="HistoryWindows_ShareX_History" xml:space="preserve">
-    <value>ShareX - Historique</value>
+    <value>CrySnap - Historique</value>
   </data>
   <data name="HistoryWindows_Search_file_names_and_tags" xml:space="preserve">
     <value>Rechercher dans les noms de fichiers et les étiquettes</value>
@@ -217,7 +217,7 @@
     <value>OK</value>
   </data>
   <data name="HistoryWindows_ShareX_Image_History" xml:space="preserve">
-    <value>ShareX - Historique des images</value>
+    <value>CrySnap - Historique des images</value>
   </data>
   <data name="HistoryWindows_Loading" xml:space="preserve">
     <value>Chargement...</value>

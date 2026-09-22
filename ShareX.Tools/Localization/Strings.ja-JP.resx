@@ -128,7 +128,7 @@
     <value>保存</value>
   </data>
   <data name="AnalyzeImageOptionsWindow_ShareX_Analyze_image_options" xml:space="preserve">
-    <value>ShareX - 画像分析オプション</value>
+    <value>CrySnap - 画像分析オプション</value>
   </data>
   <data name="AnalyzeImageOptionsWindow_Test_connection" xml:space="preserve">
     <value>接続をテスト</value>
@@ -212,7 +212,7 @@
     <value>領域を選択...</value>
   </data>
   <data name="AnalyzeImageWindow_ShareX_Analyze_image" xml:space="preserve">
-    <value>ShareX - 画像を分析</value>
+    <value>CrySnap - 画像を分析</value>
   </data>
   <data name="BackgroundRemoverViewModel_Background_removed_ms" xml:space="preserve">
     <value>{0} ms で背景を削除しました。</value>
@@ -266,7 +266,7 @@
     <value>プレビューする画像を選択してください。</value>
   </data>
   <data name="BackgroundRemoverWindow_ShareX_Background_Remover" xml:space="preserve">
-    <value>ShareX - 背景削除</value>
+    <value>CrySnap - 背景削除</value>
   </data>
   <data name="BorderlessWindowViewModel_Unable_to_toggle" xml:space="preserve">
     <value>選択したウィンドウを切り替えられません。{0}</value>
@@ -293,7 +293,7 @@
     <value>ウィンドウを選択</value>
   </data>
   <data name="BorderlessWindowWindow_ShareX_Borderless_Window" xml:space="preserve">
-    <value>ShareX - ボーダーレス ウィンドウ</value>
+    <value>CrySnap - ボーダーレス ウィンドウ</value>
   </data>
   <data name="BorderlessWindowWindow_Toggle_again_to_restore_the_original_border_and_window_size" xml:space="preserve">
     <value>もう一度切り替えると元の枠線とウィンドウ サイズに戻ります。</value>
@@ -356,7 +356,7 @@
     <value>更新</value>
   </data>
   <data name="ClipboardViewerWindow_ShareX_Clipboard_Viewer" xml:space="preserve">
-    <value>ShareX - クリップボード ビューアー</value>
+    <value>CrySnap - クリップボード ビューアー</value>
   </data>
   <data name="DirectoryIndexerViewModel_Index_for" xml:space="preserve">
     <value>{0} のインデックス</value>
@@ -443,7 +443,7 @@
     <value>インデックスを作成するフォルダーを選択</value>
   </data>
   <data name="DirectoryIndexerWindow_ShareX_Directory_Indexer" xml:space="preserve">
-    <value>ShareX - ディレクトリ インデクサー</value>
+    <value>CrySnap - ディレクトリ インデクサー</value>
   </data>
   <data name="DirectoryIndexerWindow_Show_sizes" xml:space="preserve">
     <value>サイズを表示</value>
@@ -566,7 +566,7 @@
     <value>2 番目のファイル</value>
   </data>
   <data name="HashCheckerWindow_ShareX_Hash_Checker" xml:space="preserve">
-    <value>ShareX - ハッシュ チェッカー</value>
+    <value>CrySnap - ハッシュ チェッカー</value>
   </data>
   <data name="HashCheckerWindow_Stop" xml:space="preserve">
     <value>停止</value>
@@ -659,7 +659,7 @@
     <value>アイコンに名前を付けて保存</value>
   </data>
   <data name="IconConverterWindow_ShareX_Icon_Converter" xml:space="preserve">
-    <value>ShareX - アイコン コンバーター</value>
+    <value>CrySnap - アイコン コンバーター</value>
   </data>
   <data name="IconConverterWindow_Sizes" xml:space="preserve">
     <value>サイズ</value>
@@ -734,7 +734,7 @@
     <value>方向</value>
   </data>
   <data name="ImageCombinerWindow_ShareX_Image_Combiner" xml:space="preserve">
-    <value>ShareX - 画像結合</value>
+    <value>CrySnap - 画像結合</value>
   </data>
   <data name="ImageCombinerWindow_Spacing" xml:space="preserve">
     <value>間隔</value>
@@ -785,7 +785,7 @@
     <value>比較プレビューを表示するには画像 1 と画像 2 を選択してください。</value>
   </data>
   <data name="ImageComparerWindow_ShareX_Image_Comparer" xml:space="preserve">
-    <value>ShareX - 画像比較</value>
+    <value>CrySnap - 画像比較</value>
   </data>
   <data name="ImageComparerWindow_Slider" xml:space="preserve">
     <value>スライダー</value>
@@ -815,7 +815,7 @@
     <value>行</value>
   </data>
   <data name="ImageSplitterWindow_ShareX_Image_Splitter" xml:space="preserve">
-    <value>ShareX - 画像分割</value>
+    <value>CrySnap - 画像分割</value>
   </data>
   <data name="ImageSplitterWindow_Split_image" xml:space="preserve">
     <value>画像を分割</value>
@@ -875,7 +875,7 @@
     <value>出力</value>
   </data>
   <data name="ImageThumbnailerWindow_ShareX_Image_Thumbnailer" xml:space="preserve">
-    <value>ShareX - 画像サムネイル作成</value>
+    <value>CrySnap - 画像サムネイル作成</value>
   </data>
   <data name="ImageThumbnailerWindow_Thumbnail_size" xml:space="preserve">
     <value>サムネイル サイズ</value>
@@ -902,7 +902,7 @@
     <value>{0:n0} 個のフォルダー</value>
   </data>
   <data name="IndexerText_Generated_by" xml:space="preserve">
-    <value>{0:yyyy-MM-dd 'at' HH:mm:ss 'UTC'} に ShareX Directory Indexer で生成されました。最新版はこちらからダウンロードできます: {1}</value>
+    <value>{0:yyyy-MM-dd 'at' HH:mm:ss 'UTC'} に CrySnap Directory Indexer で生成されました。最新版はこちらからダウンロードできます: {1}</value>
   </data>
   <data name="InspectWindowPickerOverlay_Click_control" xml:space="preserve">
     <value>コントロールをクリックして調査  |  Esc でキャンセル</value>
@@ -983,7 +983,7 @@
     <value>ウィンドウを選択</value>
   </data>
   <data name="InspectWindowWindow_ShareX_Inspect_Window" xml:space="preserve">
-    <value>ShareX - ウィンドウ調査</value>
+    <value>CrySnap - ウィンドウ調査</value>
   </data>
   <data name="InspectWindowWindow_Window_information" xml:space="preserve">
     <value>ウィンドウ情報</value>
@@ -1085,10 +1085,10 @@
     <value>メタデータを削除できません\n{0}</value>
   </data>
   <data name="MetadataViewModel_Window_title" xml:space="preserve">
-    <value>ShareX - メタデータ</value>
+    <value>CrySnap - メタデータ</value>
   </data>
   <data name="MetadataViewModel_Window_title_file" xml:space="preserve">
-    <value>ShareX - メタデータ - {0}</value>
+    <value>CrySnap - メタデータ - {0}</value>
   </data>
   <data name="MetadataWindow_Cancel" xml:space="preserve">
     <value>キャンセル</value>
@@ -1169,7 +1169,7 @@
     <value>RGB</value>
   </data>
   <data name="MonitorTestWindow_ShareX_Monitor_Test" xml:space="preserve">
-    <value>ShareX - モニター テスト</value>
+    <value>CrySnap - モニター テスト</value>
   </data>
   <data name="MonitorTestWindow_Speed" xml:space="preserve">
     <value>速度</value>
@@ -1262,7 +1262,7 @@
     <value>サービス</value>
   </data>
   <data name="OCRWindow_ShareX_Optical_character_recognition" xml:space="preserve">
-    <value>ShareX - 光学文字認識</value>
+    <value>CrySnap - 光学文字認識</value>
   </data>
   <data name="OCRWindow_Single_line" xml:space="preserve">
     <value>単一行</value>
@@ -1364,7 +1364,7 @@
     <value>画面端からのオフセット</value>
   </data>
   <data name="PinToScreenOptionsWindow_ShareX_Pin_to_Screen_options" xml:space="preserve">
-    <value>ShareX - 画面に固定のオプション</value>
+    <value>CrySnap - 画面に固定のオプション</value>
   </data>
   <data name="PinToScreenOptionsWindow_Size_and_opacity" xml:space="preserve">
     <value>サイズと不透明度</value>
@@ -1400,7 +1400,7 @@
     <value>領域を選択...</value>
   </data>
   <data name="PinToScreenStartupWindow_ShareX_Pin_to_Screen" xml:space="preserve">
-    <value>ShareX - 画面に固定</value>
+    <value>CrySnap - 画面に固定</value>
   </data>
   <data name="PinToScreenWindow_Close" xml:space="preserve">
     <value>閉じる</value>
@@ -1487,7 +1487,7 @@
     <value>QR コードを含む画像を選択</value>
   </data>
   <data name="QRCodeWindow_ShareX_QR_Code" xml:space="preserve">
-    <value>ShareX - QR コード</value>
+    <value>CrySnap - QR コード</value>
   </data>
   <data name="QRCodeWindow_SVG_image" xml:space="preserve">
     <value>SVG 画像</value>
@@ -1499,7 +1499,7 @@
     <value>許容差: {0}%</value>
   </data>
   <data name="RulerWindow_ShareX_Ruler" xml:space="preserve">
-    <value>ShareX - 定規</value>
+    <value>CrySnap - 定規</value>
   </data>
   <data name="VideoConverterViewModel_Choose_video" xml:space="preserve">
     <value>開始するには動画を選択してください。</value>
@@ -1583,7 +1583,7 @@
     <value>品質</value>
   </data>
   <data name="VideoConverterWindow_ShareX_Video_Converter" xml:space="preserve">
-    <value>ShareX - 動画コンバーター</value>
+    <value>CrySnap - 動画コンバーター</value>
   </data>
   <data name="VideoConverterWindow_Smaller_file" xml:space="preserve">
     <value>小さいファイル</value>
@@ -1685,7 +1685,7 @@
     <value>動画を選択</value>
   </data>
   <data name="VideoThumbnailerWindow_ShareX_Video_Thumbnailer" xml:space="preserve">
-    <value>ShareX - 動画サムネイル作成</value>
+    <value>CrySnap - 動画サムネイル作成</value>
   </data>
   <data name="VideoThumbnailerWindow_Show_timestamps" xml:space="preserve">
     <value>タイムスタンプを表示</value>

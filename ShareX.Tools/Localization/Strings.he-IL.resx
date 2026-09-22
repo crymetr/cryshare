@@ -128,7 +128,7 @@
     <value>שמירה</value>
   </data>
   <data name="AnalyzeImageOptionsWindow_ShareX_Analyze_image_options" xml:space="preserve">
-    <value>ShareX - אפשרויות ניתוח תמונה</value>
+    <value>CrySnap - אפשרויות ניתוח תמונה</value>
   </data>
   <data name="AnalyzeImageOptionsWindow_Test_connection" xml:space="preserve">
     <value>בדוק חיבור</value>
@@ -212,7 +212,7 @@
     <value>בחר אזור...</value>
   </data>
   <data name="AnalyzeImageWindow_ShareX_Analyze_image" xml:space="preserve">
-    <value>ShareX - ניתוח תמונה</value>
+    <value>CrySnap - ניתוח תמונה</value>
   </data>
   <data name="BackgroundRemoverViewModel_Background_removed_ms" xml:space="preserve">
     <value>הרקע הוסר בתוך {0} אלפיות שנייה.</value>
@@ -266,7 +266,7 @@
     <value>בחר תמונה לתצוגה מקדימה כאן.</value>
   </data>
   <data name="BackgroundRemoverWindow_ShareX_Background_Remover" xml:space="preserve">
-    <value>ShareX - מסיר רקע</value>
+    <value>CrySnap - מסיר רקע</value>
   </data>
   <data name="BorderlessWindowViewModel_Unable_to_toggle" xml:space="preserve">
     <value>לא ניתן לשנות את מצב החלון שנבחר. {0}</value>
@@ -293,7 +293,7 @@
     <value>בחר חלון</value>
   </data>
   <data name="BorderlessWindowWindow_ShareX_Borderless_Window" xml:space="preserve">
-    <value>ShareX - חלון ללא מסגרת</value>
+    <value>CrySnap - חלון ללא מסגרת</value>
   </data>
   <data name="BorderlessWindowWindow_Toggle_again_to_restore_the_original_border_and_window_size" xml:space="preserve">
     <value>שנה שוב כדי לשחזר את המסגרת ואת גודל החלון המקוריים.</value>
@@ -356,7 +356,7 @@
     <value>רענן</value>
   </data>
   <data name="ClipboardViewerWindow_ShareX_Clipboard_Viewer" xml:space="preserve">
-    <value>ShareX - מציג הלוח</value>
+    <value>CrySnap - מציג הלוח</value>
   </data>
   <data name="DirectoryIndexerViewModel_Index_for" xml:space="preserve">
     <value>אינדקס עבור {0}</value>
@@ -443,7 +443,7 @@
     <value>בחר תיקייה לאינדוקס</value>
   </data>
   <data name="DirectoryIndexerWindow_ShareX_Directory_Indexer" xml:space="preserve">
-    <value>ShareX - מאנדקס תיקיות</value>
+    <value>CrySnap - מאנדקס תיקיות</value>
   </data>
   <data name="DirectoryIndexerWindow_Show_sizes" xml:space="preserve">
     <value>הצג גדלים</value>
@@ -566,7 +566,7 @@
     <value>הקובץ השני</value>
   </data>
   <data name="HashCheckerWindow_ShareX_Hash_Checker" xml:space="preserve">
-    <value>ShareX - בודק גיבוב</value>
+    <value>CrySnap - בודק גיבוב</value>
   </data>
   <data name="HashCheckerWindow_Stop" xml:space="preserve">
     <value>עצור</value>
@@ -659,7 +659,7 @@
     <value>שמור סמל בשם</value>
   </data>
   <data name="IconConverterWindow_ShareX_Icon_Converter" xml:space="preserve">
-    <value>ShareX - ממיר סמלים</value>
+    <value>CrySnap - ממיר סמלים</value>
   </data>
   <data name="IconConverterWindow_Sizes" xml:space="preserve">
     <value>גדלים</value>
@@ -734,7 +734,7 @@
     <value>כיוון</value>
   </data>
   <data name="ImageCombinerWindow_ShareX_Image_Combiner" xml:space="preserve">
-    <value>ShareX - משלב תמונות</value>
+    <value>CrySnap - משלב תמונות</value>
   </data>
   <data name="ImageCombinerWindow_Spacing" xml:space="preserve">
     <value>מרווח</value>
@@ -785,7 +785,7 @@
     <value>בחר תמונה 1 ותמונה 2 כדי להציג תצוגה מקדימה של ההשוואה.</value>
   </data>
   <data name="ImageComparerWindow_ShareX_Image_Comparer" xml:space="preserve">
-    <value>ShareX - משווה תמונות</value>
+    <value>CrySnap - משווה תמונות</value>
   </data>
   <data name="ImageComparerWindow_Slider" xml:space="preserve">
     <value>מחוון</value>
@@ -815,7 +815,7 @@
     <value>שורות</value>
   </data>
   <data name="ImageSplitterWindow_ShareX_Image_Splitter" xml:space="preserve">
-    <value>ShareX - מפצל תמונות</value>
+    <value>CrySnap - מפצל תמונות</value>
   </data>
   <data name="ImageSplitterWindow_Split_image" xml:space="preserve">
     <value>פצל תמונה</value>
@@ -875,7 +875,7 @@
     <value>פלט</value>
   </data>
   <data name="ImageThumbnailerWindow_ShareX_Image_Thumbnailer" xml:space="preserve">
-    <value>ShareX - יוצר תמונות ממוזערות</value>
+    <value>CrySnap - יוצר תמונות ממוזערות</value>
   </data>
   <data name="ImageThumbnailerWindow_Thumbnail_size" xml:space="preserve">
     <value>גודל תמונה ממוזערת</value>
@@ -902,7 +902,7 @@
     <value>{0:n0} תיקייה</value>
   </data>
   <data name="IndexerText_Generated_by" xml:space="preserve">
-    <value>נוצר על ידי ShareX Directory Indexer בתאריך {0:yyyy-MM-dd 'at' HH:mm:ss 'UTC'}. ניתן להוריד את הגרסה האחרונה מכאן: {1}</value>
+    <value>נוצר על ידי CrySnap Directory Indexer בתאריך {0:yyyy-MM-dd 'at' HH:mm:ss 'UTC'}. ניתן להוריד את הגרסה האחרונה מכאן: {1}</value>
   </data>
   <data name="InspectWindowPickerOverlay_Click_control" xml:space="preserve">
     <value>לחץ על פקד כדי לבדוק אותו  |  Esc לביטול</value>
@@ -983,7 +983,7 @@
     <value>בחר חלון</value>
   </data>
   <data name="InspectWindowWindow_ShareX_Inspect_Window" xml:space="preserve">
-    <value>ShareX - בדיקת חלון</value>
+    <value>CrySnap - בדיקת חלון</value>
   </data>
   <data name="InspectWindowWindow_Window_information" xml:space="preserve">
     <value>מידע על החלון</value>
@@ -1085,10 +1085,10 @@
     <value>לא ניתן להסיר מטא-נתונים\n{0}</value>
   </data>
   <data name="MetadataViewModel_Window_title" xml:space="preserve">
-    <value>ShareX - מטא-נתונים</value>
+    <value>CrySnap - מטא-נתונים</value>
   </data>
   <data name="MetadataViewModel_Window_title_file" xml:space="preserve">
-    <value>ShareX - מטא-נתונים - {0}</value>
+    <value>CrySnap - מטא-נתונים - {0}</value>
   </data>
   <data name="MetadataWindow_Cancel" xml:space="preserve">
     <value>ביטול</value>
@@ -1169,7 +1169,7 @@
     <value>RGB</value>
   </data>
   <data name="MonitorTestWindow_ShareX_Monitor_Test" xml:space="preserve">
-    <value>ShareX - בדיקת צג</value>
+    <value>CrySnap - בדיקת צג</value>
   </data>
   <data name="MonitorTestWindow_Speed" xml:space="preserve">
     <value>מהירות</value>
@@ -1262,7 +1262,7 @@
     <value>שירותים</value>
   </data>
   <data name="OCRWindow_ShareX_Optical_character_recognition" xml:space="preserve">
-    <value>ShareX - זיהוי תווים אופטי</value>
+    <value>CrySnap - זיהוי תווים אופטי</value>
   </data>
   <data name="OCRWindow_Single_line" xml:space="preserve">
     <value>שורה יחידה</value>
@@ -1364,7 +1364,7 @@
     <value>מרחק מקצה המסך</value>
   </data>
   <data name="PinToScreenOptionsWindow_ShareX_Pin_to_Screen_options" xml:space="preserve">
-    <value>ShareX - אפשרויות הצמדה למסך</value>
+    <value>CrySnap - אפשרויות הצמדה למסך</value>
   </data>
   <data name="PinToScreenOptionsWindow_Size_and_opacity" xml:space="preserve">
     <value>גודל ואטימות</value>
@@ -1400,7 +1400,7 @@
     <value>בחר אזור...</value>
   </data>
   <data name="PinToScreenStartupWindow_ShareX_Pin_to_Screen" xml:space="preserve">
-    <value>ShareX - הצמדה למסך</value>
+    <value>CrySnap - הצמדה למסך</value>
   </data>
   <data name="PinToScreenWindow_Close" xml:space="preserve">
     <value>סגור</value>
@@ -1487,7 +1487,7 @@
     <value>בחר תמונה המכילה קוד QR</value>
   </data>
   <data name="QRCodeWindow_ShareX_QR_Code" xml:space="preserve">
-    <value>ShareX - קוד QR</value>
+    <value>CrySnap - קוד QR</value>
   </data>
   <data name="QRCodeWindow_SVG_image" xml:space="preserve">
     <value>תמונת SVG</value>
@@ -1499,7 +1499,7 @@
     <value>סבילות: {0}%</value>
   </data>
   <data name="RulerWindow_ShareX_Ruler" xml:space="preserve">
-    <value>ShareX - סרגל</value>
+    <value>CrySnap - סרגל</value>
   </data>
   <data name="VideoConverterViewModel_Choose_video" xml:space="preserve">
     <value>בחר סרטון כדי להתחיל.</value>
@@ -1583,7 +1583,7 @@
     <value>איכות</value>
   </data>
   <data name="VideoConverterWindow_ShareX_Video_Converter" xml:space="preserve">
-    <value>ShareX - ממיר סרטונים</value>
+    <value>CrySnap - ממיר סרטונים</value>
   </data>
   <data name="VideoConverterWindow_Smaller_file" xml:space="preserve">
     <value>קובץ קטן יותר</value>
@@ -1685,7 +1685,7 @@
     <value>בחר סרטון</value>
   </data>
   <data name="VideoThumbnailerWindow_ShareX_Video_Thumbnailer" xml:space="preserve">
-    <value>ShareX - יוצר תמונות ממוזערות לסרטון</value>
+    <value>CrySnap - יוצר תמונות ממוזערות לסרטון</value>
   </data>
   <data name="VideoThumbnailerWindow_Show_timestamps" xml:space="preserve">
     <value>הצג חותמות זמן</value>

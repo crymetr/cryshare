@@ -116,7 +116,7 @@
     <value>Y:</value>
   </data>
   <data name="ImageEffectPackagerWindow_Title" xml:space="preserve">
-    <value>ShareX - Afbeeldingseffect verpakken</value>
+    <value>CrySnap - Afbeeldingseffect verpakken</value>
   </data>
   <data name="ImageEffectPackagerWindow_Package_preset" xml:space="preserve">
     <value>Voorinstelling verpakken</value>
@@ -149,10 +149,10 @@
     <value>Pakket met afbeeldingseffecten opslaan</value>
   </data>
   <data name="ImageEffectPackagerWindow_File_type" xml:space="preserve">
-    <value>ShareX-afbeeldingseffect</value>
+    <value>CrySnap-afbeeldingseffect</value>
   </data>
   <data name="ImageEffectPackagerWindow_Assets_must_be_inside" xml:space="preserve">
-    <value>De bronbestandenmap moet zich in de ShareX-map met afbeeldingseffecten bevinden.</value>
+    <value>De bronbestandenmap moet zich in de CrySnap-map met afbeeldingseffecten bevinden.</value>
   </data>
   <data name="ImageEffectPackagerWindow_Choose_package_path" xml:space="preserve">
     <value>Kies een pad voor het pakketbestand.</value>
@@ -164,7 +164,7 @@
     <value>Pakket is gemaakt.</value>
   </data>
   <data name="ImageEffectsConfirmationWindow_Title" xml:space="preserve">
-    <value>ShareX - Bevestiging</value>
+    <value>CrySnap - Bevestiging</value>
   </data>
   <data name="ImageEffectsConfirmationWindow_Continue" xml:space="preserve">
     <value>Doorgaan</value>
@@ -176,7 +176,7 @@
     <value>Nee</value>
   </data>
   <data name="ImageEffectsWindow_Title" xml:space="preserve">
-    <value>ShareX - Afbeeldingseffecten</value>
+    <value>CrySnap - Afbeeldingseffecten</value>
   </data>
   <data name="ImageEffectsWindow_Title_with_preview" xml:space="preserve">
     <value>{0} - {1} × {2} - {3} ms</value>

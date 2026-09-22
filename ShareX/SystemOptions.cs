@@ -31,7 +31,7 @@ namespace ShareX
 {
     public static class SystemOptions
     {
-        private const string RegistryPath = @"SOFTWARE\ShareX";
+        private const string RegistryPath = @"SOFTWARE\CrySnap";
 
         public static bool DisableLogging { get; private set; }
         public static string PersonalPath { get; private set; }

@@ -128,7 +128,7 @@
     <value>Lưu</value>
   </data>
   <data name="AnalyzeImageOptionsWindow_ShareX_Analyze_image_options" xml:space="preserve">
-    <value>ShareX - Tùy chọn phân tích hình ảnh</value>
+    <value>CrySnap - Tùy chọn phân tích hình ảnh</value>
   </data>
   <data name="AnalyzeImageOptionsWindow_Test_connection" xml:space="preserve">
     <value>Kiểm tra kết nối</value>
@@ -212,7 +212,7 @@
     <value>Chọn vùng...</value>
   </data>
   <data name="AnalyzeImageWindow_ShareX_Analyze_image" xml:space="preserve">
-    <value>ShareX - Phân tích hình ảnh</value>
+    <value>CrySnap - Phân tích hình ảnh</value>
   </data>
   <data name="BackgroundRemoverViewModel_Background_removed_ms" xml:space="preserve">
     <value>Đã xóa nền trong {0} ms.</value>
@@ -266,7 +266,7 @@
     <value>Chọn một hình ảnh để xem trước tại đây.</value>
   </data>
   <data name="BackgroundRemoverWindow_ShareX_Background_Remover" xml:space="preserve">
-    <value>ShareX - Xóa nền</value>
+    <value>CrySnap - Xóa nền</value>
   </data>
   <data name="BorderlessWindowViewModel_Unable_to_toggle" xml:space="preserve">
     <value>Không thể chuyển đổi cửa sổ đã chọn. {0}</value>
@@ -293,7 +293,7 @@
     <value>Chọn cửa sổ</value>
   </data>
   <data name="BorderlessWindowWindow_ShareX_Borderless_Window" xml:space="preserve">
-    <value>ShareX - Cửa sổ không viền</value>
+    <value>CrySnap - Cửa sổ không viền</value>
   </data>
   <data name="BorderlessWindowWindow_Toggle_again_to_restore_the_original_border_and_window_size" xml:space="preserve">
     <value>Chuyển đổi lần nữa để khôi phục viền và kích thước cửa sổ ban đầu.</value>
@@ -356,7 +356,7 @@
     <value>Làm mới</value>
   </data>
   <data name="ClipboardViewerWindow_ShareX_Clipboard_Viewer" xml:space="preserve">
-    <value>ShareX - Trình xem bảng tạm</value>
+    <value>CrySnap - Trình xem bảng tạm</value>
   </data>
   <data name="DirectoryIndexerViewModel_Index_for" xml:space="preserve">
     <value>Chỉ mục cho {0}</value>
@@ -443,7 +443,7 @@
     <value>Chọn thư mục để lập chỉ mục</value>
   </data>
   <data name="DirectoryIndexerWindow_ShareX_Directory_Indexer" xml:space="preserve">
-    <value>ShareX - Trình lập chỉ mục thư mục</value>
+    <value>CrySnap - Trình lập chỉ mục thư mục</value>
   </data>
   <data name="DirectoryIndexerWindow_Show_sizes" xml:space="preserve">
     <value>Hiển thị kích thước</value>
@@ -566,7 +566,7 @@
     <value>Tệp thứ hai</value>
   </data>
   <data name="HashCheckerWindow_ShareX_Hash_Checker" xml:space="preserve">
-    <value>ShareX - Trình kiểm tra hàm băm</value>
+    <value>CrySnap - Trình kiểm tra hàm băm</value>
   </data>
   <data name="HashCheckerWindow_Stop" xml:space="preserve">
     <value>Dừng</value>
@@ -659,7 +659,7 @@
     <value>Lưu biểu tượng thành</value>
   </data>
   <data name="IconConverterWindow_ShareX_Icon_Converter" xml:space="preserve">
-    <value>ShareX - Trình chuyển đổi biểu tượng</value>
+    <value>CrySnap - Trình chuyển đổi biểu tượng</value>
   </data>
   <data name="IconConverterWindow_Sizes" xml:space="preserve">
     <value>Kích thước</value>
@@ -734,7 +734,7 @@
     <value>Hướng</value>
   </data>
   <data name="ImageCombinerWindow_ShareX_Image_Combiner" xml:space="preserve">
-    <value>ShareX - Trình kết hợp hình ảnh</value>
+    <value>CrySnap - Trình kết hợp hình ảnh</value>
   </data>
   <data name="ImageCombinerWindow_Spacing" xml:space="preserve">
     <value>Khoảng cách</value>
@@ -785,7 +785,7 @@
     <value>Chọn Hình ảnh 1 và Hình ảnh 2 để hiển thị bản xem trước so sánh.</value>
   </data>
   <data name="ImageComparerWindow_ShareX_Image_Comparer" xml:space="preserve">
-    <value>ShareX - Trình so sánh hình ảnh</value>
+    <value>CrySnap - Trình so sánh hình ảnh</value>
   </data>
   <data name="ImageComparerWindow_Slider" xml:space="preserve">
     <value>Thanh trượt</value>
@@ -815,7 +815,7 @@
     <value>Hàng</value>
   </data>
   <data name="ImageSplitterWindow_ShareX_Image_Splitter" xml:space="preserve">
-    <value>ShareX - Trình chia hình ảnh</value>
+    <value>CrySnap - Trình chia hình ảnh</value>
   </data>
   <data name="ImageSplitterWindow_Split_image" xml:space="preserve">
     <value>Chia hình ảnh</value>
@@ -875,7 +875,7 @@
     <value>Đầu ra</value>
   </data>
   <data name="ImageThumbnailerWindow_ShareX_Image_Thumbnailer" xml:space="preserve">
-    <value>ShareX - Trình tạo hình thu nhỏ</value>
+    <value>CrySnap - Trình tạo hình thu nhỏ</value>
   </data>
   <data name="ImageThumbnailerWindow_Thumbnail_size" xml:space="preserve">
     <value>Kích thước hình thu nhỏ</value>
@@ -902,7 +902,7 @@
     <value>{0:n0} thư mục</value>
   </data>
   <data name="IndexerText_Generated_by" xml:space="preserve">
-    <value>Được tạo bởi ShareX Directory Indexer vào {0:yyyy-MM-dd 'at' HH:mm:ss 'UTC'}. Có thể tải phiên bản mới nhất từ: {1}</value>
+    <value>Được tạo bởi CrySnap Directory Indexer vào {0:yyyy-MM-dd 'at' HH:mm:ss 'UTC'}. Có thể tải phiên bản mới nhất từ: {1}</value>
   </data>
   <data name="InspectWindowPickerOverlay_Click_control" xml:space="preserve">
     <value>Nhấp vào điều khiển để kiểm tra  |  Esc để hủy</value>
@@ -983,7 +983,7 @@
     <value>Chọn cửa sổ</value>
   </data>
   <data name="InspectWindowWindow_ShareX_Inspect_Window" xml:space="preserve">
-    <value>ShareX - Kiểm tra cửa sổ</value>
+    <value>CrySnap - Kiểm tra cửa sổ</value>
   </data>
   <data name="InspectWindowWindow_Window_information" xml:space="preserve">
     <value>Thông tin cửa sổ</value>
@@ -1085,10 +1085,10 @@
     <value>Không thể xóa siêu dữ liệu\n{0}</value>
   </data>
   <data name="MetadataViewModel_Window_title" xml:space="preserve">
-    <value>ShareX - Siêu dữ liệu</value>
+    <value>CrySnap - Siêu dữ liệu</value>
   </data>
   <data name="MetadataViewModel_Window_title_file" xml:space="preserve">
-    <value>ShareX - Siêu dữ liệu - {0}</value>
+    <value>CrySnap - Siêu dữ liệu - {0}</value>
   </data>
   <data name="MetadataWindow_Cancel" xml:space="preserve">
     <value>Hủy</value>
@@ -1169,7 +1169,7 @@
     <value>RGB</value>
   </data>
   <data name="MonitorTestWindow_ShareX_Monitor_Test" xml:space="preserve">
-    <value>ShareX - Kiểm tra màn hình</value>
+    <value>CrySnap - Kiểm tra màn hình</value>
   </data>
   <data name="MonitorTestWindow_Speed" xml:space="preserve">
     <value>Tốc độ</value>
@@ -1262,7 +1262,7 @@
     <value>Dịch vụ</value>
   </data>
   <data name="OCRWindow_ShareX_Optical_character_recognition" xml:space="preserve">
-    <value>ShareX - Nhận dạng ký tự quang học</value>
+    <value>CrySnap - Nhận dạng ký tự quang học</value>
   </data>
   <data name="OCRWindow_Single_line" xml:space="preserve">
     <value>Một dòng</value>
@@ -1364,7 +1364,7 @@
     <value>Khoảng cách mép màn hình</value>
   </data>
   <data name="PinToScreenOptionsWindow_ShareX_Pin_to_Screen_options" xml:space="preserve">
-    <value>ShareX - Tùy chọn ghim lên màn hình</value>
+    <value>CrySnap - Tùy chọn ghim lên màn hình</value>
   </data>
   <data name="PinToScreenOptionsWindow_Size_and_opacity" xml:space="preserve">
     <value>Kích thước và độ mờ</value>
@@ -1400,7 +1400,7 @@
     <value>Chọn vùng...</value>
   </data>
   <data name="PinToScreenStartupWindow_ShareX_Pin_to_Screen" xml:space="preserve">
-    <value>ShareX - Ghim lên màn hình</value>
+    <value>CrySnap - Ghim lên màn hình</value>
   </data>
   <data name="PinToScreenWindow_Close" xml:space="preserve">
     <value>Đóng</value>
@@ -1487,7 +1487,7 @@
     <value>Chọn hình ảnh chứa mã QR</value>
   </data>
   <data name="QRCodeWindow_ShareX_QR_Code" xml:space="preserve">
-    <value>ShareX - Mã QR</value>
+    <value>CrySnap - Mã QR</value>
   </data>
   <data name="QRCodeWindow_SVG_image" xml:space="preserve">
     <value>Hình ảnh SVG</value>
@@ -1499,7 +1499,7 @@
     <value>Dung sai: {0}%</value>
   </data>
   <data name="RulerWindow_ShareX_Ruler" xml:space="preserve">
-    <value>ShareX - Thước đo</value>
+    <value>CrySnap - Thước đo</value>
   </data>
   <data name="VideoConverterViewModel_Choose_video" xml:space="preserve">
     <value>Chọn một video để bắt đầu.</value>
@@ -1583,7 +1583,7 @@
     <value>Chất lượng</value>
   </data>
   <data name="VideoConverterWindow_ShareX_Video_Converter" xml:space="preserve">
-    <value>ShareX - Trình chuyển đổi video</value>
+    <value>CrySnap - Trình chuyển đổi video</value>
   </data>
   <data name="VideoConverterWindow_Smaller_file" xml:space="preserve">
     <value>Tệp nhỏ hơn</value>
@@ -1685,7 +1685,7 @@
     <value>Chọn video</value>
   </data>
   <data name="VideoThumbnailerWindow_ShareX_Video_Thumbnailer" xml:space="preserve">
-    <value>ShareX - Trình tạo hình thu nhỏ video</value>
+    <value>CrySnap - Trình tạo hình thu nhỏ video</value>
   </data>
   <data name="VideoThumbnailerWindow_Show_timestamps" xml:space="preserve">
     <value>Hiển thị dấu thời gian</value>

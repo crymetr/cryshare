@@ -505,7 +505,7 @@ Options de l’ombre (Clic droit)</value>
     <value>Couleur</value>
   </data>
   <data name="MainViewModel_WindowTitle" xml:space="preserve">
-    <value>ShareX - Éditeur d’images</value>
+    <value>CrySnap - Éditeur d’images</value>
   </data>
   <data name="MainViewModel_RunAfterCaptureTasksEnter" xml:space="preserve">
     <value>Exécuter les tâches après capture (Entrée)</value>

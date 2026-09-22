@@ -128,7 +128,7 @@
     <value>保存</value>
   </data>
   <data name="AnalyzeImageOptionsWindow_ShareX_Analyze_image_options" xml:space="preserve">
-    <value>ShareX - 图像分析选项</value>
+    <value>CrySnap - 图像分析选项</value>
   </data>
   <data name="AnalyzeImageOptionsWindow_Test_connection" xml:space="preserve">
     <value>测试连接</value>
@@ -212,7 +212,7 @@
     <value>选择区域...</value>
   </data>
   <data name="AnalyzeImageWindow_ShareX_Analyze_image" xml:space="preserve">
-    <value>ShareX - 分析图像</value>
+    <value>CrySnap - 分析图像</value>
   </data>
   <data name="BackgroundRemoverViewModel_Background_removed_ms" xml:space="preserve">
     <value>已在 {0} 毫秒内移除背景。</value>
@@ -267,7 +267,7 @@
     <value>选择图像以在此处预览。</value>
   </data>
   <data name="BackgroundRemoverWindow_ShareX_Background_Remover" xml:space="preserve">
-    <value>ShareX - 背景移除</value>
+    <value>CrySnap - 背景移除</value>
   </data>
   <data name="BorderlessWindowViewModel_Unable_to_toggle" xml:space="preserve">
     <value>无法切换选中的窗口。{0}</value>
@@ -294,7 +294,7 @@
     <value>选择窗口</value>
   </data>
   <data name="BorderlessWindowWindow_ShareX_Borderless_Window" xml:space="preserve">
-    <value>ShareX - 无边框窗口</value>
+    <value>CrySnap - 无边框窗口</value>
   </data>
   <data name="BorderlessWindowWindow_Toggle_again_to_restore_the_original_border_and_window_size" xml:space="preserve">
     <value>再次切换以恢复原始边框和窗口大小。</value>
@@ -360,7 +360,7 @@
     <value>刷新</value>
   </data>
   <data name="ClipboardViewerWindow_ShareX_Clipboard_Viewer" xml:space="preserve">
-    <value>ShareX - 剪贴板查看器</value>
+    <value>CrySnap - 剪贴板查看器</value>
   </data>
   <data name="DirectoryIndexerViewModel_Index_for" xml:space="preserve">
     <value>{0} 的索引</value>
@@ -447,7 +447,7 @@
     <value>选择要索引的文件夹</value>
   </data>
   <data name="DirectoryIndexerWindow_ShareX_Directory_Indexer" xml:space="preserve">
-    <value>ShareX - 目录索引器</value>
+    <value>CrySnap - 目录索引器</value>
   </data>
   <data name="DirectoryIndexerWindow_Show_sizes" xml:space="preserve">
     <value>显示大小</value>
@@ -570,7 +570,7 @@
     <value>第二个文件</value>
   </data>
   <data name="HashCheckerWindow_ShareX_Hash_Checker" xml:space="preserve">
-    <value>ShareX - 哈希检查器</value>
+    <value>CrySnap - 哈希检查器</value>
   </data>
   <data name="HashCheckerWindow_Stop" xml:space="preserve">
     <value>停止</value>
@@ -663,7 +663,7 @@
     <value>图标另存为</value>
   </data>
   <data name="IconConverterWindow_ShareX_Icon_Converter" xml:space="preserve">
-    <value>ShareX - 图标转换器</value>
+    <value>CrySnap - 图标转换器</value>
   </data>
   <data name="IconConverterWindow_Sizes" xml:space="preserve">
     <value>大小</value>
@@ -738,7 +738,7 @@
     <value>方向</value>
   </data>
   <data name="ImageCombinerWindow_ShareX_Image_Combiner" xml:space="preserve">
-    <value>ShareX - 图像合并器</value>
+    <value>CrySnap - 图像合并器</value>
   </data>
   <data name="ImageCombinerWindow_Spacing" xml:space="preserve">
     <value>间距</value>
@@ -789,7 +789,7 @@
     <value>选择图像 1 和图像 2 以显示比较预览。</value>
   </data>
   <data name="ImageComparerWindow_ShareX_Image_Comparer" xml:space="preserve">
-    <value>ShareX - 图像比较器</value>
+    <value>CrySnap - 图像比较器</value>
   </data>
   <data name="ImageComparerWindow_Slider" xml:space="preserve">
     <value>滑块</value>
@@ -819,7 +819,7 @@
     <value>行</value>
   </data>
   <data name="ImageSplitterWindow_ShareX_Image_Splitter" xml:space="preserve">
-    <value>ShareX - 图像分割器</value>
+    <value>CrySnap - 图像分割器</value>
   </data>
   <data name="ImageSplitterWindow_Split_image" xml:space="preserve">
     <value>分割图像</value>
@@ -879,7 +879,7 @@
     <value>输出</value>
   </data>
   <data name="ImageThumbnailerWindow_ShareX_Image_Thumbnailer" xml:space="preserve">
-    <value>ShareX - 图像缩略图生成器</value>
+    <value>CrySnap - 图像缩略图生成器</value>
   </data>
   <data name="ImageThumbnailerWindow_Thumbnail_size" xml:space="preserve">
     <value>缩略图大小</value>
@@ -906,7 +906,7 @@
     <value>{0:n0} 个文件夹</value>
   </data>
   <data name="IndexerText_Generated_by" xml:space="preserve">
-    <value>由 ShareX Directory Indexer 于 {0:yyyy-MM-dd 'at' HH:mm:ss 'UTC'} 生成。可从此处下载最新版本：{1}</value>
+    <value>由 CrySnap Directory Indexer 于 {0:yyyy-MM-dd 'at' HH:mm:ss 'UTC'} 生成。可从此处下载最新版本：{1}</value>
   </data>
   <data name="InspectWindowPickerOverlay_Click_control" xml:space="preserve">
     <value>单击控件进行检查  |  按 Esc 取消</value>
@@ -987,7 +987,7 @@
     <value>选择窗口</value>
   </data>
   <data name="InspectWindowWindow_ShareX_Inspect_Window" xml:space="preserve">
-    <value>ShareX - 检查窗口</value>
+    <value>CrySnap - 检查窗口</value>
   </data>
   <data name="InspectWindowWindow_Window_information" xml:space="preserve">
     <value>窗口信息</value>
@@ -1091,10 +1091,10 @@
 {0}</value>
   </data>
   <data name="MetadataViewModel_Window_title" xml:space="preserve">
-    <value>ShareX - 元数据</value>
+    <value>CrySnap - 元数据</value>
   </data>
   <data name="MetadataViewModel_Window_title_file" xml:space="preserve">
-    <value>ShareX - 元数据 - {0}</value>
+    <value>CrySnap - 元数据 - {0}</value>
   </data>
   <data name="MetadataWindow_Cancel" xml:space="preserve">
     <value>取消</value>
@@ -1175,7 +1175,7 @@
     <value>RGB</value>
   </data>
   <data name="MonitorTestWindow_ShareX_Monitor_Test" xml:space="preserve">
-    <value>ShareX - 显示器测试</value>
+    <value>CrySnap - 显示器测试</value>
   </data>
   <data name="MonitorTestWindow_Speed" xml:space="preserve">
     <value>速度</value>
@@ -1268,7 +1268,7 @@
     <value>服务</value>
   </data>
   <data name="OCRWindow_ShareX_Optical_character_recognition" xml:space="preserve">
-    <value>ShareX - 光学字符识别</value>
+    <value>CrySnap - 光学字符识别</value>
   </data>
   <data name="OCRWindow_Single_line" xml:space="preserve">
     <value>单行</value>
@@ -1370,7 +1370,7 @@
     <value>屏幕边缘偏移</value>
   </data>
   <data name="PinToScreenOptionsWindow_ShareX_Pin_to_Screen_options" xml:space="preserve">
-    <value>ShareX - 置顶于屏幕选项</value>
+    <value>CrySnap - 置顶于屏幕选项</value>
   </data>
   <data name="PinToScreenOptionsWindow_Size_and_opacity" xml:space="preserve">
     <value>大小和不透明度</value>
@@ -1406,7 +1406,7 @@
     <value>选择区域...</value>
   </data>
   <data name="PinToScreenStartupWindow_ShareX_Pin_to_Screen" xml:space="preserve">
-    <value>ShareX - 置顶于屏幕</value>
+    <value>CrySnap - 置顶于屏幕</value>
   </data>
   <data name="PinToScreenWindow_Close" xml:space="preserve">
     <value>关闭</value>
@@ -1493,7 +1493,7 @@
     <value>选择包含 QR 码的图像</value>
   </data>
   <data name="QRCodeWindow_ShareX_QR_Code" xml:space="preserve">
-    <value>ShareX - QR 码</value>
+    <value>CrySnap - QR 码</value>
   </data>
   <data name="QRCodeWindow_SVG_image" xml:space="preserve">
     <value>SVG 图像</value>
@@ -1505,7 +1505,7 @@
     <value>容差：{0}%</value>
   </data>
   <data name="RulerWindow_ShareX_Ruler" xml:space="preserve">
-    <value>ShareX - 标尺</value>
+    <value>CrySnap - 标尺</value>
   </data>
   <data name="VideoConverterViewModel_Choose_video" xml:space="preserve">
     <value>选择视频以开始。</value>
@@ -1589,7 +1589,7 @@
     <value>质量</value>
   </data>
   <data name="VideoConverterWindow_ShareX_Video_Converter" xml:space="preserve">
-    <value>ShareX - 视频转换器</value>
+    <value>CrySnap - 视频转换器</value>
   </data>
   <data name="VideoConverterWindow_Smaller_file" xml:space="preserve">
     <value>更小的文件</value>
@@ -1691,7 +1691,7 @@
     <value>选择视频</value>
   </data>
   <data name="VideoThumbnailerWindow_ShareX_Video_Thumbnailer" xml:space="preserve">
-    <value>ShareX - 视频缩略图生成器</value>
+    <value>CrySnap - 视频缩略图生成器</value>
   </data>
   <data name="VideoThumbnailerWindow_Show_timestamps" xml:space="preserve">
     <value>显示时间戳</value>

@@ -719,7 +719,7 @@
     <value>आकार: {0}x{1}</value>
   </data>
   <data name="MainViewModel_WindowTitle" xml:space="preserve">
-    <value>ShareX - छवि संपादक</value>
+    <value>CrySnap - छवि संपादक</value>
   </data>
   <data name="MainViewModel_HideToolbars" xml:space="preserve">
     <value>टूलबार छिपाएँ</value>

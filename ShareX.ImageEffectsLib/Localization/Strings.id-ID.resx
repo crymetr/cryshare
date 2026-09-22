@@ -116,7 +116,7 @@
     <value>Y:</value>
   </data>
   <data name="ImageEffectPackagerWindow_Title" xml:space="preserve">
-    <value>ShareX - Kemas efek gambar</value>
+    <value>CrySnap - Kemas efek gambar</value>
   </data>
   <data name="ImageEffectPackagerWindow_Package_preset" xml:space="preserve">
     <value>Kemas prasetel</value>
@@ -149,10 +149,10 @@
     <value>Simpan paket efek gambar</value>
   </data>
   <data name="ImageEffectPackagerWindow_File_type" xml:space="preserve">
-    <value>Efek gambar ShareX</value>
+    <value>Efek gambar CrySnap</value>
   </data>
   <data name="ImageEffectPackagerWindow_Assets_must_be_inside" xml:space="preserve">
-    <value>Folder aset harus berada di dalam folder efek gambar ShareX.</value>
+    <value>Folder aset harus berada di dalam folder efek gambar CrySnap.</value>
   </data>
   <data name="ImageEffectPackagerWindow_Choose_package_path" xml:space="preserve">
     <value>Pilih lokasi file paket.</value>
@@ -164,7 +164,7 @@
     <value>Paket berhasil dibuat.</value>
   </data>
   <data name="ImageEffectsConfirmationWindow_Title" xml:space="preserve">
-    <value>ShareX - Konfirmasi</value>
+    <value>CrySnap - Konfirmasi</value>
   </data>
   <data name="ImageEffectsConfirmationWindow_Continue" xml:space="preserve">
     <value>Lanjutkan</value>
@@ -176,7 +176,7 @@
     <value>Tidak</value>
   </data>
   <data name="ImageEffectsWindow_Title" xml:space="preserve">
-    <value>ShareX - Efek gambar</value>
+    <value>CrySnap - Efek gambar</value>
   </data>
   <data name="ImageEffectsWindow_Title_with_preview" xml:space="preserve">
     <value>{0} - {1} × {2} - {3} md</value>

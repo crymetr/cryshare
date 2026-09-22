@@ -496,7 +496,7 @@ Opțiuni umbră (Clic dreapta)</value>
     <value>Imagine</value>
   </data>
   <data name="MainViewModel_WindowTitle" xml:space="preserve">
-    <value>ShareX - Editor de imagini</value>
+    <value>CrySnap - Editor de imagini</value>
   </data>
   <data name="MainViewModel_RunAfterCaptureTasksEnter" xml:space="preserve">
     <value>Execută sarcinile de după captură (Enter)</value>

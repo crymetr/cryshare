@@ -508,7 +508,7 @@ Opzioni ombra (Clic destro)</value>
     <value>Immagine</value>
   </data>
   <data name="MainViewModel_WindowTitle" xml:space="preserve">
-    <value>ShareX - Editor immagini</value>
+    <value>CrySnap - Editor immagini</value>
   </data>
   <data name="MainViewModel_RunAfterCaptureTasksEnter" xml:space="preserve">
     <value>Esegui attività dopo la cattura (Invio)</value>

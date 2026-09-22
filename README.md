@@ -1,10 +1,34 @@
-# CryShare
+# CrySnap
 
-CryShare is a personal fork of [ShareX](https://github.com/ShareX/ShareX), the open-source
-screen capture, file sharing and productivity tool. All credit for the application goes to
-the ShareX Team. This fork exists so I can tweak defaults and behavior for my own daily use.
+CrySnap is a personal, **local-only** fork of [ShareX](https://github.com/ShareX/ShareX).
+It keeps the parts of ShareX that work entirely on your own machine and removes everything
+that talks to the internet. All credit for the application goes to the ShareX Team.
 
 It is licensed under the **GNU General Public License v3**, same as ShareX. See `LICENSE.txt`.
+
+## What it does
+
+- Screen capture: region, window, monitor, fullscreen, scrolling capture, auto capture.
+- Screen recording to MP4 and GIF (ffmpeg is bundled with the installer).
+- Built-in image editor, image effects, beautifier, pin to screen, color picker, ruler, OCR
+  (Windows local OCR engine), QR code, hash checker, metadata viewer and the other local tools.
+- Saves to `Documents\CrySnap\Screenshots`, copies to clipboard, opens in editor, runs your own
+  external actions. History and thumbnails are local files only.
+- Global hotkeys, tray icon, workflows and per-task settings, exactly like ShareX.
+
+## What was removed
+
+CrySnap contains **no network code**. Compared with ShareX it has no:
+
+- Uploaders or destinations of any kind (image hosts, file hosts, FTP/SFTP, S3, custom uploaders).
+- URL shorteners, URL sharing, social sharing, clipboard/URL upload, drag-and-drop upload window.
+- Browser extension bridge (native messaging host), Steam or Microsoft Store builds.
+- Auto-update. The app never checks GitHub or any other server.
+- Cloud AI image analysis (OpenAI/Gemini/OpenRouter), reverse image search, proxy settings.
+- ffmpeg downloader. ffmpeg ships inside the installer instead.
+
+The only URLs left in the binary are opened in your browser on explicit request from the About
+window and a couple of help buttons. The application itself never makes an HTTP request.
 
 ## Download / Install
 
@@ -12,33 +36,12 @@ Grab the latest installer from the releases page:
 
 **https://github.com/crymetr/cryshare/releases/latest**
 
-Under **Assets**, download and run `CryShare-<version>-setup-x64.exe`. It installs to its own
-`Program Files\CryShare` and stores settings in `Documents\CryShare`, so it never touches an
+Under **Assets**, download and run `CrySnap-<version>-setup-x64.exe`. It installs to its own
+`Program Files\CrySnap` and stores settings in `Documents\CrySnap`, so it never touches an
 existing ShareX install. Prefer no installer? Use the `-portable-x64.zip` instead.
 
 The installer is unsigned, so Windows SmartScreen shows a warning the first time. Click
 **More info -> Run anyway**.
-
-## What's different from ShareX
-
-- Rebranded to CryShare (window title, tray, installer, Start Menu).
-- Runs side-by-side with a stock ShareX install: its own single-instance mutex and its own
-  settings folder (`Documents\CryShare`), so it never touches an existing ShareX setup.
-- Auto-updates from this repository's GitHub Releases instead of the official ShareX repo.
-- Everything else is stock ShareX.
-
-## Auto-update
-
-CryShare checks `github.com/crymetr/cryshare` releases on startup (same mechanism ShareX
-uses for itself, just repointed). Pushing a `vX.Y.Z` tag triggers CI, which builds the
-`Release x64` setup and portable zip and publishes them as a GitHub Release. The running app
-sees the new `vX.Y.Z` tag, downloads `CryShare-X.Y.Z-setup-x64.exe`, and updates itself.
-
-### Cutting a release
-
-1. Bump `<Version>` in `Directory.build.props` (optional, CI overrides it from the tag).
-2. `git tag vX.Y.Z && git push origin vX.Y.Z`
-3. CI builds and publishes the release. The installed app picks it up on next update check.
 
 ## Building locally
 
@@ -46,17 +49,25 @@ Requires the .NET 10 SDK and (for the installer) Inno Setup 6.
 
 ```powershell
 dotnet build ShareX.sln -c Release -p:Platform=x64
-# app: ShareX\bin\Release\win-x64\ShareX.exe
+# app: ShareX\bin\Release\win-x64\CrySnap.exe
 ```
+
+To build the installer, put `ffmpeg.exe` into the `Output` folder first (CI does this
+automatically), then run `ShareX.Setup.exe -job Release -platform x64`.
+
+### Cutting a release
+
+1. Bump `<Version>` in `Directory.build.props` (optional, CI overrides it from the tag).
+2. `git tag vX.Y.Z && git push origin vX.Y.Z`
+3. CI builds and publishes the setup and portable zip as a GitHub Release.
 
 ## Upstream
 
-To pull in new ShareX changes, add the upstream remote and merge:
+To pull in new ShareX changes, add the upstream remote and merge. Expect conflicts in the
+files where upload code was removed.
 
 ```powershell
 git remote add upstream https://github.com/ShareX/ShareX.git
 git fetch upstream
 git merge upstream/develop
 ```
-
-The rebrand is kept intentionally small (a handful of files) so these merges stay easy.

@@ -128,7 +128,7 @@
     <value>Zapisz</value>
   </data>
   <data name="AnalyzeImageOptionsWindow_ShareX_Analyze_image_options" xml:space="preserve">
-    <value>ShareX — opcje analizy obrazu</value>
+    <value>CrySnap — opcje analizy obrazu</value>
   </data>
   <data name="AnalyzeImageOptionsWindow_Test_connection" xml:space="preserve">
     <value>Testuj połączenie</value>
@@ -212,7 +212,7 @@
     <value>Wybierz obszar...</value>
   </data>
   <data name="AnalyzeImageWindow_ShareX_Analyze_image" xml:space="preserve">
-    <value>ShareX — analiza obrazu</value>
+    <value>CrySnap — analiza obrazu</value>
   </data>
   <data name="BackgroundRemoverViewModel_Background_removed_ms" xml:space="preserve">
     <value>Tło usunięto w {0} ms.</value>
@@ -266,7 +266,7 @@
     <value>Wybierz obraz, aby wyświetlić go tutaj.</value>
   </data>
   <data name="BackgroundRemoverWindow_ShareX_Background_Remover" xml:space="preserve">
-    <value>ShareX — usuwanie tła</value>
+    <value>CrySnap — usuwanie tła</value>
   </data>
   <data name="BorderlessWindowViewModel_Unable_to_toggle" xml:space="preserve">
     <value>Nie można przełączyć wybranego okna. {0}</value>
@@ -293,7 +293,7 @@
     <value>Wybierz okno</value>
   </data>
   <data name="BorderlessWindowWindow_ShareX_Borderless_Window" xml:space="preserve">
-    <value>ShareX — okno bez ramek</value>
+    <value>CrySnap — okno bez ramek</value>
   </data>
   <data name="BorderlessWindowWindow_Toggle_again_to_restore_the_original_border_and_window_size" xml:space="preserve">
     <value>Przełącz ponownie, aby przywrócić pierwotną ramkę i rozmiar okna.</value>
@@ -356,7 +356,7 @@
     <value>Odśwież</value>
   </data>
   <data name="ClipboardViewerWindow_ShareX_Clipboard_Viewer" xml:space="preserve">
-    <value>ShareX — podgląd schowka</value>
+    <value>CrySnap — podgląd schowka</value>
   </data>
   <data name="DirectoryIndexerViewModel_Index_for" xml:space="preserve">
     <value>Indeks dla {0}</value>
@@ -443,7 +443,7 @@
     <value>Wybierz folder do zindeksowania</value>
   </data>
   <data name="DirectoryIndexerWindow_ShareX_Directory_Indexer" xml:space="preserve">
-    <value>ShareX — indeksowanie katalogów</value>
+    <value>CrySnap — indeksowanie katalogów</value>
   </data>
   <data name="DirectoryIndexerWindow_Show_sizes" xml:space="preserve">
     <value>Wyświetlaj rozmiary</value>
@@ -566,7 +566,7 @@
     <value>Drugi plik</value>
   </data>
   <data name="HashCheckerWindow_ShareX_Hash_Checker" xml:space="preserve">
-    <value>ShareX — sprawdzanie skrótów</value>
+    <value>CrySnap — sprawdzanie skrótów</value>
   </data>
   <data name="HashCheckerWindow_Stop" xml:space="preserve">
     <value>Zatrzymaj</value>
@@ -659,7 +659,7 @@
     <value>Zapisz ikonę jako</value>
   </data>
   <data name="IconConverterWindow_ShareX_Icon_Converter" xml:space="preserve">
-    <value>ShareX — konwerter ikon</value>
+    <value>CrySnap — konwerter ikon</value>
   </data>
   <data name="IconConverterWindow_Sizes" xml:space="preserve">
     <value>Rozmiary</value>
@@ -734,7 +734,7 @@
     <value>Orientacja</value>
   </data>
   <data name="ImageCombinerWindow_ShareX_Image_Combiner" xml:space="preserve">
-    <value>ShareX — łączenie obrazów</value>
+    <value>CrySnap — łączenie obrazów</value>
   </data>
   <data name="ImageCombinerWindow_Spacing" xml:space="preserve">
     <value>Odstęp</value>
@@ -785,7 +785,7 @@
     <value>Wybierz Obraz 1 i Obraz 2, aby wyświetlić podgląd porównania.</value>
   </data>
   <data name="ImageComparerWindow_ShareX_Image_Comparer" xml:space="preserve">
-    <value>ShareX — porównywanie obrazów</value>
+    <value>CrySnap — porównywanie obrazów</value>
   </data>
   <data name="ImageComparerWindow_Slider" xml:space="preserve">
     <value>Suwak</value>
@@ -815,7 +815,7 @@
     <value>Wiersze</value>
   </data>
   <data name="ImageSplitterWindow_ShareX_Image_Splitter" xml:space="preserve">
-    <value>ShareX — dzielenie obrazu</value>
+    <value>CrySnap — dzielenie obrazu</value>
   </data>
   <data name="ImageSplitterWindow_Split_image" xml:space="preserve">
     <value>Podziel obraz</value>
@@ -875,7 +875,7 @@
     <value>Wyjście</value>
   </data>
   <data name="ImageThumbnailerWindow_ShareX_Image_Thumbnailer" xml:space="preserve">
-    <value>ShareX — generator miniatur</value>
+    <value>CrySnap — generator miniatur</value>
   </data>
   <data name="ImageThumbnailerWindow_Thumbnail_size" xml:space="preserve">
     <value>Rozmiar miniatury</value>
@@ -902,7 +902,7 @@
     <value>{0:n0} folder</value>
   </data>
   <data name="IndexerText_Generated_by" xml:space="preserve">
-    <value>Wygenerowano przez ShareX Directory Indexer w dniu {0:yyyy-MM-dd 'at' HH:mm:ss 'UTC'}. Najnowszą wersję można pobrać z: {1}</value>
+    <value>Wygenerowano przez CrySnap Directory Indexer w dniu {0:yyyy-MM-dd 'at' HH:mm:ss 'UTC'}. Najnowszą wersję można pobrać z: {1}</value>
   </data>
   <data name="InspectWindowPickerOverlay_Click_control" xml:space="preserve">
     <value>Kliknij kontrolkę, aby ją zbadać  |  Esc, aby anulować</value>
@@ -983,7 +983,7 @@
     <value>Wybierz okno</value>
   </data>
   <data name="InspectWindowWindow_ShareX_Inspect_Window" xml:space="preserve">
-    <value>ShareX — badanie okna</value>
+    <value>CrySnap — badanie okna</value>
   </data>
   <data name="InspectWindowWindow_Window_information" xml:space="preserve">
     <value>Informacje o oknie</value>
@@ -1085,10 +1085,10 @@
     <value>Nie można usunąć metadanych\n{0}</value>
   </data>
   <data name="MetadataViewModel_Window_title" xml:space="preserve">
-    <value>ShareX — metadane</value>
+    <value>CrySnap — metadane</value>
   </data>
   <data name="MetadataViewModel_Window_title_file" xml:space="preserve">
-    <value>ShareX — metadane — {0}</value>
+    <value>CrySnap — metadane — {0}</value>
   </data>
   <data name="MetadataWindow_Cancel" xml:space="preserve">
     <value>Anuluj</value>
@@ -1169,7 +1169,7 @@
     <value>RGB</value>
   </data>
   <data name="MonitorTestWindow_ShareX_Monitor_Test" xml:space="preserve">
-    <value>ShareX — test monitora</value>
+    <value>CrySnap — test monitora</value>
   </data>
   <data name="MonitorTestWindow_Speed" xml:space="preserve">
     <value>Szybkość</value>
@@ -1262,7 +1262,7 @@
     <value>Usługi</value>
   </data>
   <data name="OCRWindow_ShareX_Optical_character_recognition" xml:space="preserve">
-    <value>ShareX — optyczne rozpoznawanie znaków</value>
+    <value>CrySnap — optyczne rozpoznawanie znaków</value>
   </data>
   <data name="OCRWindow_Single_line" xml:space="preserve">
     <value>Jeden wiersz</value>
@@ -1364,7 +1364,7 @@
     <value>Odsunięcie od krawędzi ekranu</value>
   </data>
   <data name="PinToScreenOptionsWindow_ShareX_Pin_to_Screen_options" xml:space="preserve">
-    <value>ShareX — opcje przypinania do ekranu</value>
+    <value>CrySnap — opcje przypinania do ekranu</value>
   </data>
   <data name="PinToScreenOptionsWindow_Size_and_opacity" xml:space="preserve">
     <value>Rozmiar i nieprzezroczystość</value>
@@ -1400,7 +1400,7 @@
     <value>Wybierz obszar...</value>
   </data>
   <data name="PinToScreenStartupWindow_ShareX_Pin_to_Screen" xml:space="preserve">
-    <value>ShareX — przypinanie do ekranu</value>
+    <value>CrySnap — przypinanie do ekranu</value>
   </data>
   <data name="PinToScreenWindow_Close" xml:space="preserve">
     <value>Zamknij</value>
@@ -1487,7 +1487,7 @@
     <value>Wybierz obraz zawierający kod QR</value>
   </data>
   <data name="QRCodeWindow_ShareX_QR_Code" xml:space="preserve">
-    <value>ShareX — kod QR</value>
+    <value>CrySnap — kod QR</value>
   </data>
   <data name="QRCodeWindow_SVG_image" xml:space="preserve">
     <value>Obraz SVG</value>
@@ -1499,7 +1499,7 @@
     <value>Tolerancja: {0}%</value>
   </data>
   <data name="RulerWindow_ShareX_Ruler" xml:space="preserve">
-    <value>ShareX — linijka</value>
+    <value>CrySnap — linijka</value>
   </data>
   <data name="VideoConverterViewModel_Choose_video" xml:space="preserve">
     <value>Wybierz film, aby rozpocząć.</value>
@@ -1583,7 +1583,7 @@
     <value>Jakość</value>
   </data>
   <data name="VideoConverterWindow_ShareX_Video_Converter" xml:space="preserve">
-    <value>ShareX — konwerter wideo</value>
+    <value>CrySnap — konwerter wideo</value>
   </data>
   <data name="VideoConverterWindow_Smaller_file" xml:space="preserve">
     <value>Mniejszy plik</value>
@@ -1685,7 +1685,7 @@
     <value>Wybierz film</value>
   </data>
   <data name="VideoThumbnailerWindow_ShareX_Video_Thumbnailer" xml:space="preserve">
-    <value>ShareX — generator miniatur wideo</value>
+    <value>CrySnap — generator miniatur wideo</value>
   </data>
   <data name="VideoThumbnailerWindow_Show_timestamps" xml:space="preserve">
     <value>Wyświetlaj znaczniki czasu</value>

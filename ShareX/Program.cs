@@ -46,7 +46,7 @@ namespace ShareX
     internal static class Program
     {
         public const string AppName = "CrySnap";
-        public const string MutexName = "C27A5E10-1B3D-4F8A-9C6E-7A2D4B8F1E30";
+        public const string MutexName = "7D3F2A91-5B6C-4E8D-9A1F-2C4B6D8E0F13";
         public static readonly string PipeName = $"{Environment.MachineName}-{Environment.UserName}-{AppName}";
 
         public const ShareXBuild Build =
@@ -208,7 +208,7 @@ namespace ShareX
                     return null;
                 }
 
-                string fileName = string.Format("ShareX-Log-{0:yyyy-MM}.txt", DateTime.Now);
+                string fileName = string.Format("CrySnap-Log-{0:yyyy-MM}.txt", DateTime.Now);
                 return Path.Combine(LogsFolder, fileName);
             }
         }
@@ -284,7 +284,7 @@ namespace ShareX
 
                     if (restartRequested)
                     {
-                        DebugHelper.WriteLine("ShareX restarting.");
+                        DebugHelper.WriteLine("CrySnap restarting.");
 
                         if (restartAsAdmin)
                         {
@@ -305,7 +305,7 @@ namespace ShareX
         {
             ApplicationConfiguration.Initialize();
 
-            DebugHelper.WriteLine("ShareX starting.");
+            DebugHelper.WriteLine("CrySnap starting.");
             DebugHelper.WriteLine("Version: " + VersionText);
             DebugHelper.WriteLine("Build: " + Build);
             DebugHelper.WriteLine("Command line: " + Environment.CommandLine);
@@ -363,13 +363,13 @@ namespace ShareX
             {
                 closeSequenceStarted = true;
 
-                DebugHelper.WriteLine("ShareX closing.");
+                DebugHelper.WriteLine("CrySnap closing.");
 
                 WatchFolderManager?.Dispose();
                 SettingManager.HistoryClose();
                 SettingManager.SaveAllSettings();
 
-                DebugHelper.WriteLine("ShareX closed.");
+                DebugHelper.WriteLine("CrySnap closed.");
             }
         }
 
@@ -511,7 +511,7 @@ namespace ShareX
                         sb.AppendLine();
                         sb.Append(e);
 
-                        MessageBox.Show(sb.ToString(), "ShareX - " + Strings.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show(sb.ToString(), AppName + " - " + Strings.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                         CustomPersonalPath = "";
                     }
                 }
@@ -607,7 +607,7 @@ namespace ShareX
                     {
                         DebugHelper.WriteException(e);
                         MessageBox.Show(string.Format(Strings.Program_WritePersonalPathConfig_Cant_access_to_file, PersonalPathConfigFilePath),
-                            "ShareX", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            AppName, MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     }
                     catch (Exception e)
                     {

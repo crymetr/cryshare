@@ -128,7 +128,7 @@
     <value>บันทึก</value>
   </data>
   <data name="AnalyzeImageOptionsWindow_ShareX_Analyze_image_options" xml:space="preserve">
-    <value>ShareX - ตัวเลือกการวิเคราะห์รูปภาพ</value>
+    <value>CrySnap - ตัวเลือกการวิเคราะห์รูปภาพ</value>
   </data>
   <data name="AnalyzeImageOptionsWindow_Test_connection" xml:space="preserve">
     <value>ทดสอบการเชื่อมต่อ</value>
@@ -212,7 +212,7 @@
     <value>เลือกพื้นที่...</value>
   </data>
   <data name="AnalyzeImageWindow_ShareX_Analyze_image" xml:space="preserve">
-    <value>ShareX - วิเคราะห์รูปภาพ</value>
+    <value>CrySnap - วิเคราะห์รูปภาพ</value>
   </data>
   <data name="BackgroundRemoverViewModel_Background_removed_ms" xml:space="preserve">
     <value>ลบพื้นหลังใน {0} ms แล้ว</value>
@@ -266,7 +266,7 @@
     <value>เลือกรูปภาพเพื่อแสดงตัวอย่างที่นี่</value>
   </data>
   <data name="BackgroundRemoverWindow_ShareX_Background_Remover" xml:space="preserve">
-    <value>ShareX - ตัวลบพื้นหลัง</value>
+    <value>CrySnap - ตัวลบพื้นหลัง</value>
   </data>
   <data name="BorderlessWindowViewModel_Unable_to_toggle" xml:space="preserve">
     <value>ไม่สามารถสลับหน้าต่างที่เลือกได้ {0}</value>
@@ -293,7 +293,7 @@
     <value>เลือก หน้าต่าง</value>
   </data>
   <data name="BorderlessWindowWindow_ShareX_Borderless_Window" xml:space="preserve">
-    <value>ShareX - หน้าต่างไร้ขอบ</value>
+    <value>CrySnap - หน้าต่างไร้ขอบ</value>
   </data>
   <data name="BorderlessWindowWindow_Toggle_again_to_restore_the_original_border_and_window_size" xml:space="preserve">
     <value>สลับอีกครั้งเพื่อคืนค่าเส้นขอบและขนาดหน้าต่างเดิม</value>
@@ -356,7 +356,7 @@
     <value>รีเฟรช</value>
   </data>
   <data name="ClipboardViewerWindow_ShareX_Clipboard_Viewer" xml:space="preserve">
-    <value>ShareX - ตัวแสดงคลิปบอร์ด</value>
+    <value>CrySnap - ตัวแสดงคลิปบอร์ด</value>
   </data>
   <data name="DirectoryIndexerViewModel_Index_for" xml:space="preserve">
     <value>ดัชนี สำหรับ {0}</value>
@@ -443,7 +443,7 @@
     <value>เลือกโฟลเดอร์ที่จะสร้างดัชนี</value>
   </data>
   <data name="DirectoryIndexerWindow_ShareX_Directory_Indexer" xml:space="preserve">
-    <value>ShareX - ตัวสร้างดัชนีไดเรกทอรี</value>
+    <value>CrySnap - ตัวสร้างดัชนีไดเรกทอรี</value>
   </data>
   <data name="DirectoryIndexerWindow_Show_sizes" xml:space="preserve">
     <value>แสดง ขนาด</value>
@@ -566,7 +566,7 @@
     <value>ไฟล์ที่สอง</value>
   </data>
   <data name="HashCheckerWindow_ShareX_Hash_Checker" xml:space="preserve">
-    <value>ShareX - ตัวตรวจสอบแฮช</value>
+    <value>CrySnap - ตัวตรวจสอบแฮช</value>
   </data>
   <data name="HashCheckerWindow_Stop" xml:space="preserve">
     <value>หยุด</value>
@@ -659,7 +659,7 @@
     <value>บันทึก ไอคอน เป็น</value>
   </data>
   <data name="IconConverterWindow_ShareX_Icon_Converter" xml:space="preserve">
-    <value>ShareX - ตัวแปลงไอคอน</value>
+    <value>CrySnap - ตัวแปลงไอคอน</value>
   </data>
   <data name="IconConverterWindow_Sizes" xml:space="preserve">
     <value>ขนาด</value>
@@ -734,7 +734,7 @@
     <value>การวางแนว</value>
   </data>
   <data name="ImageCombinerWindow_ShareX_Image_Combiner" xml:space="preserve">
-    <value>ShareX - ตัวรวมรูปภาพ</value>
+    <value>CrySnap - ตัวรวมรูปภาพ</value>
   </data>
   <data name="ImageCombinerWindow_Spacing" xml:space="preserve">
     <value>ระยะห่าง</value>
@@ -785,7 +785,7 @@
     <value>เลือกรูปภาพ 1 และรูปภาพ 2 เพื่อแสดงตัวอย่างการเปรียบเทียบ</value>
   </data>
   <data name="ImageComparerWindow_ShareX_Image_Comparer" xml:space="preserve">
-    <value>ShareX - ตัวเปรียบเทียบรูปภาพ</value>
+    <value>CrySnap - ตัวเปรียบเทียบรูปภาพ</value>
   </data>
   <data name="ImageComparerWindow_Slider" xml:space="preserve">
     <value>แถบเลื่อน</value>
@@ -815,7 +815,7 @@
     <value>แถว</value>
   </data>
   <data name="ImageSplitterWindow_ShareX_Image_Splitter" xml:space="preserve">
-    <value>ShareX - ตัวแบ่งรูปภาพ</value>
+    <value>CrySnap - ตัวแบ่งรูปภาพ</value>
   </data>
   <data name="ImageSplitterWindow_Split_image" xml:space="preserve">
     <value>แบ่ง รูปภาพ</value>
@@ -875,7 +875,7 @@
     <value>ผลลัพธ์</value>
   </data>
   <data name="ImageThumbnailerWindow_ShareX_Image_Thumbnailer" xml:space="preserve">
-    <value>ShareX - ตัวสร้างภาพขนาดย่อ</value>
+    <value>CrySnap - ตัวสร้างภาพขนาดย่อ</value>
   </data>
   <data name="ImageThumbnailerWindow_Thumbnail_size" xml:space="preserve">
     <value>ขนาดภาพขนาดย่อ</value>
@@ -902,7 +902,7 @@
     <value>{0:n0} โฟลเดอร์</value>
   </data>
   <data name="IndexerText_Generated_by" xml:space="preserve">
-    <value>สร้างโดยตัวสร้างดัชนีไดเรกทอรี ShareX เมื่อ {0:yyyy-MM-dd 'at' HH:mm:ss 'UTC'} ดาวน์โหลดเวอร์ชันล่าสุดได้จาก: {1}</value>
+    <value>สร้างโดยตัวสร้างดัชนีไดเรกทอรี CrySnap เมื่อ {0:yyyy-MM-dd 'at' HH:mm:ss 'UTC'} ดาวน์โหลดเวอร์ชันล่าสุดได้จาก: {1}</value>
   </data>
   <data name="InspectWindowPickerOverlay_Click_control" xml:space="preserve">
     <value>คลิกตัวควบคุมเพื่อตรวจสอบ  |  Esc เพื่อยกเลิก</value>
@@ -983,7 +983,7 @@
     <value>เลือก หน้าต่าง</value>
   </data>
   <data name="InspectWindowWindow_ShareX_Inspect_Window" xml:space="preserve">
-    <value>ShareX - ตรวจสอบหน้าต่าง</value>
+    <value>CrySnap - ตรวจสอบหน้าต่าง</value>
   </data>
   <data name="InspectWindowWindow_Window_information" xml:space="preserve">
     <value>หน้าต่าง ข้อมูล</value>
@@ -1085,10 +1085,10 @@
     <value>ไม่สามารถลบข้อมูลเมตาได้\n{0}</value>
   </data>
   <data name="MetadataViewModel_Window_title" xml:space="preserve">
-    <value>ShareX - ข้อมูลเมตา</value>
+    <value>CrySnap - ข้อมูลเมตา</value>
   </data>
   <data name="MetadataViewModel_Window_title_file" xml:space="preserve">
-    <value>ShareX - ข้อมูลเมตา - {0}</value>
+    <value>CrySnap - ข้อมูลเมตา - {0}</value>
   </data>
   <data name="MetadataWindow_Cancel" xml:space="preserve">
     <value>ยกเลิก</value>
@@ -1169,7 +1169,7 @@
     <value>RGB</value>
   </data>
   <data name="MonitorTestWindow_ShareX_Monitor_Test" xml:space="preserve">
-    <value>ShareX - ทดสอบจอภาพ</value>
+    <value>CrySnap - ทดสอบจอภาพ</value>
   </data>
   <data name="MonitorTestWindow_Speed" xml:space="preserve">
     <value>ความเร็ว</value>
@@ -1262,7 +1262,7 @@
     <value>บริการ</value>
   </data>
   <data name="OCRWindow_ShareX_Optical_character_recognition" xml:space="preserve">
-    <value>ShareX - การรู้จำอักขระด้วยแสง</value>
+    <value>CrySnap - การรู้จำอักขระด้วยแสง</value>
   </data>
   <data name="OCRWindow_Single_line" xml:space="preserve">
     <value>เส้นเดี่ยว</value>
@@ -1364,7 +1364,7 @@
     <value>หน้าจอ ขอบ ระยะเยื้อง</value>
   </data>
   <data name="PinToScreenOptionsWindow_ShareX_Pin_to_Screen_options" xml:space="preserve">
-    <value>ShareX - ตัวเลือกปักหมุดบนหน้าจอ</value>
+    <value>CrySnap - ตัวเลือกปักหมุดบนหน้าจอ</value>
   </data>
   <data name="PinToScreenOptionsWindow_Size_and_opacity" xml:space="preserve">
     <value>ขนาด และ ความทึบ</value>
@@ -1400,7 +1400,7 @@
     <value>เลือกพื้นที่...</value>
   </data>
   <data name="PinToScreenStartupWindow_ShareX_Pin_to_Screen" xml:space="preserve">
-    <value>ShareX - ปักหมุดบนหน้าจอ</value>
+    <value>CrySnap - ปักหมุดบนหน้าจอ</value>
   </data>
   <data name="PinToScreenWindow_Close" xml:space="preserve">
     <value>ปิด</value>
@@ -1487,7 +1487,7 @@
     <value>เลือกรูปภาพที่มีคิวอาร์โค้ด</value>
   </data>
   <data name="QRCodeWindow_ShareX_QR_Code" xml:space="preserve">
-    <value>ShareX - คิวอาร์โค้ด</value>
+    <value>CrySnap - คิวอาร์โค้ด</value>
   </data>
   <data name="QRCodeWindow_SVG_image" xml:space="preserve">
     <value>SVG รูปภาพ</value>
@@ -1499,7 +1499,7 @@
     <value>ค่าความคลาดเคลื่อน: {0}%</value>
   </data>
   <data name="RulerWindow_ShareX_Ruler" xml:space="preserve">
-    <value>ShareX - ไม้บรรทัด</value>
+    <value>CrySnap - ไม้บรรทัด</value>
   </data>
   <data name="VideoConverterViewModel_Choose_video" xml:space="preserve">
     <value>เลือกวิดีโอเพื่อเริ่มต้น</value>
@@ -1583,7 +1583,7 @@
     <value>คุณภาพ</value>
   </data>
   <data name="VideoConverterWindow_ShareX_Video_Converter" xml:space="preserve">
-    <value>ShareX - ตัวแปลงวิดีโอ</value>
+    <value>CrySnap - ตัวแปลงวิดีโอ</value>
   </data>
   <data name="VideoConverterWindow_Smaller_file" xml:space="preserve">
     <value>ไฟล์เล็กกว่า</value>
@@ -1685,7 +1685,7 @@
     <value>เลือก วิดีโอ</value>
   </data>
   <data name="VideoThumbnailerWindow_ShareX_Video_Thumbnailer" xml:space="preserve">
-    <value>ShareX - ตัวสร้างภาพขนาดย่อวิดีโอ</value>
+    <value>CrySnap - ตัวสร้างภาพขนาดย่อวิดีโอ</value>
   </data>
   <data name="VideoThumbnailerWindow_Show_timestamps" xml:space="preserve">
     <value>แสดงการประทับเวลา</value>

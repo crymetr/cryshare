@@ -511,7 +511,7 @@ Opcje cienia (Prawy przycisk)</value>
     <value>Obraz</value>
   </data>
   <data name="MainViewModel_WindowTitle" xml:space="preserve">
-    <value>ShareX — Edytor obrazów</value>
+    <value>CrySnap — Edytor obrazów</value>
   </data>
   <data name="MainViewModel_RunAfterCaptureTasksEnter" xml:space="preserve">
     <value>Uruchom zadania po przechwyceniu (Enter)</value>

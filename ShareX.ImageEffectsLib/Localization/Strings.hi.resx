@@ -116,7 +116,7 @@
     <value>Y</value>
   </data>
   <data name="ImageEffectPackagerWindow_Title" xml:space="preserve">
-    <value>ShareX - छवि प्रभाव पैकेज करें</value>
+    <value>CrySnap - छवि प्रभाव पैकेज करें</value>
   </data>
   <data name="ImageEffectPackagerWindow_Package_preset" xml:space="preserve">
     <value>प्रीसेट पैकेज करें</value>
@@ -149,10 +149,10 @@
     <value>छवि प्रभाव पैकेज सहेजें</value>
   </data>
   <data name="ImageEffectPackagerWindow_File_type" xml:space="preserve">
-    <value>ShareX छवि प्रभाव</value>
+    <value>CrySnap छवि प्रभाव</value>
   </data>
   <data name="ImageEffectPackagerWindow_Assets_must_be_inside" xml:space="preserve">
-    <value>एसेट फ़ोल्डर ShareX छवि प्रभाव फ़ोल्डर के अंदर होना चाहिए।</value>
+    <value>एसेट फ़ोल्डर CrySnap छवि प्रभाव फ़ोल्डर के अंदर होना चाहिए।</value>
   </data>
   <data name="ImageEffectPackagerWindow_Choose_package_path" xml:space="preserve">
     <value>पैकेज फ़ाइल पथ चुनें।</value>
@@ -164,7 +164,7 @@
     <value>पैकेज सफलतापूर्वक बनाया गया।</value>
   </data>
   <data name="ImageEffectsConfirmationWindow_Title" xml:space="preserve">
-    <value>ShareX - पुष्टि</value>
+    <value>CrySnap - पुष्टि</value>
   </data>
   <data name="ImageEffectsConfirmationWindow_Continue" xml:space="preserve">
     <value>जारी रखें?</value>
@@ -176,7 +176,7 @@
     <value>नहीं</value>
   </data>
   <data name="ImageEffectsWindow_Title" xml:space="preserve">
-    <value>ShareX - छवि प्रभाव</value>
+    <value>CrySnap - छवि प्रभाव</value>
   </data>
   <data name="ImageEffectsWindow_Title_with_preview" xml:space="preserve">
     <value>{0} - {1} × {2} - {3} ms</value>

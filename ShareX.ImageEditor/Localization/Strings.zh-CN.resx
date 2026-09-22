@@ -514,7 +514,7 @@
     <value>图像</value>
   </data>
   <data name="MainViewModel_WindowTitle" xml:space="preserve">
-    <value>ShareX - 图像编辑器</value>
+    <value>CrySnap - 图像编辑器</value>
   </data>
   <data name="MainViewModel_RunAfterCaptureTasksEnter" xml:space="preserve">
     <value>运行捕获后任务 (Enter)</value>

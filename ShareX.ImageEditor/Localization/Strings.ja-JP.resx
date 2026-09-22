@@ -514,7 +514,7 @@
     <value>画像</value>
   </data>
   <data name="MainViewModel_WindowTitle" xml:space="preserve">
-    <value>ShareX - 画像エディター</value>
+    <value>CrySnap - 画像エディター</value>
   </data>
   <data name="MainViewModel_RunAfterCaptureTasksEnter" xml:space="preserve">
     <value>キャプチャ後のタスクを実行 (Enter)</value>

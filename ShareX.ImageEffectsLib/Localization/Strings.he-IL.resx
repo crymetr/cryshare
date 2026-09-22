@@ -116,7 +116,7 @@
     <value>Y:</value>
   </data>
   <data name="ImageEffectPackagerWindow_Title" xml:space="preserve">
-    <value>ShareX - אריזת אפקט תמונה</value>
+    <value>CrySnap - אריזת אפקט תמונה</value>
   </data>
   <data name="ImageEffectPackagerWindow_Package_preset" xml:space="preserve">
     <value>אריזת הגדרה קבועה מראש</value>
@@ -149,10 +149,10 @@
     <value>שמירת חבילת אפקט תמונה</value>
   </data>
   <data name="ImageEffectPackagerWindow_File_type" xml:space="preserve">
-    <value>אפקט תמונה של ShareX</value>
+    <value>אפקט תמונה של CrySnap</value>
   </data>
   <data name="ImageEffectPackagerWindow_Assets_must_be_inside" xml:space="preserve">
-    <value>תיקיית המשאבים חייבת להיות בתוך תיקיית אפקטי התמונות של ShareX.</value>
+    <value>תיקיית המשאבים חייבת להיות בתוך תיקיית אפקטי התמונות של CrySnap.</value>
   </data>
   <data name="ImageEffectPackagerWindow_Choose_package_path" xml:space="preserve">
     <value>בחר נתיב לקובץ החבילה.</value>
@@ -164,7 +164,7 @@
     <value>החבילה נוצרה בהצלחה.</value>
   </data>
   <data name="ImageEffectsConfirmationWindow_Title" xml:space="preserve">
-    <value>ShareX - אישור</value>
+    <value>CrySnap - אישור</value>
   </data>
   <data name="ImageEffectsConfirmationWindow_Continue" xml:space="preserve">
     <value>המשך</value>
@@ -176,7 +176,7 @@
     <value>לא</value>
   </data>
   <data name="ImageEffectsWindow_Title" xml:space="preserve">
-    <value>ShareX - אפקטי תמונה</value>
+    <value>CrySnap - אפקטי תמונה</value>
   </data>
   <data name="ImageEffectsWindow_Title_with_preview" xml:space="preserve">
     <value>{0} - {1} × {2} - {3} אלפיות השנייה</value>

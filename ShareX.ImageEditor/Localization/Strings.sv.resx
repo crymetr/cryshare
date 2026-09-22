@@ -719,7 +719,7 @@ Favoritbildeffekter (högerklick)</value>
     <value>Storlek: {0} × {1}</value>
   </data>
   <data name="MainViewModel_WindowTitle" xml:space="preserve">
-    <value>ShareX – Bildredigerare</value>
+    <value>CrySnap – Bildredigerare</value>
   </data>
   <data name="MainViewModel_HideToolbars" xml:space="preserve">
     <value>Dölj verktygsfält</value>

@@ -719,7 +719,7 @@ Oblíbené obrazové efekty (kliknutí pravým tlačítkem)</value>
     <value>Velikost: {0}×{1}</value>
   </data>
   <data name="MainViewModel_WindowTitle" xml:space="preserve">
-    <value>ShareX – Editor obrázků</value>
+    <value>CrySnap – Editor obrázků</value>
   </data>
   <data name="MainViewModel_HideToolbars" xml:space="preserve">
     <value>Skrýt panely nástrojů</value>

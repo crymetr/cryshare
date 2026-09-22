@@ -116,7 +116,7 @@
     <value>Y:</value>
   </data>
   <data name="ImageEffectPackagerWindow_Title" xml:space="preserve">
-    <value>ShareX - بسته‌بندی جلوه تصویر</value>
+    <value>CrySnap - بسته‌بندی جلوه تصویر</value>
   </data>
   <data name="ImageEffectPackagerWindow_Package_preset" xml:space="preserve">
     <value>بسته‌بندی پیش‌تنظیم</value>
@@ -149,10 +149,10 @@
     <value>ذخیره بسته جلوه تصویر</value>
   </data>
   <data name="ImageEffectPackagerWindow_File_type" xml:space="preserve">
-    <value>جلوه تصویر ShareX</value>
+    <value>جلوه تصویر CrySnap</value>
   </data>
   <data name="ImageEffectPackagerWindow_Assets_must_be_inside" xml:space="preserve">
-    <value>پوشه منابع باید داخل پوشه جلوه‌های تصویر ShareX باشد.</value>
+    <value>پوشه منابع باید داخل پوشه جلوه‌های تصویر CrySnap باشد.</value>
   </data>
   <data name="ImageEffectPackagerWindow_Choose_package_path" xml:space="preserve">
     <value>مسیر فایل بسته را انتخاب کنید.</value>
@@ -164,7 +164,7 @@
     <value>بسته با موفقیت ایجاد شد.</value>
   </data>
   <data name="ImageEffectsConfirmationWindow_Title" xml:space="preserve">
-    <value>ShareX - تأیید</value>
+    <value>CrySnap - تأیید</value>
   </data>
   <data name="ImageEffectsConfirmationWindow_Continue" xml:space="preserve">
     <value>ادامه</value>
@@ -176,7 +176,7 @@
     <value>خیر</value>
   </data>
   <data name="ImageEffectsWindow_Title" xml:space="preserve">
-    <value>ShareX - جلوه‌های تصویر</value>
+    <value>CrySnap - جلوه‌های تصویر</value>
   </data>
   <data name="ImageEffectsWindow_Title_with_preview" xml:space="preserve">
     <value>{0} - {1} × {2} - {3} میلی‌ثانیه</value>

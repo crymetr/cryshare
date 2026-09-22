@@ -116,7 +116,7 @@
     <value>Y</value>
   </data>
   <data name="ImageEffectPackagerWindow_Title" xml:space="preserve">
-    <value>ShareX – Zabalení obrazového efektu</value>
+    <value>CrySnap – Zabalení obrazového efektu</value>
   </data>
   <data name="ImageEffectPackagerWindow_Package_preset" xml:space="preserve">
     <value>Zabalit předvolbu</value>
@@ -149,10 +149,10 @@
     <value>Uložit balíček obrazového efektu</value>
   </data>
   <data name="ImageEffectPackagerWindow_File_type" xml:space="preserve">
-    <value>Obrazový efekt ShareX</value>
+    <value>Obrazový efekt CrySnap</value>
   </data>
   <data name="ImageEffectPackagerWindow_Assets_must_be_inside" xml:space="preserve">
-    <value>Složka prostředků musí být uvnitř složky obrazových efektů ShareX.</value>
+    <value>Složka prostředků musí být uvnitř složky obrazových efektů CrySnap.</value>
   </data>
   <data name="ImageEffectPackagerWindow_Choose_package_path" xml:space="preserve">
     <value>Zvolte cestu k souboru balíčku.</value>
@@ -164,7 +164,7 @@
     <value>Balíček byl úspěšně vytvořen.</value>
   </data>
   <data name="ImageEffectsConfirmationWindow_Title" xml:space="preserve">
-    <value>ShareX – Potvrzení</value>
+    <value>CrySnap – Potvrzení</value>
   </data>
   <data name="ImageEffectsConfirmationWindow_Continue" xml:space="preserve">
     <value>Pokračovat?</value>
@@ -176,7 +176,7 @@
     <value>Ne</value>
   </data>
   <data name="ImageEffectsWindow_Title" xml:space="preserve">
-    <value>ShareX – Obrazové efekty</value>
+    <value>CrySnap – Obrazové efekty</value>
   </data>
   <data name="ImageEffectsWindow_Title_with_preview" xml:space="preserve">
     <value>{0} - {1} × {2} - {3} ms</value>

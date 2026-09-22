@@ -511,7 +511,7 @@ Tùy chọn bóng đổ (Nhấp phải)</value>
     <value>Hình ảnh</value>
   </data>
   <data name="MainViewModel_WindowTitle" xml:space="preserve">
-    <value>ShareX - Trình chỉnh sửa hình ảnh</value>
+    <value>CrySnap - Trình chỉnh sửa hình ảnh</value>
   </data>
   <data name="MainViewModel_RunAfterCaptureTasksEnter" xml:space="preserve">
     <value>Chạy tác vụ sau khi chụp (Enter)</value>

@@ -128,7 +128,7 @@
     <value>Salvează</value>
   </data>
   <data name="AnalyzeImageOptionsWindow_ShareX_Analyze_image_options" xml:space="preserve">
-    <value>ShareX - Opțiuni de analiză a imaginii</value>
+    <value>CrySnap - Opțiuni de analiză a imaginii</value>
   </data>
   <data name="AnalyzeImageOptionsWindow_Test_connection" xml:space="preserve">
     <value>Testează conexiunea</value>
@@ -212,7 +212,7 @@
     <value>Selectează regiunea...</value>
   </data>
   <data name="AnalyzeImageWindow_ShareX_Analyze_image" xml:space="preserve">
-    <value>ShareX - Analiză imagine</value>
+    <value>CrySnap - Analiză imagine</value>
   </data>
   <data name="BackgroundRemoverViewModel_Background_removed_ms" xml:space="preserve">
     <value>Fundalul a fost eliminat în {0} ms.</value>
@@ -266,7 +266,7 @@
     <value>Selectați o imagine pentru previzualizare aici.</value>
   </data>
   <data name="BackgroundRemoverWindow_ShareX_Background_Remover" xml:space="preserve">
-    <value>ShareX - Eliminare fundal</value>
+    <value>CrySnap - Eliminare fundal</value>
   </data>
   <data name="BorderlessWindowViewModel_Unable_to_toggle" xml:space="preserve">
     <value>Nu se poate comuta fereastra selectată. {0}</value>
@@ -293,7 +293,7 @@
     <value>Selectează fereastra</value>
   </data>
   <data name="BorderlessWindowWindow_ShareX_Borderless_Window" xml:space="preserve">
-    <value>ShareX - Fereastră fără margini</value>
+    <value>CrySnap - Fereastră fără margini</value>
   </data>
   <data name="BorderlessWindowWindow_Toggle_again_to_restore_the_original_border_and_window_size" xml:space="preserve">
     <value>Comutați din nou pentru a restabili marginea și dimensiunea inițială a ferestrei.</value>
@@ -356,7 +356,7 @@
     <value>Reîmprospătează</value>
   </data>
   <data name="ClipboardViewerWindow_ShareX_Clipboard_Viewer" xml:space="preserve">
-    <value>ShareX - Vizualizator clipboard</value>
+    <value>CrySnap - Vizualizator clipboard</value>
   </data>
   <data name="DirectoryIndexerViewModel_Index_for" xml:space="preserve">
     <value>Index pentru {0}</value>
@@ -443,7 +443,7 @@
     <value>Selectați dosarul de indexat</value>
   </data>
   <data name="DirectoryIndexerWindow_ShareX_Directory_Indexer" xml:space="preserve">
-    <value>ShareX - Indexator de directoare</value>
+    <value>CrySnap - Indexator de directoare</value>
   </data>
   <data name="DirectoryIndexerWindow_Show_sizes" xml:space="preserve">
     <value>Afișează dimensiunile</value>
@@ -566,7 +566,7 @@
     <value>Al doilea fișier</value>
   </data>
   <data name="HashCheckerWindow_ShareX_Hash_Checker" xml:space="preserve">
-    <value>ShareX - Verificator hash</value>
+    <value>CrySnap - Verificator hash</value>
   </data>
   <data name="HashCheckerWindow_Stop" xml:space="preserve">
     <value>Oprește</value>
@@ -659,7 +659,7 @@
     <value>Salvează pictograma ca</value>
   </data>
   <data name="IconConverterWindow_ShareX_Icon_Converter" xml:space="preserve">
-    <value>ShareX - Convertor de pictograme</value>
+    <value>CrySnap - Convertor de pictograme</value>
   </data>
   <data name="IconConverterWindow_Sizes" xml:space="preserve">
     <value>Dimensiuni</value>
@@ -734,7 +734,7 @@
     <value>Orientare</value>
   </data>
   <data name="ImageCombinerWindow_ShareX_Image_Combiner" xml:space="preserve">
-    <value>ShareX - Combinator de imagini</value>
+    <value>CrySnap - Combinator de imagini</value>
   </data>
   <data name="ImageCombinerWindow_Spacing" xml:space="preserve">
     <value>Spațiere</value>
@@ -785,7 +785,7 @@
     <value>Selectați Imaginea 1 și Imaginea 2 pentru a afișa previzualizarea comparației.</value>
   </data>
   <data name="ImageComparerWindow_ShareX_Image_Comparer" xml:space="preserve">
-    <value>ShareX - Comparator de imagini</value>
+    <value>CrySnap - Comparator de imagini</value>
   </data>
   <data name="ImageComparerWindow_Slider" xml:space="preserve">
     <value>Glisor</value>
@@ -815,7 +815,7 @@
     <value>Rânduri</value>
   </data>
   <data name="ImageSplitterWindow_ShareX_Image_Splitter" xml:space="preserve">
-    <value>ShareX - Separator de imagini</value>
+    <value>CrySnap - Separator de imagini</value>
   </data>
   <data name="ImageSplitterWindow_Split_image" xml:space="preserve">
     <value>Împarte imaginea</value>
@@ -875,7 +875,7 @@
     <value>Ieșire</value>
   </data>
   <data name="ImageThumbnailerWindow_ShareX_Image_Thumbnailer" xml:space="preserve">
-    <value>ShareX - Generator de miniaturi</value>
+    <value>CrySnap - Generator de miniaturi</value>
   </data>
   <data name="ImageThumbnailerWindow_Thumbnail_size" xml:space="preserve">
     <value>Dimensiunea miniaturii</value>
@@ -902,7 +902,7 @@
     <value>{0:n0} dosar</value>
   </data>
   <data name="IndexerText_Generated_by" xml:space="preserve">
-    <value>Generat de ShareX Directory Indexer la {0:yyyy-MM-dd 'at' HH:mm:ss 'UTC'}. Cea mai recentă versiune poate fi descărcată de la: {1}</value>
+    <value>Generat de CrySnap Directory Indexer la {0:yyyy-MM-dd 'at' HH:mm:ss 'UTC'}. Cea mai recentă versiune poate fi descărcată de la: {1}</value>
   </data>
   <data name="InspectWindowPickerOverlay_Click_control" xml:space="preserve">
     <value>Faceți clic pe un control pentru a-l inspecta  |  Esc pentru anulare</value>
@@ -983,7 +983,7 @@
     <value>Selectează fereastra</value>
   </data>
   <data name="InspectWindowWindow_ShareX_Inspect_Window" xml:space="preserve">
-    <value>ShareX - Inspectare fereastră</value>
+    <value>CrySnap - Inspectare fereastră</value>
   </data>
   <data name="InspectWindowWindow_Window_information" xml:space="preserve">
     <value>Informații despre fereastră</value>
@@ -1085,10 +1085,10 @@
     <value>Nu se pot elimina metadatele\n{0}</value>
   </data>
   <data name="MetadataViewModel_Window_title" xml:space="preserve">
-    <value>ShareX - Metadate</value>
+    <value>CrySnap - Metadate</value>
   </data>
   <data name="MetadataViewModel_Window_title_file" xml:space="preserve">
-    <value>ShareX - Metadate - {0}</value>
+    <value>CrySnap - Metadate - {0}</value>
   </data>
   <data name="MetadataWindow_Cancel" xml:space="preserve">
     <value>Anulare</value>
@@ -1169,7 +1169,7 @@
     <value>RGB</value>
   </data>
   <data name="MonitorTestWindow_ShareX_Monitor_Test" xml:space="preserve">
-    <value>ShareX - Test monitor</value>
+    <value>CrySnap - Test monitor</value>
   </data>
   <data name="MonitorTestWindow_Speed" xml:space="preserve">
     <value>Viteză</value>
@@ -1262,7 +1262,7 @@
     <value>Servicii</value>
   </data>
   <data name="OCRWindow_ShareX_Optical_character_recognition" xml:space="preserve">
-    <value>ShareX - Recunoaștere optică a caracterelor</value>
+    <value>CrySnap - Recunoaștere optică a caracterelor</value>
   </data>
   <data name="OCRWindow_Single_line" xml:space="preserve">
     <value>O singură linie</value>
@@ -1364,7 +1364,7 @@
     <value>Decalaj față de marginea ecranului</value>
   </data>
   <data name="PinToScreenOptionsWindow_ShareX_Pin_to_Screen_options" xml:space="preserve">
-    <value>ShareX - Opțiuni fixare pe ecran</value>
+    <value>CrySnap - Opțiuni fixare pe ecran</value>
   </data>
   <data name="PinToScreenOptionsWindow_Size_and_opacity" xml:space="preserve">
     <value>Dimensiune și opacitate</value>
@@ -1400,7 +1400,7 @@
     <value>Selectează regiunea...</value>
   </data>
   <data name="PinToScreenStartupWindow_ShareX_Pin_to_Screen" xml:space="preserve">
-    <value>ShareX - Fixare pe ecran</value>
+    <value>CrySnap - Fixare pe ecran</value>
   </data>
   <data name="PinToScreenWindow_Close" xml:space="preserve">
     <value>Închide</value>
@@ -1487,7 +1487,7 @@
     <value>Selectați imaginea care conține un cod QR</value>
   </data>
   <data name="QRCodeWindow_ShareX_QR_Code" xml:space="preserve">
-    <value>ShareX - Cod QR</value>
+    <value>CrySnap - Cod QR</value>
   </data>
   <data name="QRCodeWindow_SVG_image" xml:space="preserve">
     <value>Imagine SVG</value>
@@ -1499,7 +1499,7 @@
     <value>Toleranță: {0}%</value>
   </data>
   <data name="RulerWindow_ShareX_Ruler" xml:space="preserve">
-    <value>ShareX - Riglă</value>
+    <value>CrySnap - Riglă</value>
   </data>
   <data name="VideoConverterViewModel_Choose_video" xml:space="preserve">
     <value>Alegeți un videoclip pentru a începe.</value>
@@ -1583,7 +1583,7 @@
     <value>Calitate</value>
   </data>
   <data name="VideoConverterWindow_ShareX_Video_Converter" xml:space="preserve">
-    <value>ShareX - Convertor video</value>
+    <value>CrySnap - Convertor video</value>
   </data>
   <data name="VideoConverterWindow_Smaller_file" xml:space="preserve">
     <value>Fișier mai mic</value>
@@ -1685,7 +1685,7 @@
     <value>Selectează videoclipul</value>
   </data>
   <data name="VideoThumbnailerWindow_ShareX_Video_Thumbnailer" xml:space="preserve">
-    <value>ShareX - Generator de miniaturi video</value>
+    <value>CrySnap - Generator de miniaturi video</value>
   </data>
   <data name="VideoThumbnailerWindow_Show_timestamps" xml:space="preserve">
     <value>Afișează marcajele temporale</value>

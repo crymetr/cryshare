@@ -514,7 +514,7 @@
     <value>صورة</value>
   </data>
   <data name="MainViewModel_WindowTitle" xml:space="preserve">
-    <value>ShareX - محرر الصور</value>
+    <value>CrySnap - محرر الصور</value>
   </data>
   <data name="MainViewModel_RunAfterCaptureTasksEnter" xml:space="preserve">
     <value>تشغيل مهام ما بعد الالتقاط (Enter)</value>

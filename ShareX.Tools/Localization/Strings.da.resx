@@ -128,7 +128,7 @@
     <value>Gem</value>
   </data>
   <data name="AnalyzeImageOptionsWindow_ShareX_Analyze_image_options" xml:space="preserve">
-    <value>ShareX – Indstillinger for billedanalyse</value>
+    <value>CrySnap – Indstillinger for billedanalyse</value>
   </data>
   <data name="AnalyzeImageOptionsWindow_Test_connection" xml:space="preserve">
     <value>Test forbindelsen</value>
@@ -212,7 +212,7 @@
     <value>Vælg område...</value>
   </data>
   <data name="AnalyzeImageWindow_ShareX_Analyze_image" xml:space="preserve">
-    <value>ShareX – Analysér billede</value>
+    <value>CrySnap – Analysér billede</value>
   </data>
   <data name="BackgroundRemoverViewModel_Background_removed_ms" xml:space="preserve">
     <value>Baggrunden blev fjernet på {0} ms.</value>
@@ -267,7 +267,7 @@ Filsti: {0}</value>
     <value>Vælg et billede for at se en forhåndsvisning her.</value>
   </data>
   <data name="BackgroundRemoverWindow_ShareX_Background_Remover" xml:space="preserve">
-    <value>ShareX – Fjern baggrund</value>
+    <value>CrySnap – Fjern baggrund</value>
   </data>
   <data name="BorderlessWindowViewModel_Unable_to_toggle" xml:space="preserve">
     <value>Det valgte vindue kunne ikke skiftes. {0}</value>
@@ -294,7 +294,7 @@ Filsti: {0}</value>
     <value>Vælg vindue</value>
   </data>
   <data name="BorderlessWindowWindow_ShareX_Borderless_Window" xml:space="preserve">
-    <value>ShareX – Vindue uden kant</value>
+    <value>CrySnap – Vindue uden kant</value>
   </data>
   <data name="BorderlessWindowWindow_Toggle_again_to_restore_the_original_border_and_window_size" xml:space="preserve">
     <value>Skift igen for at gendanne den oprindelige kant og vinduesstørrelse.</value>
@@ -360,7 +360,7 @@ Filsti: {0}</value>
     <value>Opdater</value>
   </data>
   <data name="ClipboardViewerWindow_ShareX_Clipboard_Viewer" xml:space="preserve">
-    <value>ShareX – Udklipsholdervisning</value>
+    <value>CrySnap – Udklipsholdervisning</value>
   </data>
   <data name="DirectoryIndexerViewModel_Index_for" xml:space="preserve">
     <value>Indeks for {0}</value>
@@ -447,7 +447,7 @@ Filsti: {0}</value>
     <value>Vælg mappe at indeksere</value>
   </data>
   <data name="DirectoryIndexerWindow_ShareX_Directory_Indexer" xml:space="preserve">
-    <value>ShareX – Mappeindeksering</value>
+    <value>CrySnap – Mappeindeksering</value>
   </data>
   <data name="DirectoryIndexerWindow_Show_sizes" xml:space="preserve">
     <value>Vis størrelser</value>
@@ -570,7 +570,7 @@ Filsti: {0}</value>
     <value>Anden fil</value>
   </data>
   <data name="HashCheckerWindow_ShareX_Hash_Checker" xml:space="preserve">
-    <value>ShareX – Kontrolsumskontrol</value>
+    <value>CrySnap – Kontrolsumskontrol</value>
   </data>
   <data name="HashCheckerWindow_Stop" xml:space="preserve">
     <value>Stop</value>
@@ -663,7 +663,7 @@ Filsti: {0}</value>
     <value>Gem ikon som</value>
   </data>
   <data name="IconConverterWindow_ShareX_Icon_Converter" xml:space="preserve">
-    <value>ShareX – Ikonkonvertering</value>
+    <value>CrySnap – Ikonkonvertering</value>
   </data>
   <data name="IconConverterWindow_Sizes" xml:space="preserve">
     <value>Størrelser</value>
@@ -738,7 +738,7 @@ Filsti: {0}</value>
     <value>Orientering</value>
   </data>
   <data name="ImageCombinerWindow_ShareX_Image_Combiner" xml:space="preserve">
-    <value>ShareX – Billedkombinering</value>
+    <value>CrySnap – Billedkombinering</value>
   </data>
   <data name="ImageCombinerWindow_Spacing" xml:space="preserve">
     <value>Mellemrum</value>
@@ -789,7 +789,7 @@ Filsti: {0}</value>
     <value>Vælg Billede 1 og Billede 2 for at vise sammenligningseksemplet.</value>
   </data>
   <data name="ImageComparerWindow_ShareX_Image_Comparer" xml:space="preserve">
-    <value>ShareX – Billedsammenligning</value>
+    <value>CrySnap – Billedsammenligning</value>
   </data>
   <data name="ImageComparerWindow_Slider" xml:space="preserve">
     <value>Skyder</value>
@@ -819,7 +819,7 @@ Filsti: {0}</value>
     <value>Rækker</value>
   </data>
   <data name="ImageSplitterWindow_ShareX_Image_Splitter" xml:space="preserve">
-    <value>ShareX – Billedopdeling</value>
+    <value>CrySnap – Billedopdeling</value>
   </data>
   <data name="ImageSplitterWindow_Split_image" xml:space="preserve">
     <value>Del billede</value>
@@ -879,7 +879,7 @@ Filsti: {0}</value>
     <value>Output</value>
   </data>
   <data name="ImageThumbnailerWindow_ShareX_Image_Thumbnailer" xml:space="preserve">
-    <value>ShareX – Billedminiaturegenerator</value>
+    <value>CrySnap – Billedminiaturegenerator</value>
   </data>
   <data name="ImageThumbnailerWindow_Thumbnail_size" xml:space="preserve">
     <value>Miniaturestørrelse</value>
@@ -906,7 +906,7 @@ Filsti: {0}</value>
     <value>{0:n0} mappe</value>
   </data>
   <data name="IndexerText_Generated_by" xml:space="preserve">
-    <value>Genereret af ShareX Directory Indexer den {0:yyyy-MM-dd 'at' HH:mm:ss 'UTC'}. Den seneste version kan hentes fra: {1}</value>
+    <value>Genereret af CrySnap Directory Indexer den {0:yyyy-MM-dd 'at' HH:mm:ss 'UTC'}. Den seneste version kan hentes fra: {1}</value>
   </data>
   <data name="InspectWindowPickerOverlay_Click_control" xml:space="preserve">
     <value>Klik på et kontrolelement for at undersøge det  |  Esc for at annullere</value>
@@ -987,7 +987,7 @@ Filsti: {0}</value>
     <value>Vælg vindue</value>
   </data>
   <data name="InspectWindowWindow_ShareX_Inspect_Window" xml:space="preserve">
-    <value>ShareX – Inspicer vindue</value>
+    <value>CrySnap – Inspicer vindue</value>
   </data>
   <data name="InspectWindowWindow_Window_information" xml:space="preserve">
     <value>Vinduesoplysninger</value>
@@ -1091,10 +1091,10 @@ Filsti: {0}</value>
 {0}</value>
   </data>
   <data name="MetadataViewModel_Window_title" xml:space="preserve">
-    <value>ShareX – Metadata</value>
+    <value>CrySnap – Metadata</value>
   </data>
   <data name="MetadataViewModel_Window_title_file" xml:space="preserve">
-    <value>ShareX – Metadata – {0}</value>
+    <value>CrySnap – Metadata – {0}</value>
   </data>
   <data name="MetadataWindow_Cancel" xml:space="preserve">
     <value>Annuller</value>
@@ -1175,7 +1175,7 @@ Filsti: {0}</value>
     <value>RGB</value>
   </data>
   <data name="MonitorTestWindow_ShareX_Monitor_Test" xml:space="preserve">
-    <value>ShareX – Skærmtest</value>
+    <value>CrySnap – Skærmtest</value>
   </data>
   <data name="MonitorTestWindow_Speed" xml:space="preserve">
     <value>Hastighed</value>
@@ -1268,7 +1268,7 @@ Filsti: {0}</value>
     <value>Tjenester</value>
   </data>
   <data name="OCRWindow_ShareX_Optical_character_recognition" xml:space="preserve">
-    <value>ShareX – Optisk tekstgenkendelse</value>
+    <value>CrySnap – Optisk tekstgenkendelse</value>
   </data>
   <data name="OCRWindow_Single_line" xml:space="preserve">
     <value>En linje</value>
@@ -1370,7 +1370,7 @@ Filsti: {0}</value>
     <value>Forskydning fra skærmkanten</value>
   </data>
   <data name="PinToScreenOptionsWindow_ShareX_Pin_to_Screen_options" xml:space="preserve">
-    <value>ShareX – Indstillinger for Fastgør på skærmen</value>
+    <value>CrySnap – Indstillinger for Fastgør på skærmen</value>
   </data>
   <data name="PinToScreenOptionsWindow_Size_and_opacity" xml:space="preserve">
     <value>Størrelse og uigennemsigtighed</value>
@@ -1406,7 +1406,7 @@ Filsti: {0}</value>
     <value>Vælg område...</value>
   </data>
   <data name="PinToScreenStartupWindow_ShareX_Pin_to_Screen" xml:space="preserve">
-    <value>ShareX – Fastgør på skærmen</value>
+    <value>CrySnap – Fastgør på skærmen</value>
   </data>
   <data name="PinToScreenWindow_Close" xml:space="preserve">
     <value>Luk</value>
@@ -1493,7 +1493,7 @@ Filsti: {0}</value>
     <value>Vælg et billede, der indeholder en QR-kode</value>
   </data>
   <data name="QRCodeWindow_ShareX_QR_Code" xml:space="preserve">
-    <value>ShareX – QR-kode</value>
+    <value>CrySnap – QR-kode</value>
   </data>
   <data name="QRCodeWindow_SVG_image" xml:space="preserve">
     <value>SVG-billede</value>
@@ -1505,7 +1505,7 @@ Filsti: {0}</value>
     <value>Tolerance: {0}%</value>
   </data>
   <data name="RulerWindow_ShareX_Ruler" xml:space="preserve">
-    <value>ShareX – Lineal</value>
+    <value>CrySnap – Lineal</value>
   </data>
   <data name="VideoConverterViewModel_Choose_video" xml:space="preserve">
     <value>Vælg en video for at begynde.</value>
@@ -1589,7 +1589,7 @@ Filsti: {0}</value>
     <value>Kvalitet</value>
   </data>
   <data name="VideoConverterWindow_ShareX_Video_Converter" xml:space="preserve">
-    <value>ShareX – Videokonvertering</value>
+    <value>CrySnap – Videokonvertering</value>
   </data>
   <data name="VideoConverterWindow_Smaller_file" xml:space="preserve">
     <value>Mindre fil</value>
@@ -1691,7 +1691,7 @@ Filsti: {0}</value>
     <value>Vælg video</value>
   </data>
   <data name="VideoThumbnailerWindow_ShareX_Video_Thumbnailer" xml:space="preserve">
-    <value>ShareX – Videominiaturegenerator</value>
+    <value>CrySnap – Videominiaturegenerator</value>
   </data>
   <data name="VideoThumbnailerWindow_Show_timestamps" xml:space="preserve">
     <value>Vis tidsstempler</value>
