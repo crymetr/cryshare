@@ -34,7 +34,7 @@ window and a couple of help buttons. The application itself never makes an HTTP 
 
 Grab the latest installer from the releases page:
 
-**https://github.com/crymetr/cryshare/releases/latest**
+**https://github.com/crymetr/crysnap/releases/latest**
 
 Under **Assets**, download and run `CrySnap-<version>-setup-x64.exe`. It installs to its own
 `Program Files\CrySnap` and stores settings in `Documents\CrySnap`, so it never touches an
