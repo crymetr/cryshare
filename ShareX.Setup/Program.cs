@@ -90,6 +90,7 @@ namespace ShareX.Setup
         private static string MicrosoftStoreAppxPath => Path.Combine(OutputDir, $"ShareX-{AppVersion}-MicrosoftStore-{Platform}.appx");
         private static string MicrosoftStoreDebugAppxPath => Path.Combine(OutputDir, $"ShareX-{AppVersion}-MicrosoftStore-debug-{Platform}.appx");
         private static string FFmpegPath => Path.Combine(OutputDir, "ffmpeg.exe");
+        private static string FFmpegSourcePath => Path.Combine(ParentDir, "Tools", "ffmpeg.exe");
         private static string MakeAppxPath => Path.Combine(WindowsKitsDir, "x64", "makeappx.exe");
 
         private const string InnoSetupCompilerPath = @"C:\Program Files (x86)\Inno Setup 6\ISCC.exe";
@@ -425,11 +426,15 @@ namespace ShareX.Setup
 
         private static void DownloadFFmpeg()
         {
-            // CrySnap: no network access in the toolchain. CI (or you) must place ffmpeg.exe in the output dir beforehand.
-            if (!File.Exists(FFmpegPath))
+            // CrySnap: no network access in the toolchain. CI (or you) places ffmpeg.exe in the repo Tools folder before running setup.
+            if (!File.Exists(FFmpegSourcePath))
             {
-                throw new FileNotFoundException("ffmpeg.exe not found in output dir. Place it there before running setup.", FFmpegPath);
+                throw new FileNotFoundException("ffmpeg.exe not found. Place it in the Tools folder before running setup.", FFmpegSourcePath);
             }
+
+            Directory.CreateDirectory(OutputDir);
+            Console.WriteLine("Bundling ffmpeg: " + FFmpegSourcePath);
+            File.Copy(FFmpegSourcePath, FFmpegPath, true);
         }
 
         private static void CreateChecksumFile(string filePath)

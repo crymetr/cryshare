@@ -58,15 +58,15 @@ jobs:
       # ffmpeg is bundled at build time so the app itself never downloads anything.
       - name: Fetch ffmpeg for bundling
         run: |
-          New-Item -ItemType Directory -Force -Path Output | Out-Null
+          New-Item -ItemType Directory -Force -Path Tools | Out-Null
           $zip = "ffmpeg-${{ env.FFMPEG_VERSION }}-win-x64.zip"
           $url = "https://github.com/ShareX/FFmpeg/releases/download/v${{ env.FFMPEG_VERSION }}/$zip"
-          Invoke-WebRequest -Uri $url -OutFile "Output\$zip"
-          Expand-Archive -Path "Output\$zip" -DestinationPath "Output\ffmpeg-tmp" -Force
-          $exe = Get-ChildItem -Path "Output\ffmpeg-tmp" -Recurse -Filter ffmpeg.exe | Select-Object -First 1
-          Copy-Item $exe.FullName "Output\ffmpeg.exe"
-          Remove-Item "Output\ffmpeg-tmp" -Recurse -Force
-          Remove-Item "Output\$zip" -Force
+          Invoke-WebRequest -Uri $url -OutFile "Tools\$zip"
+          Expand-Archive -Path "Tools\$zip" -DestinationPath "Tools\ffmpeg-tmp" -Force
+          $exe = Get-ChildItem -Path "Tools\ffmpeg-tmp" -Recurse -Filter ffmpeg.exe | Select-Object -First 1
+          Copy-Item $exe.FullName "Tools\ffmpeg.exe"
+          Remove-Item "Tools\ffmpeg-tmp" -Recurse -Force
+          Remove-Item "Tools\$zip" -Force
 
       - name: Create setup + portable
         run: |

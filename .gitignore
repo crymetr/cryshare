@@ -332,3 +332,5 @@ ASALocalRun/
 Output/
 APIKeysLocal.cs
 ResXManager.config.xml
+# bundled ffmpeg fetched by CI
+/Tools/

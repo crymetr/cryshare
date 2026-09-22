@@ -52,7 +52,7 @@ dotnet build ShareX.sln -c Release -p:Platform=x64
 # app: ShareX\bin\Release\win-x64\CrySnap.exe
 ```
 
-To build the installer, put `ffmpeg.exe` into the `Output` folder first (CI does this
+To build the installer, put `ffmpeg.exe` into the `Tools` folder first (CI does this
 automatically), then run `ShareX.Setup.exe -job Release -platform x64`.
 
 ### Cutting a release
