@@ -1463,7 +1463,7 @@ public partial class MainWindow : Window, INotifyPropertyChanged
 
             if (Program.Settings.FirstTimeMinimizeToTray)
             {
-                TaskHelpers.ShowNotificationTip(Strings.ShareXIsMinimizedToTheSystemTray, "ShareX", 8000);
+                TaskHelpers.ShowNotificationTip(Strings.ShareXIsMinimizedToTheSystemTray, Program.AppName, 8000);
                 Program.Settings.FirstTimeMinimizeToTray = false;
             }
 

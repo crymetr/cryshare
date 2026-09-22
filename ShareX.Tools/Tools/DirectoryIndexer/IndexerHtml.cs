@@ -161,7 +161,7 @@ namespace ShareX.Tools
 
         private string GetFooter()
         {
-            return string.Format(Localization.Strings.IndexerHtml_Generated_by_on, $"<a href=\"{Links.UpstreamWebsite}\">ShareX Directory Indexer</a>", DateTime.UtcNow);
+            return string.Format(Localization.Strings.IndexerHtml_Generated_by_on, $"<a href=\"{Links.UpstreamWebsite}\">CrySnap Directory Indexer</a>", DateTime.UtcNow);
         }
 
         private string GetCssStyle()

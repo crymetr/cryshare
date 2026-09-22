@@ -244,8 +244,8 @@ namespace ShareX.ImageEditor.Presentation.Views
         private static string GetWindowTitle(string? dimensions)
         {
             return string.IsNullOrEmpty(dimensions)
-                ? "ShareX - Image Editor"
-                : $"ShareX - Image Editor - {dimensions}";
+                ? "CrySnap - Image Editor"
+                : $"CrySnap - Image Editor - {dimensions}";
         }
 
         private static string GetVersionString()

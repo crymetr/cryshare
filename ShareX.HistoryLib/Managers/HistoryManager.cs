@@ -60,7 +60,7 @@ namespace ShareX.HistoryLib
                 DebugHelper.WriteException(e);
 
                 MessageBox.Show(Strings.HistoryManager_ErrorOccurredWhileReadingHistoryFile + " " + FilePath + "\r\n\r\n" + e,
-                    "ShareX - " + Strings.HistoryManager_Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    "CrySnap - " + Strings.HistoryManager_Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
             return new List<HistoryItem>();

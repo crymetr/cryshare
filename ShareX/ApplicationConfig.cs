@@ -190,10 +190,10 @@ namespace ShareX
         [Category("Clipboard"), DefaultValue(true), Description("Because default .NET image copying not supports alpha channel, background of image will be black. This option will fill background white.")]
         public bool DefaultClipboardCopyImageFillBackground { get; set; }
 
-        [Category("Clipboard"), DefaultValue(false), Description("Default .NET method can't copy image with alpha channel to clipboard. When this setting is true, ShareX copies \"PNG\" and 32 bit \"DIB\" to clipboard in order to retain image transparency.")]
+        [Category("Clipboard"), DefaultValue(false), Description("Default .NET method can't copy image with alpha channel to clipboard. When this setting is true, CrySnap copies \"PNG\" and 32 bit \"DIB\" to clipboard in order to retain image transparency.")]
         public bool UseAlternativeClipboardCopyImage { get; set; }
 
-        [Category("Clipboard"), DefaultValue(false), Description("Default .NET method can't get image with alpha channel from clipboard. When this setting is true, ShareX checks if clipboard contains \"PNG\" or 32 bit \"DIB\" in order to retain image transparency.")]
+        [Category("Clipboard"), DefaultValue(false), Description("Default .NET method can't get image with alpha channel from clipboard. When this setting is true, CrySnap checks if clipboard contains \"PNG\" or 32 bit \"DIB\" in order to retain image transparency.")]
         public bool UseAlternativeClipboardGetImage { get; set; }
 
         [Category("Image"), DefaultValue(true), Description("If JPEG exif contains orientation data then rotate image accordingly.")]
@@ -202,11 +202,11 @@ namespace ShareX
         [Category("Image"), DefaultValue(false), Description("Strip color space information chunks from PNG image.")]
         public bool PNGStripColorSpaceInformation { get; set; }
 
-        [Category("Paths"), Description("Custom hotkeys configuration path. If you have already configured this setting in another device and you are attempting to use the same location, then backup the file before configuring this setting and restore after exiting ShareX.")]
+        [Category("Paths"), Description("Custom hotkeys configuration path. If you have already configured this setting in another device and you are attempting to use the same location, then backup the file before configuring this setting and restore after exiting CrySnap.")]
         [Editor(typeof(DirectoryNameEditor), typeof(UITypeEditor))]
         public string CustomHotkeysConfigPath { get; set; }
 
-        [Category("Paths"), Description("Custom screenshot path (secondary location). If custom screenshot path is temporarily unavailable (e.g. network share), ShareX will use this location (recommended to be a local path).")]
+        [Category("Paths"), Description("Custom screenshot path (secondary location). If custom screenshot path is temporarily unavailable (e.g. network share), CrySnap will use this location (recommended to be a local path).")]
         [Editor(typeof(DirectoryNameEditor), typeof(UITypeEditor))]
         public string CustomScreenshotsPath2 { get; set; }
 

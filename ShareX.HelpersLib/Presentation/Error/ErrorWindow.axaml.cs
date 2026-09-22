@@ -84,13 +84,13 @@ public partial class ErrorWindow : Window
 
     private void OnContinueClick(object? sender, RoutedEventArgs e)
     {
-        DebugHelper.WriteLine("ShareX continue.");
+        DebugHelper.WriteLine("CrySnap continue.");
         Close();
     }
 
     private void OnQuitClick(object? sender, RoutedEventArgs e)
     {
-        DebugHelper.WriteLine("ShareX closing. Reason: Unhandled exception.");
+        DebugHelper.WriteLine("CrySnap closing. Reason: Unhandled exception.");
         Close();
         System.Windows.Forms.Application.Exit();
     }
